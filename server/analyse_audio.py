@@ -7,13 +7,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-USER = os.getenv("USER")
+DB_USER = os.getenv("DB_USER")
 PASSWORD = os.getenv("PASSWORD")
 HOST = os.getenv("HOST")
 PORT = os.getenv("PORT")
 DBNAME = os.getenv("DBNAME")
 
-print(USER)
+print(DB_USER)
 print(PASSWORD)
 print(HOST)
 print(PORT)
@@ -54,7 +54,7 @@ query = command_dict["query"]
 
 try:
     connection = psycopg2.connect(
-        user=USER,
+        user=DB_USER,
         password=PASSWORD,
         host=HOST,
         port=PORT,
