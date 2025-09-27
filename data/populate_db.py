@@ -14,7 +14,7 @@ BUCKET_NAME = "mri_scans"
 # Initialize Supabase client
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-# -----------------------------
+# -----------------------------``
 # FUNCTION: Upload MRI Scan
 # -----------------------------
 def upload_scan(file_path, file_name):
