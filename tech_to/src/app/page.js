@@ -123,18 +123,31 @@ export default function Page() {
   };
 
   return (
-    <div className="p-8">
-      <h1>Audio Recording Test (WAV)</h1>
-      <button onClick={recording ? stopRecording : startRecording}>
+  <div className="flex justify-center items-start py-16 px-4">
+    <div className="w-full max-w-2xl bg-white rounded-2xl shadow-xl p-8 flex flex-col gap-6">
+      <h1 className="text-2xl font-bold text-gray-800 text-center">
+        Audio Recording Test (WAV)
+      </h1>
+
+      {/* Recording Button */}
+      <button
+        onClick={recording ? stopRecording : startRecording}
+        className={`px-6 py-2 font-semibold rounded-lg shadow-md transition-colors duration-200
+          ${recording ? "bg-red-400 hover:bg-red-500 text-white" : "bg-blue-500 hover:bg-blue-600 text-white"}`}
+      >
         {recording ? "Stop Recording" : "Start Recording"}
       </button>
 
+      {/* Playback & Download */}
       {audioURL && (
-        <div className="mt-4">
-          <h2>Playback:</h2>
-          <audio src={audioURL} controls />
-          <br />
-          <a href={downloadURL} download="recording.wav">
+        <div className="flex flex-col gap-2">
+          <h2 className="font-semibold text-gray-700">Playback:</h2>
+          <audio src={audioURL} controls className="w-full rounded-lg" />
+          <a
+            href={downloadURL}
+            download="recording.wav"
+            className="inline-block mt-2 px-5 py-2 bg-green-400 hover:bg-green-500 text-white font-semibold rounded-lg shadow-md transition-colors duration-200 text-center"
+          >
             Download recording.wav
           </a>
         </div>
@@ -147,5 +160,7 @@ export default function Page() {
         </div>
       )}
     </div>
-  );
+  </div>
+);
+
 }
