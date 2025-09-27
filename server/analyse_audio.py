@@ -3,8 +3,13 @@ import json
 import psycopg2
 from openai import OpenAI
 from dotenv import load_dotenv
+from supabase import create_client, Client
 
 load_dotenv()
+
+url: str = os.environ.get("SUPABASE_URL")
+key: str = os.environ.get("SUPABASE_KEY")
+supabase: Client = create_client(url, key)
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 DB_USER = os.getenv("DB_USER")
@@ -13,32 +18,28 @@ HOST = os.getenv("HOST")
 PORT = os.getenv("PORT")
 DBNAME = os.getenv("DBNAME")
 
-print(DB_USER)
-print(PASSWORD)
-print(HOST)
-print(PORT)
-print(DBNAME)
-
 client = OpenAI(api_key=OPENAI_API_KEY)
 
-text_input = "Get Bonnie Cooper record, the MRI scan from 2nd September 2025"
+text_input = "Get Steven Moss record"
 
 response = client.chat.completions.create(
     model="gpt-4o-mini", 
     messages=[
         {"role": "system", "content": """
-        You are an assistant that converts natural language queries into Supabase SQL queries. 
+        You are an assistant that extracts structured patient query data.
 
-        - Always return a JSON object with exactly two fields:
-        1. "query": the SQL query to run against Supabase (Postgres syntax).
-        2. "action": a short description of the intent (e.g., "lookup", "update", "insert").
+        Output must always be a JSON object with the following structure:
 
-        - For patients, the table is "patients" with fields: id, name, dob, record.
-        - For scans, the table is "scans" with fields: id, patient_id, scan_type, scan_date, image_url.
-        - For annotations, the table is "annotations" with fields: id, patient_id, scan_id, note, created_at.
+        {
+        "name": "",
+        "action": "",
+        "scope": "",
+        "table": "",
 
-        - If some information is missing, generate a query that reflects what can be known (e.g., WHERE name='John' if only the name is given).
-        - If no valid query can be generated, return query="".
+        - "table" should describe the table we are looking up (e.g., patients, annotation, scan)
+        - "scope" should describe the data being used if the table is patients we have: dob, record, if the table is scan we have: patient_id, scan_type, scan_date, if the table is annotation we have: patient_id, scan_id, note, created_at. Depends on the table, the scope should only reflect one of the group.
+        - "action" should describe the user’s intent (e.g., lookup, update, add).
+        - If a field cannot be extracted, leave it as an empty string "".
         """}
         ,
         {"role": "user", "content": text_input}
@@ -48,30 +49,20 @@ response = client.chat.completions.create(
 
 command = response.choices[0].message.content
 command_dict = json.loads(command)
-
+table = command_dict["table"]
 action = command_dict["action"]
-query = command_dict["query"]
+scope = command_dict["scope"]
+patient = command_dict["name"]
 
-try:
-    connection = psycopg2.connect(
-        user=DB_USER,
-        password=PASSWORD,
-        host=HOST,
-        port=PORT,
-        dbname=DBNAME
-    )
-    print("Connection successful!")
-    
-    cur = connection.cursor()
+print("table", table)
+print("action", action)
+print("scope", scope)
+print("patient", patient)
 
-    cur.execute(query)
-    rows = cur.fetchall()
-    for row in rows:
-        print(row)
+if table == "patients":
+    if action == "lookup":
+        data = supabase.table(table).select(scope).eq("name", patient).execute()
+else: 
+    patient_info = supabase.table("patients").select("*").eq("name", patient).execute()
 
-    cur.close()
-    connection.close()
-    print("Connection closed.")
-
-except Exception as e:
-    print(f"Failed to connect: {e}")
+print("Results:", data.data)
