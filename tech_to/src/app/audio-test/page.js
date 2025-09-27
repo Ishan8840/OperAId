@@ -4,7 +4,6 @@ import { useState } from "react";
 import SurgicalAssistantSidebar from "@/components/SurgicalAssistantSidebar";
 import MedicalFileViewer from "@/components/MedicalFileViewer";
 import AudioRecordingTest from "@/components/AudioRecordingTest";
-import LiveTranscription from "@/components/LiveTranscription";
 
 export default function HomePage() {
   const [selectedFileId, setSelectedFileId] = useState(null);
@@ -18,18 +17,10 @@ export default function HomePage() {
 
   const handleToggleAudio = () => {
     setIsAudioMuted(prev => !prev);
-    if (!isAudioMuted) {
-      // Clear transcription when muting
-      setLiveTranscription("");
-    }
   };
 
   const handleShowAudioTest = () => {
     setShowAudioTest(true);
-  };
-
-  const handleTranscriptionUpdate = (transcription) => {
-    setLiveTranscription(transcription);
   };
 
   return (
@@ -37,18 +28,12 @@ export default function HomePage() {
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 h-12 flex items-center bg-white border-b border-gray-200 shadow-sm">
         <h1 className="ml-4 text-lg font-semibold text-gray-800">
-          Operaid: Surgical AI Assistant
+          OperAid: Surgical AI Assistant
         </h1>
       </header>
 
       {/* Main layout */}
       <div className="flex w-full pt-12">
-        {/* Live Transcription Component (invisible) */}
-        <LiveTranscription 
-          isActive={!isAudioMuted}
-          onTranscriptionUpdate={handleTranscriptionUpdate}
-        />
-        
         <SurgicalAssistantSidebar
           selectedFileId={selectedFileId}
           onFileSelect={handleFileSelect}
