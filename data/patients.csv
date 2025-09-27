@@ -1,101 +1,1001 @@
 name,dob,record,scan_file,annotation
-John Smith,1975-04-23,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0010.jpg,Possible lesion detected in lower left quadrant.
-Jane Doe,1982-11-10,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0011.jpg,X-ray shows minor inflammation in left lung.
-Michael Johnson,1969-08-14,Chronic migraines. Recent MRI for brain scan.,mri_scans/Tr-no_0012.jpg,"No abnormalities detected, but slight inflammation noted."
-Emily Davis,1990-02-05,"Severe back pain,mri_scans/Tr-no_0013.jpg,mri_scans/Tr-no_0013.jpg,Disc herniation visible in lumbar spine.
-David Wilson,1985-12-22,Post-trauma MRI follow-up for knee injury.,mri_scans/Tr-no_0014.jpg,"Minor meniscus tear, no surgery required."
-Kaitlin Ho,1978-08-15,Post-trauma MRI follow-up for knee injury.,mri_scans/Tr-no_0015.jpg,Signs of mild degeneration in cervical spine.
-John Grimes MD,1994-07-04,Evaluation for persistent dizziness.,mri_scans/Tr-no_0016.jpg,X-ray shows minor inflammation in left lung.
-Steven Moss,2005-03-24,Post-trauma MRI follow-up for knee injury.,mri_scans/Tr-no_0017.jpg,X-ray shows minor inflammation in left lung.
-William Rodriguez,1978-01-23,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0018.jpg,"Small cyst detected, no immediate action needed."
-Allen Cole,1958-08-05,"Severe back pain,mri_scans/Tr-no_0019.jpg,mri_scans/Tr-no_0019.jpg,Clear MRI scan with no anomalies.
-Lori Chandler,1953-03-10,"Routine check-up,mri_scans/Tr-no_0020.jpg,mri_scans/Tr-no_0020.jpg,Signs of mild degeneration in cervical spine.
-Joel Hahn,1965-06-29,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0021.jpg,X-ray shows minor inflammation in left lung.
-Alyssa Gamble,1988-11-14,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0022.jpg,Possible lesion detected in lower left quadrant.
-Alexa Wilson,1988-04-11,Evaluation for persistent dizziness.,mri_scans/Tr-no_0023.jpg,Signs of mild degeneration in cervical spine.
-Sharon Payne,1984-08-22,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0024.jpg,X-ray shows minor inflammation in left lung.
-Stephen Mccarthy,1991-10-10,Post-trauma MRI follow-up for knee injury.,mri_scans/Tr-no_0025.jpg,X-ray shows minor inflammation in left lung.
-Diana Brown,1987-06-02,Chronic migraines. Recent MRI for brain scan.,mri_scans/Tr-no_0026.jpg,MRI indicates normal findings.
-Bryan Huynh,1969-08-17,Evaluation for persistent dizziness.,mri_scans/Tr-no_0027.jpg,"Minor meniscus tear, no surgery required."
-Edward Shaw,2000-01-17,"Severe back pain,mri_scans/Tr-no_0028.jpg,mri_scans/19.jpg,"Minor meniscus tear, no surgery required."
-Roy Rivera,1988-01-25,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0029.jpg,Disc herniation visible in lumbar spine.
-Brian Allen,2000-11-27,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0030.jpg,Possible lesion detected in lower left quadrant.
-Cynthia Reeves,1992-01-07,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0031.jpg,"Minor meniscus tear, no surgery required."
-Kathy Torres,1990-11-22,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0032.jpg,MRI indicates normal findings.
-Brenda Blair,2004-03-05,"Routine check-up,mri_scans/Tr-no_0033.jpg,mri_scans/24.jpg,Possible lesion detected in lower left quadrant.
-Shannon White,1953-01-09,"Routine check-up,mri_scans/Tr-no_0034.jpg,mri_scans/25.jpg,"Small cyst detected, no immediate action needed."
-Brittany Johnson,1962-06-10,"Routine check-up,mri_scans/Tr-no_0035.jpg,mri_scans/26.jpg,MRI indicates normal findings.
-George Bryan,2000-09-28,Post-trauma MRI follow-up for knee injury.,mri_scans/Tr-no_0036.jpg,MRI indicates normal findings.
-Parker Andrews,1996-08-16,"Severe back pain,mri_scans/Tr-no_0037.jpg,mri_scans/28.jpg,X-ray shows minor inflammation in left lung.
-John Peterson,1959-10-20,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0038.jpg,"No abnormalities detected, but slight inflammation noted."
-Kimberly Hansen,2001-08-12,Post-trauma MRI follow-up for knee injury.,mri_scans/Tr-no_0039.jpg,"Inflammation present, recommend follow-up."
-Mason Walters,1958-06-17,Chronic migraines. Recent MRI for brain scan.,mri_scans/Tr-no_0040.jpg,X-ray shows minor inflammation in left lung.
-Richard Schmidt,2005-03-12,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0041.jpg,MRI indicates normal findings.
-Cynthia Adams,2005-02-04,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0042.jpg,Disc herniation visible in lumbar spine.
-Heather Stephens,1968-03-01,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0043.jpg,Possible lesion detected in lower left quadrant.
-Isaac Chapman,1950-02-25,"Severe back pain,mri_scans/Tr-no_0044.jpg,mri_scans/35.jpg,"Small cyst detected, no immediate action needed."
-Tyler Fox,1981-10-01,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0045.jpg,"Inflammation present, recommend follow-up."
-Shelley Pham,2000-01-08,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0046.jpg,Clear MRI scan with no anomalies.
-Brian Norman,1950-07-15,Chronic migraines. Recent MRI for brain scan.,mri_scans/Tr-no_0047.jpg,"Small cyst detected, no immediate action needed."
-Michael Sanchez Jr.,2002-08-13,"History of asthma,mri_scans/Tr-no_0048.jpg,mri_scans/39.jpg,"No abnormalities detected, but slight inflammation noted."
-Mitchell Perkins,1989-06-26,Chronic migraines. Recent MRI for brain scan.,mri_scans/Tr-no_0049.jpg,Signs of mild degeneration in cervical spine.
-Carol Mendoza,1998-10-26,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0050.jpg,"Small cyst detected, no immediate action needed."
-Jessica Jones,1992-05-07,"Severe back pain,mri_scans/Tr-no_0051.jpg,mri_scans/42.jpg,"Minor meniscus tear, no surgery required."
-Jordan Schroeder,1987-08-06,Chronic migraines. Recent MRI for brain scan.,mri_scans/Tr-no_0052.jpg,X-ray shows minor inflammation in left lung.
-Mark Morgan,1978-11-18,"Routine check-up,mri_scans/Tr-no_0053.jpg,mri_scans/44.jpg,Signs of mild degeneration in cervical spine.
-Christine Young,2001-05-05,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0054.jpg,Disc herniation visible in lumbar spine.
-Jessica Coleman,1958-10-14,"Routine check-up,mri_scans/Tr-no_0055.jpg,mri_scans/46.jpg,"Inflammation present, recommend follow-up."
-William Ross,1979-10-02,"Routine check-up,mri_scans/Tr-no_0056.jpg,mri_scans/47.jpg,Signs of mild degeneration in cervical spine.
-Victoria Lucero,1980-05-31,"Routine check-up,mri_scans/Tr-no_0057.jpg,mri_scans/48.jpg,Signs of mild degeneration in cervical spine.
-Lawrence Moon,1971-08-13,"History of asthma,mri_scans/Tr-no_0058.jpg,mri_scans/49.jpg,"Small cyst detected, no immediate action needed."
-Donald Arroyo,1982-10-04,Evaluation for persistent dizziness.,mri_scans/Tr-no_0059.jpg,Possible lesion detected in lower left quadrant.
-Christian Phillips,1959-09-15,"History of asthma,mri_scans/Tr-no_0060.jpg,mri_scans/51.jpg,"Minor meniscus tear, no surgery required."
-Bonnie Cooper,1969-04-04,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0061.jpg,Signs of mild degeneration in cervical spine.
-Terrance Wade,1999-09-11,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0062.jpg,Signs of mild degeneration in cervical spine.
-Paul Alvarez,1975-07-26,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0063.jpg,Signs of mild degeneration in cervical spine.
-Kristi David,1945-05-16,Post-trauma MRI follow-up for knee injury.,mri_scans/Tr-no_0064.jpg,Disc herniation visible in lumbar spine.
-Michael Clark,1988-01-16,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0065.jpg,Clear MRI scan with no anomalies.
-David West,1979-12-20,"Routine check-up,mri_scans/Tr-no_0066.jpg,mri_scans/57.jpg,Clear MRI scan with no anomalies.
-Steven Brady,1971-02-22,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0067.jpg,MRI indicates normal findings.
-Hayley Wilson,1975-04-17,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0068.jpg,"Small cyst detected, no immediate action needed."
-Sarah Downs,1975-06-27,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0069.jpg,"Minor meniscus tear, no surgery required."
-Rachel Johnson,2005-02-25,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0070.jpg,X-ray shows minor inflammation in left lung.
-Tonya Espinoza,1963-12-11,Evaluation for persistent dizziness.,mri_scans/Tr-no_0071.jpg,Possible lesion detected in lower left quadrant.
-David Patterson,1957-01-02,"Severe back pain,mri_scans/Tr-no_0072.jpg,mri_scans/63.jpg,Possible lesion detected in lower left quadrant.
-Jeffrey Larson,1978-02-28,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0073.jpg,X-ray shows minor inflammation in left lung.
-Karen Bennett,1975-09-20,"Severe back pain,mri_scans/Tr-no_0074.jpg,mri_scans/65.jpg,"No abnormalities detected, but slight inflammation noted."
-Dana Brooks,1946-07-23,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0075.jpg,"Minor meniscus tear, no surgery required."
-Theresa Phillips,1972-12-30,Chronic migraines. Recent MRI for brain scan.,mri_scans/Tr-no_0076.jpg,X-ray shows minor inflammation in left lung.
-Deborah Jones,1982-07-08,"Routine check-up,mri_scans/Tr-no_0077.jpg,mri_scans/68.jpg,X-ray shows minor inflammation in left lung.
-Brian Gomez,1987-03-30,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0078.jpg,"No abnormalities detected, but slight inflammation noted."
-Michael Evans,1945-05-28,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0079.jpg,X-ray shows minor inflammation in left lung.
-Meghan Gibson,1957-12-27,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0080.jpg,X-ray shows minor inflammation in left lung.
-Jessica Ball,1967-10-16,"History of asthma,mri_scans/Tr-no_0081.jpg,mri_scans/72.jpg,Disc herniation visible in lumbar spine.
-Elizabeth Fuller,1974-09-14,"Severe back pain,mri_scans/Tr-no_0082.jpg,mri_scans/73.jpg,"No abnormalities detected, but slight inflammation noted."
-Bradley Reynolds,1994-04-28,"Routine check-up,mri_scans/Tr-no_0083.jpg,mri_scans/74.jpg,X-ray shows minor inflammation in left lung.
-Carrie Rodriguez,2000-02-08,Post-trauma MRI follow-up for knee injury.,mri_scans/Tr-no_0084.jpg,"Inflammation present, recommend follow-up."
-Tyler Gaines,1982-07-14,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0085.jpg,"Small cyst detected, no immediate action needed."
-Teresa Price,1989-07-17,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0086.jpg,X-ray shows minor inflammation in left lung.
-Michelle Davis,1969-04-17,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0087.jpg,Possible lesion detected in lower left quadrant.
-Sarah Johnson,2005-04-12,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0088.jpg,Possible lesion detected in lower left quadrant.
-Melinda Chen,1996-04-26,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0089.jpg,"Small cyst detected, no immediate action needed."
-Natalie Goodwin,1944-10-04,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0090.jpg,X-ray shows minor inflammation in left lung.
-Frank Hood,1999-07-17,"History of asthma,mri_scans/Tr-no_0091.jpg,mri_scans/82.jpg,MRI indicates normal findings.
-Connie Davis,1978-11-14,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0092.jpg,Possible lesion detected in lower left quadrant.
-Amber Smith,1953-09-20,"History of asthma,mri_scans/Tr-no_0093.jpg,mri_scans/84.jpg,X-ray shows minor inflammation in left lung.
-Christine Osborn,1985-08-15,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0094.jpg,Signs of mild degeneration in cervical spine.
-Steven Clark,1957-07-27,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0095.jpg,"Inflammation present, recommend follow-up."
-William Jackson MD,1945-09-30,Chronic migraines. Recent MRI for brain scan.,mri_scans/Tr-no_0096.jpg,X-ray shows minor inflammation in left lung.
-Lisa Vance,1983-06-21,"Severe back pain,mri_scans/Tr-no_0097.jpg,mri_scans/88.jpg,"Inflammation present, recommend follow-up."
-Stephanie Kelly,1951-03-31,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0098.jpg,"Small cyst detected, no immediate action needed."
-Laura Mcbride,1992-05-04,"Routine check-up,mri_scans/Tr-no_0099.jpg,mri_scans/90.jpg,"Small cyst detected, no immediate action needed."
-Zachary Smith,1982-06-17,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0100.jpg,"Minor meniscus tear, no surgery required."
-Marc Cook,1978-12-11,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0101.jpg,Signs of mild degeneration in cervical spine.
-David Logan,1951-11-18,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0102.jpg,Disc herniation visible in lumbar spine.
-Jonathan Bond,1952-08-27,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0103.jpg,"Inflammation present, recommend follow-up."
-John Peck,1973-08-30,"Routine check-up,mri_scans/Tr-no_0104.jpg,mri_scans/95.jpg,"Small cyst detected, no immediate action needed."
-Jennifer Barron,1993-05-10,Evaluation for persistent dizziness.,mri_scans/Tr-no_0105.jpg,Signs of mild degeneration in cervical spine.
-Jody Wilson,1981-12-08,"Severe back pain,mri_scans/Tr-no_0106.jpg,mri_scans/97.jpg,Clear MRI scan with no anomalies.
-Daniel Brown,1972-03-13,"Routine check-up,mri_scans/Tr-no_0107.jpg,mri_scans/98.jpg,Clear MRI scan with no anomalies.
-Tiffany Adams,1974-12-30,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0108.jpg,"Small cyst detected, no immediate action needed."
-Alan Spence,1995-06-19,Evaluation for persistent dizziness.,mri_scans/Tr-no_0109.jpg,Possible lesion detected in lower left quadrant.
+Ashley Clark,1955-04-22,Thyroid disorder. Complains of fever.,mri_scans/Tr-no_0010.jpg,Enhancement pattern typical in anterior region.
+David Martinez,1997-09-08,Chronic obstructive pulmonary disease. Complains of fatigue.,mri_scans/Tr-no_0011.jpg,Tear suspected in lateral aspect.
+Michelle Miller,1944-08-20,Gastroesophageal reflux. Complains of chest pain.,mri_scans/Tr-no_0012.jpg,Minor thickening in peripheral zone.
+Lisa Chen,1996-01-21,Pregnancy related. Complains of infection.,mri_scans/Tr-no_0013.jpg,Possible lesion detected in central area.
+Kimberly Smith,1999-05-03,Post-operative evaluation. Complains of abdominal discomfort.,mri_scans/Tr-no_0014.jpg,Degenerative changes in posterior region.
+Sarah Harris,1953-10-29,Diabetes mellitus type 2. Complains of dizziness.,mri_scans/Tr-no_0015.jpg,Fluid collection in inferior portion.
+Matthew Martinez,1985-02-12,Anxiety disorder. Complains of headache.,mri_scans/Tr-no_0016.jpg,Normal morphology in posterior region.
+David Martinez,1970-07-07,Sports injury. Complains of swelling.,mri_scans/Tr-no_0017.jpg,Small nodule found in lateral aspect.
+William Garcia,1984-09-18,Hyperlipidemia. Complains of fever.,mri_scans/Tr-no_0018.jpg,Degenerative changes in upper right quadrant.
+Robert Davis,1955-06-20,Pregnancy related. Complains of bleeding.,mri_scans/Tr-no_0019.jpg,Degenerative changes in posterior region.
+Kimberly Taylor,1989-03-12,Chronic obstructive pulmonary disease. Complains of abdominal discomfort.,mri_scans/Tr-no_0020.jpg,Enhancement pattern typical in medial aspect.
+Christopher Martinez,1977-12-29,Back pain with radiculopathy. Complains of palpitations.,mri_scans/Tr-no_0021.jpg,Possible lesion detected in lower left quadrant.
+James Garcia,1972-10-20,Migraine headaches. Complains of infection.,mri_scans/Tr-no_0022.jpg,Position normal in inferior portion.
+Joshua Clark,1980-10-15,Coronary artery disease. Complains of headache.,mri_scans/Tr-no_0023.jpg,Position normal in upper right quadrant.
+Ashley Chen,1964-04-17,Rheumatoid arthritis. Complains of fatigue.,mri_scans/Tr-no_0024.jpg,Possible lesion detected in lower left quadrant.
+Amanda Chen,1948-03-11,Sports injury. Complains of rash.,mri_scans/Tr-no_0025.jpg,Mild edema noted in superior portion.
+Amanda Thompson,1977-11-16,History of hypertension. Complains of dizziness.,mri_scans/Tr-no_0026.jpg,Small nodule found in posterior region.
+Emily Taylor,1945-08-29,History of hypertension. Complains of shortness of breath.,mri_scans/Tr-no_0027.jpg,Mild edema noted in upper right quadrant.
+Christopher Garcia,1958-11-29,Migraine headaches. Complains of infection.,mri_scans/Tr-no_0028.jpg,Fluid collection in central area.
+Jennifer Anderson,1975-08-19,Cardiac arrhythmia. Complains of vision changes.,mri_scans/Tr-no_0029.jpg,Degenerative changes in lateral aspect.
+Jennifer Robinson,1978-07-22,Anxiety disorder. Complains of shortness of breath.,mri_scans/Tr-no_0030.jpg,Small nodule found in superior portion.
+Ashley Anderson,1965-09-23,Diabetes mellitus type 2. Complains of headache.,mri_scans/Tr-no_0031.jpg,Metastasis suspected in inferior portion.
+David Garcia,1955-03-22,Thyroid disorder. Complains of fever.,mri_scans/Tr-no_0032.jpg,Position normal in posterior region.
+Stephanie Garcia,1973-05-16,History of hypertension. Complains of fever.,mri_scans/Tr-no_0033.jpg,Fluid collection in medial aspect.
+Daniel White,1963-11-14,Diabetes mellitus type 2. Complains of joint pain.,mri_scans/Tr-no_0034.jpg,Calcification noted in central area.
+Amanda Wilson,1944-06-29,Cardiac arrhythmia. Complains of bleeding.,mri_scans/Tr-no_0035.jpg,Disc bulge detected in inferior portion.
+James Miller,1971-08-02,Asthma. Complains of bleeding.,mri_scans/Tr-no_0036.jpg,Possible lesion detected in anterior region.
+Amanda Martinez,1994-10-12,Post-operative evaluation. Complains of chest pain.,mri_scans/Tr-no_0037.jpg,Mass identified in central area.
+David Thomas,2000-12-05,Back pain with radiculopathy. Complains of chest pain.,mri_scans/Tr-no_0038.jpg,Inflammation present in peripheral zone.
+Michael Martinez,1996-07-26,Depression. Complains of rash.,mri_scans/Tr-no_0039.jpg,Normal morphology in lateral aspect.
+Matthew Miller,1985-10-11,Back pain with radiculopathy. Complains of cough.,mri_scans/Tr-no_0040.jpg,Possible lesion detected in medial aspect.
+Stephanie Taylor,1981-03-13,Diabetes mellitus type 2. Complains of weakness.,mri_scans/Tr-no_0041.jpg,No significant abnormalities in lower left quadrant.
+Lisa Taylor,1967-03-07,Diabetes mellitus type 2. Complains of palpitations.,mri_scans/Tr-no_0042.jpg,Fluid collection in upper right quadrant.
+Christopher Jackson,1994-01-04,Chronic obstructive pulmonary disease. Complains of swelling.,mri_scans/Tr-no_0043.jpg,Fluid collection in upper right quadrant.
+William White,1998-07-23,Back pain with radiculopathy. Complains of joint pain.,mri_scans/Tr-no_0044.jpg,Possible lesion detected in inferior portion.
+Matthew Thomas,1959-12-29,Hyperlipidemia. Complains of vision changes.,mri_scans/Tr-no_0045.jpg,Degenerative changes in lower left quadrant.
+Ashley Harris,1978-12-19,Anxiety disorder. Complains of headache.,mri_scans/Tr-no_0046.jpg,Mild edema noted in upper right quadrant.
+Matthew Martinez,1957-06-19,Coronary artery disease. Complains of joint pain.,mri_scans/Tr-no_0047.jpg,Position normal in central area.
+Kimberly Miller,1994-06-25,Asthma. Complains of cough.,mri_scans/Tr-no_0048.jpg,Tear suspected in lower left quadrant.
+Sarah Martin,1947-09-30,Coronary artery disease. Complains of numbness.,mri_scans/Tr-no_0049.jpg,Calcification noted in superior portion.
+David Chen,1995-02-21,Thyroid disorder. Complains of rash.,mri_scans/Tr-no_0050.jpg,Possible lesion detected in inferior portion.
+Michelle Taylor,1950-06-14,Asthma. Complains of fatigue.,mri_scans/Tr-no_0051.jpg,Small artifact observed in lower left quadrant.
+Joshua Brown,1969-08-16,Thyroid disorder. Complains of nausea.,mri_scans/Tr-no_0052.jpg,Small nodule found in lateral aspect.
+Robert Martinez,1985-03-03,Back pain with radiculopathy. Complains of rash.,mri_scans/Tr-no_0053.jpg,No significant abnormalities in lower left quadrant.
+Jennifer Miller,1944-10-31,Hyperlipidemia. Complains of rash.,mri_scans/Tr-no_0054.jpg,Degenerative changes in anterior region.
+Christopher Johnson,1975-12-10,Cardiac arrhythmia. Complains of abdominal discomfort.,mri_scans/Tr-no_0055.jpg,Calcification noted in superior portion.
+James Robinson,1948-03-05,Rheumatoid arthritis. Complains of fever.,mri_scans/Tr-no_0056.jpg,Calcification noted in inferior portion.
+Emily Davis,1942-07-06,Thyroid disorder. Complains of dizziness.,mri_scans/Tr-no_0057.jpg,Possible lesion detected in inferior portion.
+Christopher Miller,1998-12-25,Back pain with radiculopathy. Complains of vision changes.,mri_scans/Tr-no_0058.jpg,No significant abnormalities in inferior portion.
+Lisa Jackson,1977-01-19,Rheumatoid arthritis. Complains of fatigue.,mri_scans/Tr-no_0059.jpg,Mild edema noted in inferior portion.
+Jennifer Smith,1943-12-17,Gastroesophageal reflux. Complains of swelling.,mri_scans/Tr-no_0060.jpg,Degenerative changes in central area.
+Stephanie Smith,1948-03-17,History of hypertension. Complains of numbness.,mri_scans/Tr-no_0061.jpg,Mild edema noted in posterior region.
+Stephanie Davis,1987-02-09,Pregnancy related. Complains of chest pain.,mri_scans/Tr-no_0062.jpg,Fluid collection in superior portion.
+James Garcia,1971-11-22,History of hypertension. Complains of fever.,mri_scans/Tr-no_0063.jpg,Disc bulge detected in superior portion.
+John Wilson,1977-07-14,Diabetes mellitus type 2. Complains of fever.,mri_scans/Tr-no_0064.jpg,Inflammation present in posterior region.
+Lisa Martin,1964-08-21,Thyroid disorder. Complains of rash.,mri_scans/Tr-no_0065.jpg,Mass identified in posterior region.
+Jennifer Harris,1948-03-03,Migraine headaches. Complains of fatigue.,mri_scans/Tr-no_0066.jpg,Mild edema noted in inferior portion.
+Robert Wilson,1964-05-03,Liver cirrhosis. Complains of abdominal discomfort.,mri_scans/Tr-no_0067.jpg,Possible lesion detected in upper right quadrant.
+Michael Wilson,1982-08-26,Back pain with radiculopathy. Complains of cough.,mri_scans/Tr-no_0068.jpg,Small artifact observed in peripheral zone.
+Kimberly Thomas,1989-05-05,Thyroid disorder. Complains of cough.,mri_scans/Tr-no_0069.jpg,Small artifact observed in lateral aspect.
+Robert Martinez,1977-05-11,Pregnancy related. Complains of swelling.,mri_scans/Tr-no_0070.jpg,Inflammation present in lower left quadrant.
+James Chen,1995-07-24,Hyperlipidemia. Complains of palpitations.,mri_scans/Tr-no_0071.jpg,No significant abnormalities in medial aspect.
+Lisa Miller,1971-05-20,Depression. Complains of joint pain.,mri_scans/Tr-no_0072.jpg,Enhancement pattern typical in lower left quadrant.
+Kimberly Robinson,1980-03-26,Post-operative evaluation. Complains of headache.,mri_scans/Tr-no_0073.jpg,Mass identified in superior portion.
+Jennifer Chen,1979-05-03,Liver cirrhosis. Complains of weakness.,mri_scans/Tr-no_0074.jpg,Calcification noted in lower left quadrant.
+Lisa Smith,1950-08-30,Diabetes mellitus type 2. Complains of rash.,mri_scans/Tr-no_0075.jpg,Normal morphology in medial aspect.
+Joshua Chen,1950-08-02,Gastroesophageal reflux. Complains of fever.,mri_scans/Tr-no_0076.jpg,Disc bulge detected in posterior region.
+Michelle Miller,1965-12-30,History of hypertension. Complains of weakness.,mri_scans/Tr-no_0077.jpg,Mass identified in lower left quadrant.
+Jessica Davis,1980-04-23,Liver cirrhosis. Complains of fatigue.,mri_scans/Tr-no_0078.jpg,Tear suspected in peripheral zone.
+David Clark,1946-11-08,Diabetes mellitus type 2. Complains of weight loss.,mri_scans/Tr-no_0079.jpg,Possible lesion detected in inferior portion.
+Ashley Wilson,1960-01-25,Pregnancy related. Complains of abdominal discomfort.,mri_scans/Tr-no_0080.jpg,Tear suspected in anterior region.
+Kimberly Garcia,1989-12-30,History of hypertension. Complains of rash.,mri_scans/Tr-no_0081.jpg,Inflammation present in lower left quadrant.
+Michelle Johnson,1979-05-24,Migraine headaches. Complains of cough.,mri_scans/Tr-no_0082.jpg,Minor thickening in anterior region.
+Jessica Clark,1975-10-16,Hyperlipidemia. Complains of chest pain.,mri_scans/Tr-no_0083.jpg,Disc bulge detected in lower left quadrant.
+Kimberly Chen,1949-04-02,Anxiety disorder. Complains of nausea.,mri_scans/Tr-no_0084.jpg,Possible lesion detected in superior portion.
+Christopher Miller,1943-04-09,Rheumatoid arthritis. Complains of fatigue.,mri_scans/Tr-no_0085.jpg,Position normal in lower left quadrant.
+Amanda White,1977-02-15,Anxiety disorder. Complains of headache.,mri_scans/Tr-no_0086.jpg,No significant abnormalities in peripheral zone.
+Kimberly Martinez,1967-02-20,Osteoarthritis. Complains of cough.,mri_scans/Tr-no_0087.jpg,Minor thickening in lateral aspect.
+Matthew Taylor,1979-02-04,Back pain with radiculopathy. Complains of swelling.,mri_scans/Tr-no_0088.jpg,Fluid collection in lateral aspect.
+Lisa Miller,1971-11-24,Pregnancy related. Complains of weakness.,mri_scans/Tr-no_0089.jpg,Calcification noted in posterior region.
+Kimberly Martinez,1994-08-20,Asthma. Complains of joint pain.,mri_scans/Tr-no_0090.jpg,Normal morphology in superior portion.
+David White,1944-09-17,Coronary artery disease. Complains of weakness.,mri_scans/Tr-no_0091.jpg,Metastasis suspected in anterior region.
+Robert White,1980-07-27,Diabetes mellitus type 2. Complains of fever.,mri_scans/Tr-no_0092.jpg,Calcification noted in lower left quadrant.
+Kimberly Chen,1981-10-13,Gastroesophageal reflux. Complains of weight loss.,mri_scans/Tr-no_0093.jpg,Calcification noted in central area.
+Ashley Garcia,1941-09-24,Asthma. Complains of infection.,mri_scans/Tr-no_0094.jpg,Position normal in posterior region.
+James Martin,1964-11-21,Anxiety disorder. Complains of infection.,mri_scans/Tr-no_0095.jpg,Fluid collection in lateral aspect.
+Ashley Harris,1965-12-15,Migraine headaches. Complains of fever.,mri_scans/Tr-no_0096.jpg,Small nodule found in inferior portion.
+Michael Miller,1945-08-20,Migraine headaches. Complains of joint pain.,mri_scans/Tr-no_0097.jpg,Minor thickening in posterior region.
+Kimberly Thompson,1993-11-06,Migraine headaches. Complains of nausea.,mri_scans/Tr-no_0098.jpg,Fluid collection in anterior region.
+James Taylor,1954-10-27,Back pain with radiculopathy. Complains of swelling.,mri_scans/Tr-no_0099.jpg,Metastasis suspected in lower left quadrant.
+Joshua Wilson,1963-07-22,Post-operative evaluation. Complains of headache.,mri_scans/Tr-no_0100.jpg,Metastasis suspected in upper right quadrant.
+Michael Harris,1952-12-09,Diabetes mellitus type 2. Complains of headache.,mri_scans/Tr-no_0101.jpg,Normal morphology in inferior portion.
+Jennifer Clark,1959-12-12,Thyroid disorder. Complains of weight loss.,mri_scans/Tr-no_0102.jpg,Mild edema noted in inferior portion.
+Michael Martinez,1979-07-08,Depression. Complains of joint pain.,mri_scans/Tr-no_0103.jpg,Metastasis suspected in lateral aspect.
+Amanda Taylor,1977-01-15,Rheumatoid arthritis. Complains of vision changes.,mri_scans/Tr-no_0104.jpg,Degenerative changes in superior portion.
+Stephanie Wilson,1980-02-16,Cardiac arrhythmia. Complains of infection.,mri_scans/Tr-no_0105.jpg,Possible lesion detected in anterior region.
+Kimberly Jackson,1943-11-01,Diabetes mellitus type 2. Complains of shortness of breath.,mri_scans/Tr-no_0106.jpg,Metastasis suspected in inferior portion.
+Matthew Garcia,1983-11-08,Hyperlipidemia. Complains of headache.,mri_scans/Tr-no_0107.jpg,Mass identified in medial aspect.
+Daniel Johnson,1942-03-14,Chronic obstructive pulmonary disease. Complains of fever.,mri_scans/Tr-no_0108.jpg,Enhancement pattern typical in lower left quadrant.
+Joshua Jackson,1962-10-02,Cardiac arrhythmia. Complains of fever.,mri_scans/Tr-no_0109.jpg,Metastasis suspected in superior portion.
+Ashley Johnson,1997-03-07,Diabetes mellitus type 2. Complains of shortness of breath.,mri_scans/Tr-no_0110.jpg,Tear suspected in anterior region.
+Kimberly Smith,2000-09-01,Asthma. Complains of abdominal discomfort.,mri_scans/Tr-no_0111.jpg,Enhancement pattern typical in posterior region.
+Ashley Garcia,1979-08-23,Depression. Complains of palpitations.,mri_scans/Tr-no_0112.jpg,Enhancement pattern typical in upper right quadrant.
+Michelle Thomas,1946-04-11,Hyperlipidemia. Complains of joint pain.,mri_scans/Tr-no_0113.jpg,Calcification noted in peripheral zone.
+Kimberly Garcia,1941-07-21,Cardiac arrhythmia. Complains of infection.,mri_scans/Tr-no_0114.jpg,Tear suspected in medial aspect.
+Ashley Anderson,1945-09-17,Diabetes mellitus type 2. Complains of headache.,mri_scans/Tr-no_0115.jpg,Mild edema noted in anterior region.
+Lisa Martinez,1962-10-11,Migraine headaches. Complains of chest pain.,mri_scans/Tr-no_0116.jpg,Metastasis suspected in inferior portion.
+Amanda Harris,1993-03-16,Cardiac arrhythmia. Complains of dizziness.,mri_scans/Tr-no_0117.jpg,Small nodule found in anterior region.
+Michelle Johnson,1982-10-12,Rheumatoid arthritis. Complains of shortness of breath.,mri_scans/Tr-no_0118.jpg,No significant abnormalities in posterior region.
+Matthew Chen,1944-11-30,Anxiety disorder. Complains of infection.,mri_scans/Tr-no_0119.jpg,No significant abnormalities in upper right quadrant.
+Stephanie Garcia,1961-10-15,Back pain with radiculopathy. Complains of palpitations.,mri_scans/Tr-no_0120.jpg,Mass identified in central area.
+Daniel Anderson,1990-01-23,Pregnancy related. Complains of cough.,mri_scans/Tr-no_0121.jpg,No significant abnormalities in medial aspect.
+James Clark,1955-01-05,Back pain with radiculopathy. Complains of shortness of breath.,mri_scans/Tr-no_0122.jpg,Small nodule found in peripheral zone.
+Matthew Brown,2000-02-29,Chronic obstructive pulmonary disease. Complains of weakness.,mri_scans/Tr-no_0123.jpg,Position normal in anterior region.
+Stephanie Taylor,2000-08-11,Asthma. Complains of abdominal discomfort.,mri_scans/Tr-no_0124.jpg,Inflammation present in lateral aspect.
+Emily Thompson,1952-06-05,Chronic obstructive pulmonary disease. Complains of fatigue.,mri_scans/Tr-no_0125.jpg,No significant abnormalities in medial aspect.
+Amanda Johnson,1973-10-18,Post-operative evaluation. Complains of palpitations.,mri_scans/Tr-no_0126.jpg,Calcification noted in lower left quadrant.
+John Davis,1956-02-08,Anxiety disorder. Complains of bleeding.,mri_scans/Tr-no_0127.jpg,Small artifact observed in medial aspect.
+Sarah White,1963-05-16,Depression. Complains of fever.,mri_scans/Tr-no_0128.jpg,Calcification noted in inferior portion.
+Robert White,1994-02-07,Back pain with radiculopathy. Complains of infection.,mri_scans/Tr-no_0129.jpg,Enhancement pattern typical in anterior region.
+Lisa Wilson,1980-03-13,Depression. Complains of numbness.,mri_scans/Tr-no_0130.jpg,No significant abnormalities in superior portion.
+Matthew Garcia,1967-05-11,Liver cirrhosis. Complains of headache.,mri_scans/Tr-no_0131.jpg,Disc bulge detected in inferior portion.
+Christopher Jackson,1969-02-17,Chronic obstructive pulmonary disease. Complains of cough.,mri_scans/Tr-no_0132.jpg,Fluid collection in peripheral zone.
+Jennifer Anderson,1948-03-15,Thyroid disorder. Complains of numbness.,mri_scans/Tr-no_0133.jpg,Calcification noted in central area.
+Jessica Johnson,1943-07-24,Anxiety disorder. Complains of nausea.,mri_scans/Tr-no_0134.jpg,Disc bulge detected in peripheral zone.
+Lisa Wilson,1969-02-27,Diabetes mellitus type 2. Complains of infection.,mri_scans/Tr-no_0135.jpg,Mild edema noted in anterior region.
+Kimberly Martinez,1959-01-27,History of hypertension. Complains of palpitations.,mri_scans/Tr-no_0136.jpg,Position normal in inferior portion.
+David Anderson,1977-06-27,Migraine headaches. Complains of nausea.,mri_scans/Tr-no_0137.jpg,Enhancement pattern typical in central area.
+Joshua Clark,1967-03-14,Anxiety disorder. Complains of fatigue.,mri_scans/Tr-no_0138.jpg,Mass identified in peripheral zone.
+Kimberly White,1946-04-24,Chronic kidney disease. Complains of fever.,mri_scans/Tr-no_0139.jpg,Minor thickening in inferior portion.
+Robert Harris,1990-06-09,Pregnancy related. Complains of headache.,mri_scans/Tr-no_0140.jpg,Tear suspected in lateral aspect.
+David Chen,1972-12-30,Chronic obstructive pulmonary disease. Complains of palpitations.,mri_scans/Tr-no_0141.jpg,Normal morphology in inferior portion.
+Matthew Jackson,1947-11-10,Asthma. Complains of nausea.,mri_scans/Tr-no_0142.jpg,Mild edema noted in posterior region.
+John Martinez,1978-06-04,Asthma. Complains of infection.,mri_scans/Tr-no_0143.jpg,Mass identified in central area.
+Sarah Wilson,1955-04-14,Thyroid disorder. Complains of infection.,mri_scans/Tr-no_0144.jpg,Tear suspected in lateral aspect.
+Kimberly Wilson,1985-10-03,Osteoarthritis. Complains of weakness.,mri_scans/Tr-no_0145.jpg,Mass identified in peripheral zone.
+Kimberly Miller,1944-07-16,Asthma. Complains of cough.,mri_scans/Tr-no_0146.jpg,Tear suspected in lower left quadrant.
+Jennifer Davis,1993-01-01,Diabetes mellitus type 2. Complains of chest pain.,mri_scans/Tr-no_0147.jpg,Tear suspected in inferior portion.
+Joshua Jackson,1995-07-23,Coronary artery disease. Complains of numbness.,mri_scans/Tr-no_0148.jpg,Tear suspected in posterior region.
+Matthew Martin,1982-04-30,Coronary artery disease. Complains of nausea.,mri_scans/Tr-no_0149.jpg,Tear suspected in medial aspect.
+James Smith,1959-02-13,Coronary artery disease. Complains of joint pain.,mri_scans/Tr-no_0150.jpg,Metastasis suspected in peripheral zone.
+Joshua Thompson,1964-03-04,Chronic kidney disease. Complains of weight loss.,mri_scans/Tr-no_0151.jpg,Fluid collection in upper right quadrant.
+Christopher Taylor,1965-02-24,Back pain with radiculopathy. Complains of palpitations.,mri_scans/Tr-no_0152.jpg,Mild edema noted in inferior portion.
+Michael White,1943-04-15,Osteoarthritis. Complains of fever.,mri_scans/Tr-no_0153.jpg,Enhancement pattern typical in central area.
+Emily Jackson,1998-10-08,Hyperlipidemia. Complains of dizziness.,mri_scans/Tr-no_0154.jpg,Mass identified in medial aspect.
+Michael White,1946-01-27,Sports injury. Complains of vision changes.,mri_scans/Tr-no_0155.jpg,Possible lesion detected in anterior region.
+William Johnson,1961-09-04,Gastroesophageal reflux. Complains of vision changes.,mri_scans/Tr-no_0156.jpg,Small nodule found in lower left quadrant.
+Ashley Martinez,1969-06-12,History of hypertension. Complains of vision changes.,mri_scans/Tr-no_0157.jpg,Minor thickening in lateral aspect.
+Stephanie Garcia,1950-06-11,Hyperlipidemia. Complains of dizziness.,mri_scans/Tr-no_0158.jpg,Normal morphology in superior portion.
+Joshua Martin,1945-09-15,Gastroesophageal reflux. Complains of weakness.,mri_scans/Tr-no_0159.jpg,No significant abnormalities in medial aspect.
+Michelle Jackson,1969-03-11,Liver cirrhosis. Complains of abdominal discomfort.,mri_scans/Tr-no_0160.jpg,Degenerative changes in central area.
+John Thompson,1992-02-03,Migraine headaches. Complains of rash.,mri_scans/Tr-no_0161.jpg,Calcification noted in medial aspect.
+Sarah Taylor,1981-10-25,Chronic kidney disease. Complains of chest pain.,mri_scans/Tr-no_0162.jpg,Small artifact observed in superior portion.
+Daniel Robinson,1978-06-27,Gastroesophageal reflux. Complains of rash.,mri_scans/Tr-no_0163.jpg,Fluid collection in lateral aspect.
+William Thompson,1967-08-23,Cardiac arrhythmia. Complains of nausea.,mri_scans/Tr-no_0164.jpg,Mass identified in peripheral zone.
+David Jackson,1988-05-22,Diabetes mellitus type 2. Complains of dizziness.,mri_scans/Tr-no_0165.jpg,Minor thickening in central area.
+Christopher Martinez,1947-02-03,Hyperlipidemia. Complains of joint pain.,mri_scans/Tr-no_0166.jpg,Tear suspected in central area.
+Kimberly Robinson,1945-02-10,Back pain with radiculopathy. Complains of weight loss.,mri_scans/Tr-no_0167.jpg,Degenerative changes in medial aspect.
+Joshua Thomas,1948-01-13,Hyperlipidemia. Complains of swelling.,mri_scans/Tr-no_0168.jpg,Metastasis suspected in lateral aspect.
+Emily Miller,1958-02-11,Chronic kidney disease. Complains of swelling.,mri_scans/Tr-no_0169.jpg,Position normal in superior portion.
+Daniel Thompson,1964-11-16,Liver cirrhosis. Complains of swelling.,mri_scans/Tr-no_0170.jpg,Minor thickening in lower left quadrant.
+Sarah Davis,1946-03-18,Hyperlipidemia. Complains of swelling.,mri_scans/Tr-no_0171.jpg,Normal morphology in anterior region.
+Jessica Davis,1953-09-21,Osteoarthritis. Complains of dizziness.,mri_scans/Tr-no_0172.jpg,No significant abnormalities in lower left quadrant.
+James Harris,1987-10-07,Rheumatoid arthritis. Complains of abdominal discomfort.,mri_scans/Tr-no_0173.jpg,Minor thickening in inferior portion.
+Amanda Thompson,1989-10-22,Migraine headaches. Complains of vision changes.,mri_scans/Tr-no_0174.jpg,Mass identified in peripheral zone.
+Emily Brown,1950-04-01,Chronic kidney disease. Complains of nausea.,mri_scans/Tr-no_0175.jpg,Mild edema noted in peripheral zone.
+Amanda Martinez,1952-06-26,Migraine headaches. Complains of bleeding.,mri_scans/Tr-no_0176.jpg,Possible lesion detected in inferior portion.
+Lisa Harris,1946-03-26,Coronary artery disease. Complains of bleeding.,mri_scans/Tr-no_0177.jpg,Inflammation present in lower left quadrant.
+Daniel Davis,1960-05-26,Rheumatoid arthritis. Complains of weight loss.,mri_scans/Tr-no_0178.jpg,Small artifact observed in anterior region.
+John Robinson,1959-12-28,Back pain with radiculopathy. Complains of palpitations.,mri_scans/Tr-no_0179.jpg,Enhancement pattern typical in lower left quadrant.
+Michelle Anderson,1977-10-30,Thyroid disorder. Complains of fever.,mri_scans/Tr-no_0180.jpg,Enhancement pattern typical in peripheral zone.
+Emily Wilson,1967-02-03,Post-operative evaluation. Complains of fever.,mri_scans/Tr-no_0181.jpg,Position normal in lateral aspect.
+William Jackson,1989-04-22,Liver cirrhosis. Complains of vision changes.,mri_scans/Tr-no_0182.jpg,No significant abnormalities in central area.
+Emily Harris,1971-10-24,Chronic kidney disease. Complains of headache.,mri_scans/Tr-no_0183.jpg,Small artifact observed in lateral aspect.
+Jennifer White,1993-09-27,Coronary artery disease. Complains of headache.,mri_scans/Tr-no_0184.jpg,Possible lesion detected in medial aspect.
+Joshua Garcia,2000-08-23,Hyperlipidemia. Complains of weakness.,mri_scans/Tr-no_0185.jpg,Small artifact observed in posterior region.
+Lisa Smith,1967-08-13,Sports injury. Complains of headache.,mri_scans/Tr-no_0186.jpg,Small nodule found in upper right quadrant.
+Stephanie Garcia,1983-12-17,Coronary artery disease. Complains of weight loss.,mri_scans/Tr-no_0187.jpg,Fluid collection in anterior region.
+Emily Thomas,1965-02-25,Diabetes mellitus type 2. Complains of rash.,mri_scans/Tr-no_0188.jpg,Minor thickening in peripheral zone.
+Joshua Johnson,2000-06-14,Hyperlipidemia. Complains of cough.,mri_scans/Tr-no_0189.jpg,Calcification noted in upper right quadrant.
+Robert Davis,1972-02-16,Back pain with radiculopathy. Complains of headache.,mri_scans/Tr-no_0190.jpg,Small artifact observed in upper right quadrant.
+Kimberly Robinson,1993-11-24,Pregnancy related. Complains of fatigue.,mri_scans/Tr-no_0191.jpg,Minor thickening in medial aspect.
+Michael Taylor,1981-03-27,Thyroid disorder. Complains of nausea.,mri_scans/Tr-no_0192.jpg,Metastasis suspected in posterior region.
+Amanda Clark,1972-04-08,Depression. Complains of cough.,mri_scans/Tr-no_0193.jpg,Calcification noted in anterior region.
+Sarah Thompson,1945-04-26,Chronic kidney disease. Complains of chest pain.,mri_scans/Tr-no_0194.jpg,Normal morphology in lower left quadrant.
+William Johnson,1940-01-19,Chronic obstructive pulmonary disease. Complains of bleeding.,mri_scans/Tr-no_0195.jpg,Calcification noted in medial aspect.
+Sarah Garcia,1965-04-21,Migraine headaches. Complains of fever.,mri_scans/Tr-no_0196.jpg,Minor thickening in medial aspect.
+Kimberly Davis,1987-09-02,Liver cirrhosis. Complains of rash.,mri_scans/Tr-no_0197.jpg,Possible lesion detected in anterior region.
+Joshua Martin,1974-06-12,Rheumatoid arthritis. Complains of abdominal discomfort.,mri_scans/Tr-no_0198.jpg,Calcification noted in superior portion.
+Sarah Martinez,1988-02-26,Back pain with radiculopathy. Complains of shortness of breath.,mri_scans/Tr-no_0199.jpg,Metastasis suspected in peripheral zone.
+Jessica Thomas,1941-06-03,Osteoarthritis. Complains of nausea.,mri_scans/Tr-no_0200.jpg,No significant abnormalities in lateral aspect.
+Sarah Wilson,1977-10-23,Coronary artery disease. Complains of bleeding.,mri_scans/Tr-no_0201.jpg,Inflammation present in central area.
+David Smith,1991-12-31,Anxiety disorder. Complains of weight loss.,mri_scans/Tr-no_0202.jpg,Small artifact observed in lower left quadrant.
+Lisa Miller,1956-02-10,Pregnancy related. Complains of swelling.,mri_scans/Tr-no_0203.jpg,Mild edema noted in upper right quadrant.
+William Chen,1989-10-03,Sports injury. Complains of nausea.,mri_scans/Tr-no_0204.jpg,Mild edema noted in peripheral zone.
+Robert Chen,1999-10-16,Gastroesophageal reflux. Complains of joint pain.,mri_scans/Tr-no_0205.jpg,Inflammation present in superior portion.
+Emily Johnson,1983-11-30,Coronary artery disease. Complains of weakness.,mri_scans/Tr-no_0206.jpg,Small artifact observed in inferior portion.
+William Anderson,1943-11-02,History of hypertension. Complains of palpitations.,mri_scans/Tr-no_0207.jpg,Fluid collection in lower left quadrant.
+Joshua Robinson,1986-12-16,Chronic kidney disease. Complains of vision changes.,mri_scans/Tr-no_0208.jpg,Small artifact observed in posterior region.
+William Davis,1949-03-02,Anxiety disorder. Complains of rash.,mri_scans/Tr-no_0209.jpg,Position normal in inferior portion.
+Jessica Martin,1974-05-19,Hyperlipidemia. Complains of nausea.,mri_scans/Tr-no_0210.jpg,Position normal in lateral aspect.
+David Miller,1999-08-03,Depression. Complains of numbness.,mri_scans/Tr-no_0211.jpg,Degenerative changes in medial aspect.
+Sarah Davis,1943-03-04,Chronic obstructive pulmonary disease. Complains of joint pain.,mri_scans/Tr-no_0212.jpg,Disc bulge detected in peripheral zone.
+Kimberly Garcia,1954-05-31,Asthma. Complains of cough.,mri_scans/Tr-no_0213.jpg,Calcification noted in central area.
+Christopher Brown,1995-05-09,Gastroesophageal reflux. Complains of headache.,mri_scans/Tr-no_0214.jpg,Minor thickening in upper right quadrant.
+David Johnson,1984-08-05,Pregnancy related. Complains of chest pain.,mri_scans/Tr-no_0215.jpg,Position normal in upper right quadrant.
+Matthew Taylor,1942-11-18,Osteoarthritis. Complains of palpitations.,mri_scans/Tr-no_0216.jpg,Degenerative changes in posterior region.
+Lisa Johnson,1965-04-19,Hyperlipidemia. Complains of shortness of breath.,mri_scans/Tr-no_0217.jpg,Mass identified in posterior region.
+Jessica Taylor,1944-04-02,Post-operative evaluation. Complains of shortness of breath.,mri_scans/Tr-no_0218.jpg,Enhancement pattern typical in anterior region.
+Kimberly Robinson,1970-05-27,Anxiety disorder. Complains of fatigue.,mri_scans/Tr-no_0219.jpg,Normal morphology in anterior region.
+Daniel Miller,1948-02-22,Chronic kidney disease. Complains of fatigue.,mri_scans/Tr-no_0220.jpg,Minor thickening in posterior region.
+Joshua Johnson,1945-02-12,Pregnancy related. Complains of infection.,mri_scans/Tr-no_0221.jpg,Mass identified in superior portion.
+Robert Martin,1954-10-04,Gastroesophageal reflux. Complains of numbness.,mri_scans/Tr-no_0222.jpg,Small artifact observed in medial aspect.
+James Harris,1964-03-21,Sports injury. Complains of abdominal discomfort.,mri_scans/Tr-no_0223.jpg,Normal morphology in inferior portion.
+Lisa Chen,1985-05-19,Coronary artery disease. Complains of weakness.,mri_scans/Tr-no_0224.jpg,Tear suspected in medial aspect.
+Joshua Brown,1987-04-15,Migraine headaches. Complains of rash.,mri_scans/Tr-no_0225.jpg,Possible lesion detected in posterior region.
+Joshua Wilson,1952-08-07,Coronary artery disease. Complains of weight loss.,mri_scans/Tr-no_0226.jpg,No significant abnormalities in lateral aspect.
+Michelle White,1950-11-02,Osteoarthritis. Complains of chest pain.,mri_scans/Tr-no_0227.jpg,Small artifact observed in inferior portion.
+Emily Thompson,1980-06-18,Post-operative evaluation. Complains of cough.,mri_scans/Tr-no_0228.jpg,No significant abnormalities in lateral aspect.
+Daniel Thomas,1996-06-03,Pregnancy related. Complains of numbness.,mri_scans/Tr-no_0229.jpg,Minor thickening in upper right quadrant.
+Ashley Taylor,1951-09-05,Chronic obstructive pulmonary disease. Complains of fatigue.,mri_scans/Tr-no_0230.jpg,Mass identified in lower left quadrant.
+Sarah Wilson,1940-05-30,History of hypertension. Complains of fever.,mri_scans/Tr-no_0231.jpg,Tear suspected in upper right quadrant.
+Jessica White,1957-06-13,Anxiety disorder. Complains of cough.,mri_scans/Tr-no_0232.jpg,Minor thickening in medial aspect.
+Amanda White,1957-11-08,Chronic obstructive pulmonary disease. Complains of numbness.,mri_scans/Tr-no_0233.jpg,Mass identified in medial aspect.
+David Clark,1980-05-01,Liver cirrhosis. Complains of dizziness.,mri_scans/Tr-no_0234.jpg,Disc bulge detected in inferior portion.
+Lisa Brown,1997-09-26,Liver cirrhosis. Complains of shortness of breath.,mri_scans/Tr-no_0235.jpg,Fluid collection in upper right quadrant.
+Kimberly Robinson,1979-07-22,Thyroid disorder. Complains of numbness.,mri_scans/Tr-no_0236.jpg,Small nodule found in superior portion.
+Daniel Brown,1941-05-22,History of hypertension. Complains of cough.,mri_scans/Tr-no_0237.jpg,Metastasis suspected in lateral aspect.
+Robert Harris,1978-05-17,Post-operative evaluation. Complains of headache.,mri_scans/Tr-no_0238.jpg,Normal morphology in posterior region.
+Sarah Smith,1979-12-08,Back pain with radiculopathy. Complains of joint pain.,mri_scans/Tr-no_0239.jpg,No significant abnormalities in anterior region.
+Kimberly Wilson,1994-08-20,Hyperlipidemia. Complains of cough.,mri_scans/Tr-no_0240.jpg,Position normal in lower left quadrant.
+Ashley Garcia,1977-07-10,Liver cirrhosis. Complains of headache.,mri_scans/Tr-no_0241.jpg,Small artifact observed in upper right quadrant.
+Jennifer Taylor,1978-08-04,Chronic kidney disease. Complains of nausea.,mri_scans/Tr-no_0242.jpg,Mass identified in anterior region.
+Robert Garcia,1987-11-25,Asthma. Complains of cough.,mri_scans/Tr-no_0243.jpg,Small artifact observed in superior portion.
+Emily Miller,1963-10-05,Post-operative evaluation. Complains of headache.,mri_scans/Tr-no_0244.jpg,Tear suspected in central area.
+David Thomas,1976-09-08,Chronic obstructive pulmonary disease. Complains of fatigue.,mri_scans/Tr-no_0245.jpg,Calcification noted in peripheral zone.
+Jennifer Johnson,1966-01-21,Diabetes mellitus type 2. Complains of fatigue.,mri_scans/Tr-no_0246.jpg,Inflammation present in superior portion.
+Joshua Smith,1998-09-24,Chronic obstructive pulmonary disease. Complains of vision changes.,mri_scans/Tr-no_0247.jpg,Disc bulge detected in posterior region.
+Daniel Harris,1999-04-05,Coronary artery disease. Complains of joint pain.,mri_scans/Tr-no_0248.jpg,Small artifact observed in medial aspect.
+John Wilson,1951-02-19,Migraine headaches. Complains of numbness.,mri_scans/Tr-no_0249.jpg,Tear suspected in lateral aspect.
+Ashley Chen,1986-01-27,History of hypertension. Complains of headache.,mri_scans/Tr-no_0250.jpg,Mild edema noted in peripheral zone.
+John Anderson,1984-12-05,Migraine headaches. Complains of infection.,mri_scans/Tr-no_0251.jpg,Minor thickening in superior portion.
+Michael Robinson,1978-09-21,Depression. Complains of vision changes.,mri_scans/Tr-no_0252.jpg,Possible lesion detected in central area.
+Joshua Johnson,1974-04-12,Pregnancy related. Complains of fever.,mri_scans/Tr-no_0253.jpg,Small artifact observed in upper right quadrant.
+Emily Smith,1999-10-25,Cardiac arrhythmia. Complains of fever.,mri_scans/Tr-no_0254.jpg,Possible lesion detected in peripheral zone.
+William Thomas,1998-10-10,Sports injury. Complains of abdominal discomfort.,mri_scans/Tr-no_0255.jpg,Possible lesion detected in lower left quadrant.
+Michael Garcia,1989-08-06,Rheumatoid arthritis. Complains of chest pain.,mri_scans/Tr-no_0256.jpg,Mild edema noted in medial aspect.
+Lisa Anderson,1940-02-25,Gastroesophageal reflux. Complains of bleeding.,mri_scans/Tr-no_0257.jpg,Calcification noted in medial aspect.
+David Davis,1970-12-10,Migraine headaches. Complains of weakness.,mri_scans/Tr-no_0258.jpg,Possible lesion detected in central area.
+Jennifer Smith,1996-12-24,Thyroid disorder. Complains of rash.,mri_scans/Tr-no_0259.jpg,Inflammation present in inferior portion.
+Amanda Martinez,2000-01-17,Gastroesophageal reflux. Complains of fatigue.,mri_scans/Tr-no_0260.jpg,Position normal in superior portion.
+Michelle White,1970-05-02,Thyroid disorder. Complains of chest pain.,mri_scans/Tr-no_0261.jpg,Small artifact observed in upper right quadrant.
+William Smith,1973-04-08,Osteoarthritis. Complains of fatigue.,mri_scans/Tr-no_0262.jpg,No significant abnormalities in lateral aspect.
+Michelle Davis,1996-05-25,Liver cirrhosis. Complains of infection.,mri_scans/Tr-no_0263.jpg,Degenerative changes in upper right quadrant.
+Jessica Garcia,1975-01-15,Asthma. Complains of joint pain.,mri_scans/Tr-no_0264.jpg,Possible lesion detected in upper right quadrant.
+William Thompson,1966-08-27,Gastroesophageal reflux. Complains of weight loss.,mri_scans/Tr-no_0265.jpg,Inflammation present in upper right quadrant.
+Robert White,1976-06-05,Asthma. Complains of rash.,mri_scans/Tr-no_0266.jpg,Minor thickening in peripheral zone.
+Emily Chen,1990-03-19,Migraine headaches. Complains of weakness.,mri_scans/Tr-no_0267.jpg,Enhancement pattern typical in central area.
+Michael Martinez,1964-10-02,Thyroid disorder. Complains of weakness.,mri_scans/Tr-no_0268.jpg,Possible lesion detected in superior portion.
+Michelle Miller,1942-07-12,Post-operative evaluation. Complains of palpitations.,mri_scans/Tr-no_0269.jpg,Inflammation present in upper right quadrant.
+Jennifer Clark,1988-10-09,Back pain with radiculopathy. Complains of headache.,mri_scans/Tr-no_0270.jpg,Small nodule found in inferior portion.
+Sarah Harris,1991-04-19,Coronary artery disease. Complains of palpitations.,mri_scans/Tr-no_0271.jpg,Metastasis suspected in medial aspect.
+Sarah Brown,1946-11-18,History of hypertension. Complains of weakness.,mri_scans/Tr-no_0272.jpg,Degenerative changes in inferior portion.
+Daniel Brown,1949-07-08,Anxiety disorder. Complains of rash.,mri_scans/Tr-no_0273.jpg,Minor thickening in lower left quadrant.
+Jennifer Johnson,1982-01-09,Thyroid disorder. Complains of joint pain.,mri_scans/Tr-no_0274.jpg,Small artifact observed in upper right quadrant.
+Robert White,1961-05-30,Chronic kidney disease. Complains of nausea.,mri_scans/Tr-no_0275.jpg,Possible lesion detected in lower left quadrant.
+Matthew Harris,1966-01-31,Depression. Complains of weakness.,mri_scans/Tr-no_0276.jpg,Possible lesion detected in medial aspect.
+David Martinez,1953-11-13,Sports injury. Complains of rash.,mri_scans/Tr-no_0277.jpg,Enhancement pattern typical in peripheral zone.
+Emily Wilson,1940-10-06,Cardiac arrhythmia. Complains of numbness.,mri_scans/Tr-no_0278.jpg,Mass identified in central area.
+Ashley Chen,1975-10-22,Back pain with radiculopathy. Complains of vision changes.,mri_scans/Tr-no_0279.jpg,No significant abnormalities in posterior region.
+Lisa Johnson,1962-05-04,Gastroesophageal reflux. Complains of cough.,mri_scans/Tr-no_0280.jpg,Mild edema noted in inferior portion.
+David Davis,1983-03-09,Thyroid disorder. Complains of chest pain.,mri_scans/Tr-no_0281.jpg,Possible lesion detected in inferior portion.
+Matthew Wilson,1978-09-28,Migraine headaches. Complains of fever.,mri_scans/Tr-no_0282.jpg,Position normal in lower left quadrant.
+Kimberly Clark,1993-06-04,Osteoarthritis. Complains of nausea.,mri_scans/Tr-no_0283.jpg,Disc bulge detected in superior portion.
+Emily Johnson,1990-09-20,Hyperlipidemia. Complains of chest pain.,mri_scans/Tr-no_0284.jpg,Minor thickening in posterior region.
+Ashley Anderson,1976-09-16,Diabetes mellitus type 2. Complains of infection.,mri_scans/Tr-no_0285.jpg,Enhancement pattern typical in superior portion.
+Robert Davis,1956-01-16,Back pain with radiculopathy. Complains of cough.,mri_scans/Tr-no_0286.jpg,Metastasis suspected in lower left quadrant.
+Joshua Thompson,1983-03-23,Gastroesophageal reflux. Complains of cough.,mri_scans/Tr-no_0287.jpg,Mass identified in lateral aspect.
+Stephanie Wilson,1961-12-06,Rheumatoid arthritis. Complains of weakness.,mri_scans/Tr-no_0288.jpg,Position normal in lower left quadrant.
+Michael Robinson,1978-05-07,Hyperlipidemia. Complains of shortness of breath.,mri_scans/Tr-no_0289.jpg,Tear suspected in medial aspect.
+Robert Wilson,1947-07-25,Hyperlipidemia. Complains of numbness.,mri_scans/Tr-no_0290.jpg,Small nodule found in lower left quadrant.
+John Taylor,1985-03-11,Osteoarthritis. Complains of headache.,mri_scans/Tr-no_0291.jpg,Degenerative changes in posterior region.
+David Thompson,1942-03-02,History of hypertension. Complains of headache.,mri_scans/Tr-no_0292.jpg,Small nodule found in lower left quadrant.
+David Taylor,2000-02-22,Back pain with radiculopathy. Complains of weakness.,mri_scans/Tr-no_0293.jpg,Fluid collection in lateral aspect.
+Emily Johnson,1958-10-15,Liver cirrhosis. Complains of nausea.,mri_scans/Tr-no_0294.jpg,Small nodule found in lower left quadrant.
+Ashley Martinez,1987-06-11,Gastroesophageal reflux. Complains of shortness of breath.,mri_scans/Tr-no_0295.jpg,Small artifact observed in lower left quadrant.
+William Jackson,1952-09-21,Anxiety disorder. Complains of nausea.,mri_scans/Tr-no_0296.jpg,Mild edema noted in lower left quadrant.
+Christopher Clark,1987-06-10,Gastroesophageal reflux. Complains of shortness of breath.,mri_scans/Tr-no_0297.jpg,Normal morphology in anterior region.
+David Jackson,1940-03-02,Osteoarthritis. Complains of dizziness.,mri_scans/Tr-no_0298.jpg,Fluid collection in medial aspect.
+Kimberly Thompson,1954-10-24,Chronic obstructive pulmonary disease. Complains of joint pain.,mri_scans/Tr-no_0299.jpg,Inflammation present in central area.
+Stephanie Harris,1989-01-17,Pregnancy related. Complains of cough.,mri_scans/Tr-no_0300.jpg,Minor thickening in superior portion.
+Robert Brown,1961-03-07,Cardiac arrhythmia. Complains of fever.,mri_scans/Tr-no_0301.jpg,Fluid collection in posterior region.
+Michelle Anderson,1958-07-08,Post-operative evaluation. Complains of numbness.,mri_scans/Tr-no_0302.jpg,Tear suspected in upper right quadrant.
+Lisa Wilson,1967-07-01,Coronary artery disease. Complains of infection.,mri_scans/Tr-no_0303.jpg,Inflammation present in central area.
+Daniel Jackson,1994-04-28,Osteoarthritis. Complains of palpitations.,mri_scans/Tr-no_0304.jpg,Mass identified in lateral aspect.
+Jessica Wilson,1954-04-06,Post-operative evaluation. Complains of infection.,mri_scans/Tr-no_0305.jpg,Inflammation present in inferior portion.
+Lisa Harris,1982-01-21,Cardiac arrhythmia. Complains of infection.,mri_scans/Tr-no_0306.jpg,Possible lesion detected in lateral aspect.
+Sarah Anderson,1990-04-04,Thyroid disorder. Complains of weight loss.,mri_scans/Tr-no_0307.jpg,Disc bulge detected in inferior portion.
+Michelle Taylor,1960-06-03,Post-operative evaluation. Complains of vision changes.,mri_scans/Tr-no_0308.jpg,Small artifact observed in central area.
+Robert Martinez,1969-04-28,Back pain with radiculopathy. Complains of numbness.,mri_scans/Tr-no_0309.jpg,Tear suspected in central area.
+Emily Wilson,1955-04-02,History of hypertension. Complains of abdominal discomfort.,mri_scans/Tr-no_0310.jpg,Disc bulge detected in peripheral zone.
+Joshua Wilson,1986-06-05,Rheumatoid arthritis. Complains of shortness of breath.,mri_scans/Tr-no_0311.jpg,Inflammation present in upper right quadrant.
+Christopher Taylor,1994-04-23,Anxiety disorder. Complains of numbness.,mri_scans/Tr-no_0312.jpg,Normal morphology in inferior portion.
+Christopher Garcia,1992-08-11,Sports injury. Complains of numbness.,mri_scans/Tr-no_0313.jpg,Small nodule found in superior portion.
+Joshua Clark,1971-06-16,Sports injury. Complains of vision changes.,mri_scans/Tr-no_0314.jpg,Tear suspected in medial aspect.
+Michael Jackson,1962-12-23,Cardiac arrhythmia. Complains of abdominal discomfort.,mri_scans/Tr-no_0315.jpg,Mass identified in superior portion.
+Daniel Taylor,1944-10-10,Post-operative evaluation. Complains of fatigue.,mri_scans/Tr-no_0316.jpg,Position normal in inferior portion.
+David Martinez,1996-07-18,Hyperlipidemia. Complains of numbness.,mri_scans/Tr-no_0317.jpg,Calcification noted in posterior region.
+Sarah Wilson,1976-07-25,Post-operative evaluation. Complains of bleeding.,mri_scans/Tr-no_0318.jpg,Small artifact observed in superior portion.
+Lisa Clark,1956-07-16,Depression. Complains of rash.,mri_scans/Tr-no_0319.jpg,Mass identified in posterior region.
+Daniel Smith,1983-11-02,Asthma. Complains of swelling.,mri_scans/Tr-no_0320.jpg,Position normal in lateral aspect.
+John Wilson,1981-11-28,Osteoarthritis. Complains of numbness.,mri_scans/Tr-no_0321.jpg,No significant abnormalities in peripheral zone.
+Amanda Chen,1995-06-03,Pregnancy related. Complains of infection.,mri_scans/Tr-no_0322.jpg,Fluid collection in central area.
+Kimberly Jackson,1967-12-28,Rheumatoid arthritis. Complains of abdominal discomfort.,mri_scans/Tr-no_0323.jpg,Enhancement pattern typical in central area.
+Jennifer Chen,1994-02-23,Chronic kidney disease. Complains of numbness.,mri_scans/Tr-no_0324.jpg,Mass identified in anterior region.
+Lisa Miller,1998-09-21,Sports injury. Complains of vision changes.,mri_scans/Tr-no_0325.jpg,Position normal in lateral aspect.
+Matthew Martinez,1958-11-26,Osteoarthritis. Complains of nausea.,mri_scans/Tr-no_0326.jpg,Position normal in upper right quadrant.
+William White,1999-01-15,Back pain with radiculopathy. Complains of weight loss.,mri_scans/Tr-no_0327.jpg,Position normal in superior portion.
+Daniel Harris,1941-05-06,Cardiac arrhythmia. Complains of shortness of breath.,mri_scans/Tr-no_0328.jpg,Degenerative changes in lateral aspect.
+Daniel Robinson,1955-11-08,Thyroid disorder. Complains of palpitations.,mri_scans/Tr-no_0329.jpg,Possible lesion detected in upper right quadrant.
+James Davis,1960-10-22,Chronic obstructive pulmonary disease. Complains of headache.,mri_scans/Tr-no_0330.jpg,No significant abnormalities in lower left quadrant.
+Christopher Thompson,1985-03-29,Diabetes mellitus type 2. Complains of bleeding.,mri_scans/Tr-no_0331.jpg,Degenerative changes in anterior region.
+Christopher Wilson,1985-11-10,Rheumatoid arthritis. Complains of vision changes.,mri_scans/Tr-no_0332.jpg,Disc bulge detected in medial aspect.
+Michelle Martin,1994-05-14,Sports injury. Complains of chest pain.,mri_scans/Tr-no_0333.jpg,Small nodule found in lower left quadrant.
+Amanda Martinez,1941-07-01,Back pain with radiculopathy. Complains of fever.,mri_scans/Tr-no_0334.jpg,Tear suspected in central area.
+Joshua Harris,1940-08-24,Coronary artery disease. Complains of palpitations.,mri_scans/Tr-no_0335.jpg,Small nodule found in central area.
+Michael Davis,1954-05-08,Rheumatoid arthritis. Complains of headache.,mri_scans/Tr-no_0336.jpg,Metastasis suspected in superior portion.
+Michelle Thomas,1998-07-13,Chronic kidney disease. Complains of weight loss.,mri_scans/Tr-no_0337.jpg,Possible lesion detected in inferior portion.
+Emily Miller,1947-04-05,Osteoarthritis. Complains of swelling.,mri_scans/Tr-no_0338.jpg,Metastasis suspected in medial aspect.
+James Davis,1972-06-15,Sports injury. Complains of nausea.,mri_scans/Tr-no_0339.jpg,Small artifact observed in central area.
+David Robinson,1950-01-30,Depression. Complains of weight loss.,mri_scans/Tr-no_0340.jpg,Mild edema noted in posterior region.
+Daniel White,1950-11-24,Chronic kidney disease. Complains of shortness of breath.,mri_scans/Tr-no_0341.jpg,Small nodule found in medial aspect.
+Michael Thomas,1943-04-14,Diabetes mellitus type 2. Complains of vision changes.,mri_scans/Tr-no_0342.jpg,Possible lesion detected in lower left quadrant.
+Emily Davis,1987-09-01,Post-operative evaluation. Complains of headache.,mri_scans/Tr-no_0343.jpg,Tear suspected in lower left quadrant.
+Emily Martinez,1946-12-25,Post-operative evaluation. Complains of nausea.,mri_scans/Tr-no_0344.jpg,Inflammation present in peripheral zone.
+Lisa Harris,1941-03-16,Post-operative evaluation. Complains of chest pain.,mri_scans/Tr-no_0345.jpg,Position normal in lateral aspect.
+William Brown,1994-03-03,Thyroid disorder. Complains of palpitations.,mri_scans/Tr-no_0346.jpg,Minor thickening in inferior portion.
+Jennifer White,1988-09-04,Anxiety disorder. Complains of numbness.,mri_scans/Tr-no_0347.jpg,Tear suspected in lateral aspect.
+John Chen,1953-04-25,Coronary artery disease. Complains of abdominal discomfort.,mri_scans/Tr-no_0348.jpg,Mass identified in posterior region.
+Lisa Martin,1968-08-10,Chronic obstructive pulmonary disease. Complains of dizziness.,mri_scans/Tr-no_0349.jpg,Small nodule found in lateral aspect.
+Matthew Martinez,1963-06-29,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0350.jpg,Degenerative changes in superior portion.
+Michael Harris,1985-04-17,Hyperlipidemia. Complains of fatigue.,mri_scans/Tr-no_0351.jpg,Minor thickening in lower left quadrant.
+James Johnson,1958-02-13,Cardiac arrhythmia. Complains of fever.,mri_scans/Tr-no_0352.jpg,Possible lesion detected in inferior portion.
+William Taylor,1950-10-02,Sports injury. Complains of weight loss.,mri_scans/Tr-no_0353.jpg,Tear suspected in lateral aspect.
+Robert Thomas,1985-08-03,Gastroesophageal reflux. Complains of fatigue.,mri_scans/Tr-no_0354.jpg,Inflammation present in inferior portion.
+David Martinez,1978-01-17,History of hypertension. Complains of joint pain.,mri_scans/Tr-no_0355.jpg,Position normal in anterior region.
+Matthew Wilson,1990-11-20,Depression. Complains of chest pain.,mri_scans/Tr-no_0356.jpg,No significant abnormalities in inferior portion.
+Joshua Davis,1974-06-20,Migraine headaches. Complains of chest pain.,mri_scans/Tr-no_0357.jpg,Disc bulge detected in anterior region.
+Amanda Robinson,1965-05-09,Osteoarthritis. Complains of bleeding.,mri_scans/Tr-no_0358.jpg,Small nodule found in medial aspect.
+Michelle Wilson,1955-11-21,Depression. Complains of bleeding.,mri_scans/Tr-no_0359.jpg,No significant abnormalities in superior portion.
+Kimberly Chen,1951-09-03,Depression. Complains of rash.,mri_scans/Tr-no_0360.jpg,Minor thickening in medial aspect.
+Stephanie Robinson,1989-07-04,Pregnancy related. Complains of dizziness.,mri_scans/Tr-no_0361.jpg,Small artifact observed in peripheral zone.
+Daniel Martin,2000-08-06,Chronic kidney disease. Complains of numbness.,mri_scans/Tr-no_0362.jpg,Metastasis suspected in lateral aspect.
+James Smith,1992-02-19,Liver cirrhosis. Complains of swelling.,mri_scans/Tr-no_0363.jpg,Metastasis suspected in lateral aspect.
+Matthew Davis,1982-03-28,Diabetes mellitus type 2. Complains of swelling.,mri_scans/Tr-no_0364.jpg,Enhancement pattern typical in posterior region.
+Sarah Robinson,1967-08-24,Anxiety disorder. Complains of fatigue.,mri_scans/Tr-no_0365.jpg,Disc bulge detected in superior portion.
+Emily Robinson,1967-03-20,Gastroesophageal reflux. Complains of vision changes.,mri_scans/Tr-no_0366.jpg,Possible lesion detected in central area.
+Matthew Brown,1950-04-26,Chronic obstructive pulmonary disease. Complains of weight loss.,mri_scans/Tr-no_0367.jpg,Mild edema noted in medial aspect.
+Sarah Martin,1978-06-21,Cardiac arrhythmia. Complains of nausea.,mri_scans/Tr-no_0368.jpg,Small artifact observed in superior portion.
+John Brown,1944-09-24,Post-operative evaluation. Complains of bleeding.,mri_scans/Tr-no_0369.jpg,Small nodule found in medial aspect.
+William Clark,1951-12-05,Rheumatoid arthritis. Complains of nausea.,mri_scans/Tr-no_0370.jpg,Tear suspected in anterior region.
+Daniel Garcia,1946-09-28,Migraine headaches. Complains of swelling.,mri_scans/Tr-no_0371.jpg,Mass identified in central area.
+Lisa Wilson,1987-10-25,Hyperlipidemia. Complains of joint pain.,mri_scans/Tr-no_0372.jpg,Position normal in upper right quadrant.
+Ashley Brown,1941-11-07,History of hypertension. Complains of fever.,mri_scans/Tr-no_0373.jpg,Mass identified in posterior region.
+Stephanie Davis,1984-02-13,Thyroid disorder. Complains of abdominal discomfort.,mri_scans/Tr-no_0374.jpg,Minor thickening in inferior portion.
+Jennifer White,1976-02-16,Asthma. Complains of shortness of breath.,mri_scans/Tr-no_0375.jpg,No significant abnormalities in posterior region.
+Matthew Clark,1972-03-12,Osteoarthritis. Complains of numbness.,mri_scans/Tr-no_0376.jpg,Tear suspected in inferior portion.
+Robert Taylor,1942-10-04,Asthma. Complains of abdominal discomfort.,mri_scans/Tr-no_0377.jpg,Tear suspected in superior portion.
+Stephanie Harris,1954-11-05,Sports injury. Complains of vision changes.,mri_scans/Tr-no_0378.jpg,Minor thickening in peripheral zone.
+Jennifer Davis,1945-05-08,History of hypertension. Complains of joint pain.,mri_scans/Tr-no_0379.jpg,Inflammation present in posterior region.
+Matthew Martinez,1980-09-21,Post-operative evaluation. Complains of cough.,mri_scans/Tr-no_0380.jpg,Small nodule found in upper right quadrant.
+Christopher Taylor,1979-01-27,Hyperlipidemia. Complains of infection.,mri_scans/Tr-no_0381.jpg,Small nodule found in central area.
+Michael Clark,1956-08-23,Back pain with radiculopathy. Complains of numbness.,mri_scans/Tr-no_0382.jpg,Degenerative changes in lower left quadrant.
+Ashley Johnson,1963-06-20,Anxiety disorder. Complains of bleeding.,mri_scans/Tr-no_0383.jpg,Tear suspected in lower left quadrant.
+Joshua Thompson,1957-07-15,Gastroesophageal reflux. Complains of vision changes.,mri_scans/Tr-no_0384.jpg,Fluid collection in posterior region.
+John Thomas,1957-03-31,Hyperlipidemia. Complains of joint pain.,mri_scans/Tr-no_0385.jpg,Mass identified in anterior region.
+Sarah Martin,1990-10-14,Hyperlipidemia. Complains of shortness of breath.,mri_scans/Tr-no_0386.jpg,Mass identified in superior portion.
+James Martinez,1957-10-01,History of hypertension. Complains of numbness.,mri_scans/Tr-no_0387.jpg,Small nodule found in lower left quadrant.
+Kimberly Jackson,1973-08-13,Sports injury. Complains of chest pain.,mri_scans/Tr-no_0388.jpg,Metastasis suspected in peripheral zone.
+Christopher Harris,1969-05-12,Cardiac arrhythmia. Complains of weakness.,mri_scans/Tr-no_0389.jpg,Tear suspected in upper right quadrant.
+Joshua Johnson,1956-07-21,Sports injury. Complains of joint pain.,mri_scans/Tr-no_0390.jpg,Position normal in lower left quadrant.
+Jennifer Smith,1975-06-07,Asthma. Complains of fever.,mri_scans/Tr-no_0391.jpg,Enhancement pattern typical in superior portion.
+Joshua Miller,1978-03-16,Gastroesophageal reflux. Complains of bleeding.,mri_scans/Tr-no_0392.jpg,Mass identified in peripheral zone.
+Joshua White,1985-01-05,Hyperlipidemia. Complains of nausea.,mri_scans/Tr-no_0393.jpg,Fluid collection in central area.
+William Miller,1970-03-02,Back pain with radiculopathy. Complains of weight loss.,mri_scans/Tr-no_0394.jpg,Degenerative changes in lower left quadrant.
+Stephanie Martinez,1988-03-20,Chronic kidney disease. Complains of joint pain.,mri_scans/Tr-no_0395.jpg,Minor thickening in lateral aspect.
+James Martinez,1996-03-26,Depression. Complains of swelling.,mri_scans/Tr-no_0396.jpg,Tear suspected in anterior region.
+David Garcia,1944-10-14,Liver cirrhosis. Complains of swelling.,mri_scans/Tr-no_0397.jpg,Small nodule found in inferior portion.
+Jennifer Davis,1974-03-06,Diabetes mellitus type 2. Complains of abdominal discomfort.,mri_scans/Tr-no_0398.jpg,Minor thickening in superior portion.
+Michael Martin,1943-05-08,Chronic kidney disease. Complains of abdominal discomfort.,mri_scans/Tr-no_0399.jpg,Position normal in lower left quadrant.
+Stephanie Taylor,1988-10-05,Diabetes mellitus type 2. Complains of cough.,mri_scans/Tr-no_0400.jpg,Degenerative changes in anterior region.
+William Harris,1963-03-22,Liver cirrhosis. Complains of shortness of breath.,mri_scans/Tr-no_0401.jpg,Disc bulge detected in lateral aspect.
+David Anderson,1984-09-14,Asthma. Complains of weakness.,mri_scans/Tr-no_0402.jpg,Enhancement pattern typical in inferior portion.
+Amanda Garcia,1957-07-22,Post-operative evaluation. Complains of rash.,mri_scans/Tr-no_0403.jpg,Enhancement pattern typical in peripheral zone.
+Lisa Martinez,1975-06-02,Chronic kidney disease. Complains of dizziness.,mri_scans/Tr-no_0404.jpg,Normal morphology in lower left quadrant.
+Jessica Chen,1989-03-22,Anxiety disorder. Complains of cough.,mri_scans/Tr-no_0405.jpg,Degenerative changes in anterior region.
+David Smith,1949-09-15,Anxiety disorder. Complains of rash.,mri_scans/Tr-no_0406.jpg,Mass identified in anterior region.
+Christopher Anderson,1945-12-17,Diabetes mellitus type 2. Complains of infection.,mri_scans/Tr-no_0407.jpg,Enhancement pattern typical in upper right quadrant.
+Michelle White,1949-09-16,Post-operative evaluation. Complains of nausea.,mri_scans/Tr-no_0408.jpg,Minor thickening in central area.
+James Thompson,1993-12-25,Chronic kidney disease. Complains of vision changes.,mri_scans/Tr-no_0409.jpg,Enhancement pattern typical in anterior region.
+John Thompson,1951-08-19,Sports injury. Complains of bleeding.,mri_scans/Tr-no_0410.jpg,Fluid collection in peripheral zone.
+Amanda Chen,1993-02-16,Hyperlipidemia. Complains of infection.,mri_scans/Tr-no_0411.jpg,Position normal in peripheral zone.
+Lisa Garcia,1964-03-11,Post-operative evaluation. Complains of shortness of breath.,mri_scans/Tr-no_0412.jpg,Small artifact observed in upper right quadrant.
+Michelle Jackson,1953-10-18,Coronary artery disease. Complains of bleeding.,mri_scans/Tr-no_0413.jpg,Normal morphology in superior portion.
+Lisa Harris,1946-02-28,Coronary artery disease. Complains of joint pain.,mri_scans/Tr-no_0414.jpg,Calcification noted in inferior portion.
+Lisa Clark,1990-05-15,Sports injury. Complains of dizziness.,mri_scans/Tr-no_0415.jpg,Minor thickening in superior portion.
+Joshua Thompson,1955-02-12,Diabetes mellitus type 2. Complains of chest pain.,mri_scans/Tr-no_0416.jpg,Enhancement pattern typical in lower left quadrant.
+Jennifer Davis,1965-04-17,Cardiac arrhythmia. Complains of shortness of breath.,mri_scans/Tr-no_0417.jpg,Small artifact observed in central area.
+David Martin,1956-05-28,Pregnancy related. Complains of numbness.,mri_scans/Tr-no_0418.jpg,Small artifact observed in superior portion.
+Christopher Martin,1978-06-10,Migraine headaches. Complains of numbness.,mri_scans/Tr-no_0419.jpg,Enhancement pattern typical in inferior portion.
+Emily Martinez,1988-04-01,Rheumatoid arthritis. Complains of numbness.,mri_scans/Tr-no_0420.jpg,No significant abnormalities in lateral aspect.
+Matthew Garcia,1940-12-14,Depression. Complains of dizziness.,mri_scans/Tr-no_0421.jpg,No significant abnormalities in inferior portion.
+Amanda Anderson,1971-06-01,Osteoarthritis. Complains of swelling.,mri_scans/Tr-no_0422.jpg,Disc bulge detected in lower left quadrant.
+Michelle Martin,1989-01-02,Osteoarthritis. Complains of abdominal discomfort.,mri_scans/Tr-no_0423.jpg,Degenerative changes in lateral aspect.
+Jennifer Taylor,1980-12-31,Chronic kidney disease. Complains of rash.,mri_scans/Tr-no_0424.jpg,Tear suspected in anterior region.
+Sarah Anderson,1954-09-25,Migraine headaches. Complains of infection.,mri_scans/Tr-no_0425.jpg,Tear suspected in medial aspect.
+Lisa Martinez,1962-08-10,Coronary artery disease. Complains of weight loss.,mri_scans/Tr-no_0426.jpg,Fluid collection in anterior region.
+Michelle Robinson,1993-04-14,Thyroid disorder. Complains of vision changes.,mri_scans/Tr-no_0427.jpg,Possible lesion detected in peripheral zone.
+David Clark,1959-09-20,Chronic kidney disease. Complains of cough.,mri_scans/Tr-no_0428.jpg,Fluid collection in upper right quadrant.
+Ashley Taylor,1944-02-27,Migraine headaches. Complains of chest pain.,mri_scans/Tr-no_0429.jpg,No significant abnormalities in peripheral zone.
+Daniel Martinez,1999-04-26,Back pain with radiculopathy. Complains of dizziness.,mri_scans/Tr-no_0430.jpg,Mild edema noted in inferior portion.
+Robert Robinson,1994-11-18,Migraine headaches. Complains of abdominal discomfort.,mri_scans/Tr-no_0431.jpg,Small nodule found in medial aspect.
+Jennifer Davis,1956-05-17,Cardiac arrhythmia. Complains of weakness.,mri_scans/Tr-no_0432.jpg,Fluid collection in posterior region.
+Matthew Clark,1949-06-16,Depression. Complains of abdominal discomfort.,mri_scans/Tr-no_0433.jpg,Position normal in posterior region.
+Jennifer Anderson,1959-06-15,Thyroid disorder. Complains of swelling.,mri_scans/Tr-no_0434.jpg,Small nodule found in superior portion.
+Ashley Johnson,1998-06-14,Cardiac arrhythmia. Complains of shortness of breath.,mri_scans/Tr-no_0435.jpg,Metastasis suspected in lower left quadrant.
+David Martin,1971-06-15,Cardiac arrhythmia. Complains of weight loss.,mri_scans/Tr-no_0436.jpg,No significant abnormalities in lower left quadrant.
+Stephanie Thompson,1960-12-12,Thyroid disorder. Complains of swelling.,mri_scans/Tr-no_0437.jpg,Mass identified in inferior portion.
+Ashley Garcia,1958-06-15,Rheumatoid arthritis. Complains of weight loss.,mri_scans/Tr-no_0438.jpg,Fluid collection in inferior portion.
+Lisa Davis,1952-08-16,Liver cirrhosis. Complains of vision changes.,mri_scans/Tr-no_0439.jpg,Tear suspected in peripheral zone.
+Robert Martinez,1988-04-07,Liver cirrhosis. Complains of shortness of breath.,mri_scans/Tr-no_0440.jpg,Mass identified in upper right quadrant.
+John Garcia,1940-04-02,Thyroid disorder. Complains of weakness.,mri_scans/Tr-no_0441.jpg,Possible lesion detected in anterior region.
+Robert Smith,1988-07-22,Diabetes mellitus type 2. Complains of numbness.,mri_scans/Tr-no_0442.jpg,Minor thickening in upper right quadrant.
+Emily Martinez,1983-12-13,Thyroid disorder. Complains of weakness.,mri_scans/Tr-no_0443.jpg,Normal morphology in lower left quadrant.
+David Smith,1942-09-16,Osteoarthritis. Complains of headache.,mri_scans/Tr-no_0444.jpg,Mass identified in superior portion.
+John Jackson,1945-06-23,Thyroid disorder. Complains of chest pain.,mri_scans/Tr-no_0445.jpg,Small nodule found in superior portion.
+Jennifer Thompson,1971-11-14,Pregnancy related. Complains of chest pain.,mri_scans/Tr-no_0446.jpg,Mild edema noted in superior portion.
+Stephanie Davis,1991-12-08,Sports injury. Complains of palpitations.,mri_scans/Tr-no_0447.jpg,Normal morphology in inferior portion.
+Joshua Clark,1942-12-28,Post-operative evaluation. Complains of headache.,mri_scans/Tr-no_0448.jpg,Small nodule found in upper right quadrant.
+Michelle Wilson,1983-08-23,Migraine headaches. Complains of weakness.,mri_scans/Tr-no_0449.jpg,Inflammation present in inferior portion.
+Michelle Harris,1954-03-28,Thyroid disorder. Complains of dizziness.,mri_scans/Tr-no_0450.jpg,Small nodule found in medial aspect.
+Joshua White,1994-05-05,Asthma. Complains of fever.,mri_scans/Tr-no_0451.jpg,Fluid collection in central area.
+Michelle Robinson,1975-01-13,History of hypertension. Complains of shortness of breath.,mri_scans/Tr-no_0452.jpg,Metastasis suspected in peripheral zone.
+John Martinez,1954-12-31,Anxiety disorder. Complains of joint pain.,mri_scans/Tr-no_0453.jpg,Tear suspected in anterior region.
+Michael Brown,1949-07-19,Cardiac arrhythmia. Complains of infection.,mri_scans/Tr-no_0454.jpg,Metastasis suspected in lateral aspect.
+Amanda Clark,1979-08-15,Back pain with radiculopathy. Complains of bleeding.,mri_scans/Tr-no_0455.jpg,Fluid collection in lateral aspect.
+Emily Wilson,1940-05-26,Anxiety disorder. Complains of shortness of breath.,mri_scans/Tr-no_0456.jpg,Metastasis suspected in peripheral zone.
+Matthew Martin,1972-07-15,Hyperlipidemia. Complains of fever.,mri_scans/Tr-no_0457.jpg,Mass identified in central area.
+Stephanie Martin,1953-12-26,Anxiety disorder. Complains of weight loss.,mri_scans/Tr-no_0458.jpg,Position normal in posterior region.
+Jennifer Johnson,1983-05-25,Diabetes mellitus type 2. Complains of weight loss.,mri_scans/Tr-no_0459.jpg,Mild edema noted in medial aspect.
+Jennifer Martin,1995-02-13,Sports injury. Complains of rash.,mri_scans/Tr-no_0460.jpg,Mass identified in lateral aspect.
+Robert Smith,1993-11-24,Gastroesophageal reflux. Complains of infection.,mri_scans/Tr-no_0461.jpg,Small nodule found in inferior portion.
+Matthew Brown,1965-12-21,Anxiety disorder. Complains of fever.,mri_scans/Tr-no_0462.jpg,Enhancement pattern typical in lower left quadrant.
+Amanda Martinez,1945-10-01,Thyroid disorder. Complains of joint pain.,mri_scans/Tr-no_0463.jpg,Fluid collection in upper right quadrant.
+Robert Chen,1958-09-06,Anxiety disorder. Complains of headache.,mri_scans/Tr-no_0464.jpg,Minor thickening in anterior region.
+Jessica Brown,1943-12-29,Diabetes mellitus type 2. Complains of fatigue.,mri_scans/Tr-no_0465.jpg,Small nodule found in inferior portion.
+Christopher Miller,1965-06-15,Diabetes mellitus type 2. Complains of headache.,mri_scans/Tr-no_0466.jpg,Enhancement pattern typical in lateral aspect.
+Michelle Martin,2000-04-20,Gastroesophageal reflux. Complains of swelling.,mri_scans/Tr-no_0467.jpg,Normal morphology in upper right quadrant.
+James Thompson,1982-01-06,Liver cirrhosis. Complains of fatigue.,mri_scans/Tr-no_0468.jpg,Mass identified in anterior region.
+James Thompson,1960-06-04,Post-operative evaluation. Complains of weakness.,mri_scans/Tr-no_0469.jpg,Inflammation present in peripheral zone.
+Jessica Martinez,1973-01-28,Pregnancy related. Complains of vision changes.,mri_scans/Tr-no_0470.jpg,Position normal in posterior region.
+Daniel Davis,1949-10-22,Migraine headaches. Complains of vision changes.,mri_scans/Tr-no_0471.jpg,Small nodule found in central area.
+Emily Brown,1951-12-25,History of hypertension. Complains of dizziness.,mri_scans/Tr-no_0472.jpg,Tear suspected in peripheral zone.
+John Martinez,1942-12-22,Back pain with radiculopathy. Complains of swelling.,mri_scans/Tr-no_0473.jpg,Position normal in superior portion.
+Sarah Robinson,1992-05-17,Hyperlipidemia. Complains of rash.,mri_scans/Tr-no_0474.jpg,Fluid collection in medial aspect.
+Christopher Thomas,1972-06-17,Osteoarthritis. Complains of dizziness.,mri_scans/Tr-no_0475.jpg,Mass identified in medial aspect.
+Robert Wilson,1990-09-22,Hyperlipidemia. Complains of swelling.,mri_scans/Tr-no_0476.jpg,Disc bulge detected in lower left quadrant.
+Amanda Taylor,1982-07-13,Chronic kidney disease. Complains of fatigue.,mri_scans/Tr-no_0477.jpg,Small artifact observed in lower left quadrant.
+Kimberly Martinez,1965-02-10,Pregnancy related. Complains of shortness of breath.,mri_scans/Tr-no_0478.jpg,Calcification noted in upper right quadrant.
+Amanda White,1970-05-19,Cardiac arrhythmia. Complains of shortness of breath.,mri_scans/Tr-no_0479.jpg,Metastasis suspected in superior portion.
+Ashley Chen,1980-02-19,Anxiety disorder. Complains of bleeding.,mri_scans/Tr-no_0480.jpg,Tear suspected in lateral aspect.
+Ashley Clark,1999-09-17,Osteoarthritis. Complains of dizziness.,mri_scans/Tr-no_0481.jpg,Inflammation present in lateral aspect.
+Sarah Miller,1964-08-07,Thyroid disorder. Complains of weakness.,mri_scans/Tr-no_0482.jpg,Mild edema noted in anterior region.
+John Jackson,1943-12-06,Anxiety disorder. Complains of infection.,mri_scans/Tr-no_0483.jpg,Position normal in lateral aspect.
+Jessica Brown,1984-01-08,Gastroesophageal reflux. Complains of numbness.,mri_scans/Tr-no_0484.jpg,Small nodule found in medial aspect.
+Joshua Davis,1946-11-16,Asthma. Complains of palpitations.,mri_scans/Tr-no_0485.jpg,Mild edema noted in lower left quadrant.
+Michelle Clark,1961-06-30,Asthma. Complains of fever.,mri_scans/Tr-no_0486.jpg,Calcification noted in upper right quadrant.
+Christopher White,1973-02-21,Pregnancy related. Complains of palpitations.,mri_scans/Tr-no_0487.jpg,Calcification noted in upper right quadrant.
+Ashley Chen,1988-08-08,Depression. Complains of cough.,mri_scans/Tr-no_0488.jpg,Mild edema noted in medial aspect.
+Ashley Martinez,1952-05-03,Post-operative evaluation. Complains of cough.,mri_scans/Tr-no_0489.jpg,Inflammation present in inferior portion.
+Emily Garcia,1979-08-08,Rheumatoid arthritis. Complains of dizziness.,mri_scans/Tr-no_0490.jpg,Fluid collection in lower left quadrant.
+Joshua Jackson,1953-08-29,Thyroid disorder. Complains of fever.,mri_scans/Tr-no_0491.jpg,Mass identified in posterior region.
+Lisa Taylor,1972-03-04,Depression. Complains of swelling.,mri_scans/Tr-no_0492.jpg,Normal morphology in lateral aspect.
+Ashley Robinson,1944-02-12,Chronic obstructive pulmonary disease. Complains of nausea.,mri_scans/Tr-no_0493.jpg,Normal morphology in inferior portion.
+Ashley Taylor,1999-03-26,Diabetes mellitus type 2. Complains of vision changes.,mri_scans/Tr-no_0494.jpg,Enhancement pattern typical in peripheral zone.
+Ashley Davis,1948-09-26,Hyperlipidemia. Complains of palpitations.,mri_scans/Tr-no_0495.jpg,Minor thickening in anterior region.
+Lisa Thomas,1990-06-06,History of hypertension. Complains of nausea.,mri_scans/Tr-no_0496.jpg,Metastasis suspected in inferior portion.
+William Wilson,1950-04-27,Pregnancy related. Complains of rash.,mri_scans/Tr-no_0497.jpg,Tear suspected in anterior region.
+Sarah Brown,1970-02-11,Pregnancy related. Complains of shortness of breath.,mri_scans/Tr-no_0498.jpg,Small artifact observed in posterior region.
+William Clark,1984-01-04,Liver cirrhosis. Complains of fever.,mri_scans/Tr-no_0499.jpg,Mass identified in anterior region.
+Kimberly Johnson,1990-02-14,Post-operative evaluation. Complains of abdominal discomfort.,mri_scans/Tr-no_0500.jpg,Possible lesion detected in superior portion.
+Robert Harris,1985-07-26,Migraine headaches. Complains of chest pain.,mri_scans/Tr-no_0501.jpg,Metastasis suspected in upper right quadrant.
+James Anderson,1969-08-31,Thyroid disorder. Complains of weight loss.,mri_scans/Tr-no_0502.jpg,Calcification noted in central area.
+Daniel Thomas,1996-08-30,Liver cirrhosis. Complains of weakness.,mri_scans/Tr-no_0503.jpg,Inflammation present in medial aspect.
+Jessica Wilson,1984-08-31,Coronary artery disease. Complains of abdominal discomfort.,mri_scans/Tr-no_0504.jpg,Small nodule found in peripheral zone.
+James Jackson,1972-06-12,Sports injury. Complains of dizziness.,mri_scans/Tr-no_0505.jpg,Small nodule found in anterior region.
+Joshua Thomas,1945-11-07,Migraine headaches. Complains of palpitations.,mri_scans/Tr-no_0506.jpg,Small nodule found in posterior region.
+Christopher Chen,1945-03-28,Pregnancy related. Complains of cough.,mri_scans/Tr-no_0507.jpg,Possible lesion detected in inferior portion.
+Emily Chen,1962-08-04,Anxiety disorder. Complains of dizziness.,mri_scans/Tr-no_0508.jpg,Inflammation present in peripheral zone.
+Christopher Thomas,1989-08-21,Depression. Complains of rash.,mri_scans/Tr-no_0509.jpg,Inflammation present in upper right quadrant.
+Daniel White,1959-05-15,Sports injury. Complains of nausea.,mri_scans/Tr-no_0510.jpg,Disc bulge detected in lower left quadrant.
+Robert Martinez,1984-06-24,Depression. Complains of fatigue.,mri_scans/Tr-no_0511.jpg,Position normal in superior portion.
+James Anderson,1976-02-28,Chronic kidney disease. Complains of bleeding.,mri_scans/Tr-no_0512.jpg,Fluid collection in lateral aspect.
+Stephanie White,1981-05-11,Chronic obstructive pulmonary disease. Complains of dizziness.,mri_scans/Tr-no_0513.jpg,Fluid collection in lateral aspect.
+James Martinez,1985-03-22,Anxiety disorder. Complains of palpitations.,mri_scans/Tr-no_0514.jpg,Normal morphology in central area.
+Robert White,1973-06-22,Anxiety disorder. Complains of rash.,mri_scans/Tr-no_0515.jpg,Normal morphology in inferior portion.
+James Garcia,1979-06-22,Liver cirrhosis. Complains of cough.,mri_scans/Tr-no_0516.jpg,Disc bulge detected in lower left quadrant.
+John Harris,1974-02-17,Osteoarthritis. Complains of nausea.,mri_scans/Tr-no_0517.jpg,Tear suspected in central area.
+William Johnson,1979-04-23,Rheumatoid arthritis. Complains of weakness.,mri_scans/Tr-no_0518.jpg,No significant abnormalities in anterior region.
+David Brown,1979-06-26,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0519.jpg,Mild edema noted in upper right quadrant.
+David White,1982-10-24,Coronary artery disease. Complains of chest pain.,mri_scans/Tr-no_0520.jpg,Possible lesion detected in upper right quadrant.
+Amanda Chen,1999-07-10,Anxiety disorder. Complains of vision changes.,mri_scans/Tr-no_0521.jpg,Position normal in peripheral zone.
+Daniel Miller,1968-03-31,Gastroesophageal reflux. Complains of cough.,mri_scans/Tr-no_0522.jpg,Degenerative changes in lateral aspect.
+Lisa Robinson,1979-11-02,Thyroid disorder. Complains of weight loss.,mri_scans/Tr-no_0523.jpg,Possible lesion detected in central area.
+Daniel Wilson,1952-08-21,Diabetes mellitus type 2. Complains of headache.,mri_scans/Tr-no_0524.jpg,Calcification noted in upper right quadrant.
+Ashley Jackson,1996-04-28,Hyperlipidemia. Complains of fatigue.,mri_scans/Tr-no_0525.jpg,Small nodule found in medial aspect.
+Stephanie Johnson,1962-09-11,Cardiac arrhythmia. Complains of weakness.,mri_scans/Tr-no_0526.jpg,Disc bulge detected in superior portion.
+Ashley Garcia,1992-06-07,Depression. Complains of fatigue.,mri_scans/Tr-no_0527.jpg,Small nodule found in upper right quadrant.
+William Smith,1999-04-06,Chronic kidney disease. Complains of fever.,mri_scans/Tr-no_0528.jpg,Position normal in medial aspect.
+Matthew Martin,1944-06-10,Chronic kidney disease. Complains of infection.,mri_scans/Tr-no_0529.jpg,Tear suspected in medial aspect.
+Jennifer White,1981-12-06,Anxiety disorder. Complains of vision changes.,mri_scans/Tr-no_0530.jpg,Calcification noted in lateral aspect.
+Matthew Davis,1950-07-29,Rheumatoid arthritis. Complains of fatigue.,mri_scans/Tr-no_0531.jpg,Small artifact observed in inferior portion.
+Michelle Anderson,1955-03-24,Sports injury. Complains of dizziness.,mri_scans/Tr-no_0532.jpg,Mass identified in central area.
+Michelle Martinez,1973-03-15,Cardiac arrhythmia. Complains of dizziness.,mri_scans/Tr-no_0533.jpg,Possible lesion detected in peripheral zone.
+John Anderson,1984-03-25,Asthma. Complains of fatigue.,mri_scans/Tr-no_0534.jpg,Mild edema noted in lateral aspect.
+Ashley Jackson,1977-08-20,Gastroesophageal reflux. Complains of numbness.,mri_scans/Tr-no_0535.jpg,No significant abnormalities in posterior region.
+James Johnson,1995-07-19,Hyperlipidemia. Complains of swelling.,mri_scans/Tr-no_0536.jpg,Calcification noted in central area.
+Sarah Taylor,1972-11-07,Coronary artery disease. Complains of fatigue.,mri_scans/Tr-no_0537.jpg,Mild edema noted in anterior region.
+Daniel Martinez,1985-02-19,Thyroid disorder. Complains of bleeding.,mri_scans/Tr-no_0538.jpg,Possible lesion detected in central area.
+Emily Anderson,1973-03-25,Gastroesophageal reflux. Complains of bleeding.,mri_scans/Tr-no_0539.jpg,Tear suspected in central area.
+Michelle Taylor,1984-11-18,Sports injury. Complains of bleeding.,mri_scans/Tr-no_0540.jpg,Degenerative changes in upper right quadrant.
+Jennifer Garcia,1944-03-27,Hyperlipidemia. Complains of joint pain.,mri_scans/Tr-no_0541.jpg,Mass identified in upper right quadrant.
+Jessica Wilson,1999-06-15,Migraine headaches. Complains of abdominal discomfort.,mri_scans/Tr-no_0542.jpg,No significant abnormalities in peripheral zone.
+Sarah Robinson,1990-03-31,Thyroid disorder. Complains of chest pain.,mri_scans/Tr-no_0543.jpg,Mild edema noted in superior portion.
+Sarah Thompson,1999-07-28,Migraine headaches. Complains of bleeding.,mri_scans/Tr-no_0544.jpg,Calcification noted in central area.
+Amanda Chen,1944-03-24,Chronic kidney disease. Complains of headache.,mri_scans/Tr-no_0545.jpg,Tear suspected in lateral aspect.
+Amanda Brown,1962-04-14,Thyroid disorder. Complains of weight loss.,mri_scans/Tr-no_0546.jpg,Disc bulge detected in upper right quadrant.
+Robert Martin,1958-10-16,Osteoarthritis. Complains of fever.,mri_scans/Tr-no_0547.jpg,Fluid collection in inferior portion.
+Michael Martin,1948-05-26,Depression. Complains of fever.,mri_scans/Tr-no_0548.jpg,Fluid collection in posterior region.
+Ashley Jackson,1976-08-05,Osteoarthritis. Complains of vision changes.,mri_scans/Tr-no_0549.jpg,Inflammation present in central area.
+Stephanie Harris,1995-04-24,Thyroid disorder. Complains of rash.,mri_scans/Tr-no_0550.jpg,Metastasis suspected in lower left quadrant.
+Stephanie Clark,1965-11-21,Chronic obstructive pulmonary disease. Complains of dizziness.,mri_scans/Tr-no_0551.jpg,Calcification noted in central area.
+Kimberly Robinson,1942-09-13,Rheumatoid arthritis. Complains of rash.,mri_scans/Tr-no_0552.jpg,Position normal in central area.
+Jennifer Martinez,1993-03-07,Hyperlipidemia. Complains of chest pain.,mri_scans/Tr-no_0553.jpg,Minor thickening in medial aspect.
+Jennifer Thomas,1950-09-08,Coronary artery disease. Complains of numbness.,mri_scans/Tr-no_0554.jpg,Fluid collection in lower left quadrant.
+Sarah Smith,1979-10-21,Gastroesophageal reflux. Complains of abdominal discomfort.,mri_scans/Tr-no_0555.jpg,Possible lesion detected in medial aspect.
+Kimberly Martinez,1957-05-23,Migraine headaches. Complains of headache.,mri_scans/Tr-no_0556.jpg,Degenerative changes in superior portion.
+Amanda Jackson,1952-05-08,Thyroid disorder. Complains of fever.,mri_scans/Tr-no_0557.jpg,Metastasis suspected in posterior region.
+Matthew Thomas,1965-12-31,Back pain with radiculopathy. Complains of cough.,mri_scans/Tr-no_0558.jpg,Fluid collection in inferior portion.
+Kimberly Jackson,1963-01-27,Post-operative evaluation. Complains of cough.,mri_scans/Tr-no_0559.jpg,Possible lesion detected in superior portion.
+James Martinez,1983-08-01,Pregnancy related. Complains of numbness.,mri_scans/Tr-no_0560.jpg,Minor thickening in lateral aspect.
+Robert Martinez,1960-06-26,Back pain with radiculopathy. Complains of numbness.,mri_scans/Tr-no_0561.jpg,Small artifact observed in posterior region.
+Stephanie Robinson,1967-04-09,Liver cirrhosis. Complains of cough.,mri_scans/Tr-no_0562.jpg,Inflammation present in upper right quadrant.
+John Chen,1972-07-24,Chronic kidney disease. Complains of shortness of breath.,mri_scans/Tr-no_0563.jpg,Tear suspected in lateral aspect.
+Jennifer Robinson,1991-11-08,Liver cirrhosis. Complains of bleeding.,mri_scans/Tr-no_0564.jpg,Normal morphology in peripheral zone.
+Daniel Chen,1982-11-24,Hyperlipidemia. Complains of cough.,mri_scans/Tr-no_0565.jpg,Normal morphology in peripheral zone.
+Christopher Martinez,1976-05-22,Hyperlipidemia. Complains of swelling.,mri_scans/Tr-no_0566.jpg,Fluid collection in anterior region.
+Matthew Martinez,1948-11-12,Asthma. Complains of nausea.,mri_scans/Tr-no_0567.jpg,Disc bulge detected in superior portion.
+Michelle Brown,1989-02-08,Thyroid disorder. Complains of chest pain.,mri_scans/Tr-no_0568.jpg,Mass identified in anterior region.
+Jessica Brown,1994-07-20,Thyroid disorder. Complains of infection.,mri_scans/Tr-no_0569.jpg,Mild edema noted in superior portion.
+Daniel Thomas,1974-08-26,History of hypertension. Complains of rash.,mri_scans/Tr-no_0570.jpg,Inflammation present in medial aspect.
+Stephanie Thompson,1988-12-02,Diabetes mellitus type 2. Complains of fatigue.,mri_scans/Tr-no_0571.jpg,Position normal in lower left quadrant.
+Joshua Clark,1967-02-28,Pregnancy related. Complains of numbness.,mri_scans/Tr-no_0572.jpg,Enhancement pattern typical in central area.
+Michelle Clark,1940-05-09,Migraine headaches. Complains of palpitations.,mri_scans/Tr-no_0573.jpg,Disc bulge detected in upper right quadrant.
+John Martin,1946-11-04,Migraine headaches. Complains of fever.,mri_scans/Tr-no_0574.jpg,Disc bulge detected in superior portion.
+Kimberly Chen,1953-06-20,Chronic kidney disease. Complains of headache.,mri_scans/Tr-no_0575.jpg,Tear suspected in central area.
+Daniel Johnson,1997-12-07,Hyperlipidemia. Complains of bleeding.,mri_scans/Tr-no_0576.jpg,Enhancement pattern typical in posterior region.
+Joshua Martinez,1992-03-09,Gastroesophageal reflux. Complains of fatigue.,mri_scans/Tr-no_0577.jpg,Disc bulge detected in posterior region.
+Matthew Thomas,1973-08-04,Depression. Complains of joint pain.,mri_scans/Tr-no_0578.jpg,Metastasis suspected in superior portion.
+Ashley Chen,1948-10-27,Asthma. Complains of chest pain.,mri_scans/Tr-no_0579.jpg,Minor thickening in medial aspect.
+Daniel Wilson,1959-10-03,Gastroesophageal reflux. Complains of weakness.,mri_scans/Tr-no_0580.jpg,Inflammation present in superior portion.
+Sarah Harris,1974-09-03,History of hypertension. Complains of swelling.,mri_scans/Tr-no_0581.jpg,Fluid collection in lower left quadrant.
+Daniel Robinson,1985-04-03,Post-operative evaluation. Complains of joint pain.,mri_scans/Tr-no_0582.jpg,Mass identified in upper right quadrant.
+Robert Martinez,1971-01-18,Anxiety disorder. Complains of shortness of breath.,mri_scans/Tr-no_0583.jpg,Normal morphology in central area.
+David Martinez,1978-11-17,Rheumatoid arthritis. Complains of swelling.,mri_scans/Tr-no_0584.jpg,Tear suspected in anterior region.
+William Garcia,1984-07-27,Hyperlipidemia. Complains of fever.,mri_scans/Tr-no_0585.jpg,Position normal in anterior region.
+Jennifer White,1963-03-17,Coronary artery disease. Complains of rash.,mri_scans/Tr-no_0586.jpg,Normal morphology in lower left quadrant.
+Jennifer Thompson,1953-07-10,Diabetes mellitus type 2. Complains of vision changes.,mri_scans/Tr-no_0587.jpg,Small nodule found in peripheral zone.
+Lisa Clark,1970-04-09,Back pain with radiculopathy. Complains of numbness.,mri_scans/Tr-no_0588.jpg,Minor thickening in lower left quadrant.
+William Martin,1945-04-27,Thyroid disorder. Complains of chest pain.,mri_scans/Tr-no_0589.jpg,Disc bulge detected in posterior region.
+Jennifer Brown,1988-02-23,Pregnancy related. Complains of chest pain.,mri_scans/Tr-no_0590.jpg,Mass identified in lower left quadrant.
+Christopher Martinez,1955-09-25,Rheumatoid arthritis. Complains of bleeding.,mri_scans/Tr-no_0591.jpg,Tear suspected in medial aspect.
+Joshua Martin,1961-02-17,Anxiety disorder. Complains of vision changes.,mri_scans/Tr-no_0592.jpg,Enhancement pattern typical in superior portion.
+Joshua Jackson,1964-10-02,Osteoarthritis. Complains of nausea.,mri_scans/Tr-no_0593.jpg,Degenerative changes in superior portion.
+Christopher Davis,1958-03-28,History of hypertension. Complains of swelling.,mri_scans/Tr-no_0594.jpg,Small artifact observed in upper right quadrant.
+Sarah Robinson,1968-02-20,Thyroid disorder. Complains of abdominal discomfort.,mri_scans/Tr-no_0595.jpg,Fluid collection in lower left quadrant.
+Jennifer Garcia,1970-06-20,Sports injury. Complains of abdominal discomfort.,mri_scans/Tr-no_0596.jpg,Small artifact observed in peripheral zone.
+Robert Thompson,1957-07-29,Gastroesophageal reflux. Complains of numbness.,mri_scans/Tr-no_0597.jpg,Mild edema noted in upper right quadrant.
+Kimberly Harris,1993-01-23,Liver cirrhosis. Complains of weight loss.,mri_scans/Tr-no_0598.jpg,Small nodule found in upper right quadrant.
+John Thomas,1959-07-01,Osteoarthritis. Complains of weakness.,mri_scans/Tr-no_0599.jpg,Mild edema noted in posterior region.
+Ashley Davis,1971-03-17,Diabetes mellitus type 2. Complains of vision changes.,mri_scans/Tr-no_0600.jpg,Mild edema noted in medial aspect.
+Joshua Jackson,1958-01-12,Anxiety disorder. Complains of weakness.,mri_scans/Tr-no_0601.jpg,Metastasis suspected in lateral aspect.
+Emily Chen,1967-10-03,Anxiety disorder. Complains of nausea.,mri_scans/Tr-no_0602.jpg,Tear suspected in peripheral zone.
+Jessica Robinson,1984-07-03,Pregnancy related. Complains of palpitations.,mri_scans/Tr-no_0603.jpg,Calcification noted in central area.
+Joshua Garcia,1990-11-05,Depression. Complains of nausea.,mri_scans/Tr-no_0604.jpg,Inflammation present in inferior portion.
+Christopher Chen,1940-11-20,Coronary artery disease. Complains of chest pain.,mri_scans/Tr-no_0605.jpg,Mild edema noted in central area.
+Sarah Martinez,1991-01-29,Thyroid disorder. Complains of weakness.,mri_scans/Tr-no_0606.jpg,Mass identified in peripheral zone.
+David Martinez,1973-11-06,Back pain with radiculopathy. Complains of weakness.,mri_scans/Tr-no_0607.jpg,Small artifact observed in central area.
+James Garcia,1955-12-20,Hyperlipidemia. Complains of nausea.,mri_scans/Tr-no_0608.jpg,Enhancement pattern typical in anterior region.
+Sarah Wilson,1993-12-23,Asthma. Complains of headache.,mri_scans/Tr-no_0609.jpg,Position normal in anterior region.
+Michelle Garcia,1949-11-27,Thyroid disorder. Complains of joint pain.,mri_scans/Tr-no_0610.jpg,Minor thickening in lower left quadrant.
+John Anderson,1985-04-18,Post-operative evaluation. Complains of rash.,mri_scans/Tr-no_0611.jpg,Normal morphology in inferior portion.
+William Clark,1967-12-11,Coronary artery disease. Complains of cough.,mri_scans/Tr-no_0612.jpg,Tear suspected in anterior region.
+William Davis,1976-08-03,Thyroid disorder. Complains of abdominal discomfort.,mri_scans/Tr-no_0613.jpg,Metastasis suspected in peripheral zone.
+Jennifer Martinez,1986-02-01,Pregnancy related. Complains of weight loss.,mri_scans/Tr-no_0614.jpg,Disc bulge detected in posterior region.
+John Taylor,1999-11-20,Liver cirrhosis. Complains of cough.,mri_scans/Tr-no_0615.jpg,Position normal in lower left quadrant.
+Christopher Clark,1976-07-09,Pregnancy related. Complains of nausea.,mri_scans/Tr-no_0616.jpg,Small artifact observed in inferior portion.
+Matthew Chen,1944-05-13,Gastroesophageal reflux. Complains of abdominal discomfort.,mri_scans/Tr-no_0617.jpg,Calcification noted in lateral aspect.
+Lisa Garcia,1961-07-01,Diabetes mellitus type 2. Complains of swelling.,mri_scans/Tr-no_0618.jpg,Mass identified in central area.
+Ashley Martin,1948-09-15,Post-operative evaluation. Complains of nausea.,mri_scans/Tr-no_0619.jpg,No significant abnormalities in superior portion.
+James Davis,1979-03-03,History of hypertension. Complains of palpitations.,mri_scans/Tr-no_0620.jpg,Disc bulge detected in superior portion.
+Ashley Johnson,1964-06-03,Chronic kidney disease. Complains of chest pain.,mri_scans/Tr-no_0621.jpg,Inflammation present in upper right quadrant.
+Emily Clark,1974-06-24,Asthma. Complains of swelling.,mri_scans/Tr-no_0622.jpg,Fluid collection in superior portion.
+Sarah Davis,1989-05-16,Depression. Complains of swelling.,mri_scans/Tr-no_0623.jpg,Normal morphology in central area.
+James Martinez,1955-12-05,Depression. Complains of abdominal discomfort.,mri_scans/Tr-no_0624.jpg,Mass identified in central area.
+Stephanie Taylor,1945-02-12,Anxiety disorder. Complains of vision changes.,mri_scans/Tr-no_0625.jpg,Possible lesion detected in posterior region.
+John Garcia,2000-04-24,Diabetes mellitus type 2. Complains of fatigue.,mri_scans/Tr-no_0626.jpg,Normal morphology in peripheral zone.
+David Wilson,1980-11-29,Asthma. Complains of chest pain.,mri_scans/Tr-no_0627.jpg,Inflammation present in inferior portion.
+Stephanie Jackson,1988-05-30,Asthma. Complains of swelling.,mri_scans/Tr-no_0628.jpg,Small artifact observed in lateral aspect.
+William Martin,1944-04-17,Diabetes mellitus type 2. Complains of bleeding.,mri_scans/Tr-no_0629.jpg,Possible lesion detected in medial aspect.
+Christopher Anderson,1990-04-05,Osteoarthritis. Complains of infection.,mri_scans/Tr-no_0630.jpg,Mild edema noted in superior portion.
+Sarah Martinez,1945-09-21,Back pain with radiculopathy. Complains of cough.,mri_scans/Tr-no_0631.jpg,Mild edema noted in lateral aspect.
+Christopher Smith,1958-04-08,Depression. Complains of nausea.,mri_scans/Tr-no_0632.jpg,Mild edema noted in medial aspect.
+David Garcia,1977-05-20,Diabetes mellitus type 2. Complains of headache.,mri_scans/Tr-no_0633.jpg,Mass identified in peripheral zone.
+Emily Anderson,1987-03-31,Back pain with radiculopathy. Complains of weight loss.,mri_scans/Tr-no_0634.jpg,Metastasis suspected in peripheral zone.
+Emily Clark,1967-03-24,Back pain with radiculopathy. Complains of nausea.,mri_scans/Tr-no_0635.jpg,Minor thickening in inferior portion.
+Christopher Thompson,1998-04-07,Migraine headaches. Complains of joint pain.,mri_scans/Tr-no_0636.jpg,Normal morphology in lateral aspect.
+Jessica Smith,1972-07-23,Cardiac arrhythmia. Complains of fever.,mri_scans/Tr-no_0637.jpg,Mass identified in central area.
+Jennifer Johnson,1995-03-24,Migraine headaches. Complains of chest pain.,mri_scans/Tr-no_0638.jpg,Minor thickening in inferior portion.
+Jessica Martinez,1971-08-19,Post-operative evaluation. Complains of weight loss.,mri_scans/Tr-no_0639.jpg,Inflammation present in central area.
+Michelle Clark,1970-06-02,Gastroesophageal reflux. Complains of joint pain.,mri_scans/Tr-no_0640.jpg,Small nodule found in lower left quadrant.
+Ashley Harris,1984-06-25,Hyperlipidemia. Complains of vision changes.,mri_scans/Tr-no_0641.jpg,Possible lesion detected in peripheral zone.
+James Robinson,1991-08-23,Liver cirrhosis. Complains of weakness.,mri_scans/Tr-no_0642.jpg,Disc bulge detected in inferior portion.
+Daniel Thompson,1968-04-12,Back pain with radiculopathy. Complains of dizziness.,mri_scans/Tr-no_0643.jpg,Enhancement pattern typical in medial aspect.
+David Clark,1955-12-04,Hyperlipidemia. Complains of bleeding.,mri_scans/Tr-no_0644.jpg,Normal morphology in superior portion.
+Jessica Robinson,1961-04-09,Liver cirrhosis. Complains of joint pain.,mri_scans/Tr-no_0645.jpg,Minor thickening in superior portion.
+Emily Johnson,1965-09-19,Migraine headaches. Complains of numbness.,mri_scans/Tr-no_0646.jpg,Mild edema noted in superior portion.
+Robert Miller,1982-02-11,Rheumatoid arthritis. Complains of fatigue.,mri_scans/Tr-no_0647.jpg,Disc bulge detected in anterior region.
+Michelle Martinez,2000-11-21,Liver cirrhosis. Complains of swelling.,mri_scans/Tr-no_0648.jpg,Degenerative changes in central area.
+Jessica Chen,1946-03-13,Diabetes mellitus type 2. Complains of numbness.,mri_scans/Tr-no_0649.jpg,No significant abnormalities in posterior region.
+William Harris,1972-09-12,Pregnancy related. Complains of rash.,mri_scans/Tr-no_0650.jpg,Tear suspected in peripheral zone.
+Amanda Clark,1945-12-04,Thyroid disorder. Complains of chest pain.,mri_scans/Tr-no_0651.jpg,Normal morphology in superior portion.
+Christopher Thomas,1941-11-15,Asthma. Complains of weight loss.,mri_scans/Tr-no_0652.jpg,Metastasis suspected in central area.
+Robert Wilson,1942-04-03,Chronic obstructive pulmonary disease. Complains of dizziness.,mri_scans/Tr-no_0653.jpg,Disc bulge detected in medial aspect.
+Amanda Davis,1975-01-05,Migraine headaches. Complains of cough.,mri_scans/Tr-no_0654.jpg,Small nodule found in medial aspect.
+James Chen,1945-05-23,Pregnancy related. Complains of dizziness.,mri_scans/Tr-no_0655.jpg,Fluid collection in central area.
+Robert Davis,1982-04-06,History of hypertension. Complains of numbness.,mri_scans/Tr-no_0656.jpg,Minor thickening in lower left quadrant.
+Jennifer Davis,1963-04-05,Chronic kidney disease. Complains of infection.,mri_scans/Tr-no_0657.jpg,Minor thickening in upper right quadrant.
+Sarah Harris,1989-09-29,Anxiety disorder. Complains of bleeding.,mri_scans/Tr-no_0658.jpg,Normal morphology in superior portion.
+Lisa Martinez,1996-10-07,Chronic obstructive pulmonary disease. Complains of nausea.,mri_scans/Tr-no_0659.jpg,Enhancement pattern typical in lower left quadrant.
+Matthew Martinez,1957-09-27,Chronic obstructive pulmonary disease. Complains of vision changes.,mri_scans/Tr-no_0660.jpg,Normal morphology in anterior region.
+Kimberly Brown,1978-12-07,Post-operative evaluation. Complains of abdominal discomfort.,mri_scans/Tr-no_0661.jpg,Degenerative changes in inferior portion.
+Jessica Clark,1989-05-09,Thyroid disorder. Complains of fever.,mri_scans/Tr-no_0662.jpg,Metastasis suspected in inferior portion.
+Jennifer Davis,1955-03-06,Liver cirrhosis. Complains of dizziness.,mri_scans/Tr-no_0663.jpg,Metastasis suspected in peripheral zone.
+Jessica Johnson,1942-04-04,Liver cirrhosis. Complains of abdominal discomfort.,mri_scans/Tr-no_0664.jpg,No significant abnormalities in superior portion.
+Matthew Davis,1960-04-08,Coronary artery disease. Complains of cough.,mri_scans/Tr-no_0665.jpg,No significant abnormalities in lower left quadrant.
+Kimberly Anderson,1996-12-11,Back pain with radiculopathy. Complains of shortness of breath.,mri_scans/Tr-no_0666.jpg,Inflammation present in medial aspect.
+Jessica Brown,1953-07-26,Diabetes mellitus type 2. Complains of weight loss.,mri_scans/Tr-no_0667.jpg,Metastasis suspected in medial aspect.
+Michelle Martin,1978-02-21,Chronic obstructive pulmonary disease. Complains of numbness.,mri_scans/Tr-no_0668.jpg,Small artifact observed in central area.
+William Chen,1970-09-25,Chronic obstructive pulmonary disease. Complains of palpitations.,mri_scans/Tr-no_0669.jpg,Degenerative changes in peripheral zone.
+Michael Taylor,1996-09-25,Migraine headaches. Complains of nausea.,mri_scans/Tr-no_0670.jpg,Inflammation present in peripheral zone.
+Ashley Martin,1979-07-02,Thyroid disorder. Complains of swelling.,mri_scans/Tr-no_0671.jpg,Small nodule found in anterior region.
+Matthew Smith,1969-01-21,Migraine headaches. Complains of weight loss.,mri_scans/Tr-no_0672.jpg,Disc bulge detected in superior portion.
+Emily Anderson,1961-11-26,Chronic kidney disease. Complains of headache.,mri_scans/Tr-no_0673.jpg,Mass identified in central area.
+Robert Thompson,1992-05-14,History of hypertension. Complains of headache.,mri_scans/Tr-no_0674.jpg,Disc bulge detected in peripheral zone.
+Sarah Martinez,1974-02-13,Thyroid disorder. Complains of palpitations.,mri_scans/Tr-no_0675.jpg,Mild edema noted in superior portion.
+Ashley Harris,1991-12-10,Asthma. Complains of abdominal discomfort.,mri_scans/Tr-no_0676.jpg,Enhancement pattern typical in inferior portion.
+Stephanie Taylor,1945-03-06,Rheumatoid arthritis. Complains of bleeding.,mri_scans/Tr-no_0677.jpg,Degenerative changes in upper right quadrant.
+Emily White,1984-06-24,Migraine headaches. Complains of infection.,mri_scans/Tr-no_0678.jpg,Minor thickening in lower left quadrant.
+Robert Clark,1953-04-07,Diabetes mellitus type 2. Complains of fever.,mri_scans/Tr-no_0679.jpg,Normal morphology in lateral aspect.
+Michael Harris,1984-06-06,Diabetes mellitus type 2. Complains of chest pain.,mri_scans/Tr-no_0680.jpg,Possible lesion detected in superior portion.
+Jennifer Jackson,1969-02-13,Anxiety disorder. Complains of weakness.,mri_scans/Tr-no_0681.jpg,Normal morphology in upper right quadrant.
+Sarah White,1988-01-14,Depression. Complains of bleeding.,mri_scans/Tr-no_0682.jpg,Small nodule found in lower left quadrant.
+Daniel Miller,1974-03-10,Cardiac arrhythmia. Complains of dizziness.,mri_scans/Tr-no_0683.jpg,Minor thickening in inferior portion.
+Ashley Jackson,1986-09-15,Chronic kidney disease. Complains of fever.,mri_scans/Tr-no_0684.jpg,Fluid collection in posterior region.
+Ashley Martin,1943-12-04,Sports injury. Complains of abdominal discomfort.,mri_scans/Tr-no_0685.jpg,Possible lesion detected in lateral aspect.
+Jessica Martinez,1982-07-23,Coronary artery disease. Complains of swelling.,mri_scans/Tr-no_0686.jpg,Tear suspected in lower left quadrant.
+Emily Harris,1984-08-20,History of hypertension. Complains of weight loss.,mri_scans/Tr-no_0687.jpg,Position normal in inferior portion.
+Emily Wilson,1967-07-22,Chronic kidney disease. Complains of cough.,mri_scans/Tr-no_0688.jpg,Inflammation present in inferior portion.
+Jennifer Martinez,1983-08-21,Chronic kidney disease. Complains of bleeding.,mri_scans/Tr-no_0689.jpg,Position normal in posterior region.
+Ashley Martin,1960-03-07,Back pain with radiculopathy. Complains of fever.,mri_scans/Tr-no_0690.jpg,Mild edema noted in peripheral zone.
+Joshua Brown,1990-06-28,Gastroesophageal reflux. Complains of vision changes.,mri_scans/Tr-no_0691.jpg,Fluid collection in posterior region.
+David Jackson,1953-11-27,Asthma. Complains of headache.,mri_scans/Tr-no_0692.jpg,Normal morphology in posterior region.
+Daniel Miller,1993-02-20,Cardiac arrhythmia. Complains of bleeding.,mri_scans/Tr-no_0693.jpg,Metastasis suspected in central area.
+Lisa Smith,1950-09-02,Chronic kidney disease. Complains of vision changes.,mri_scans/Tr-no_0694.jpg,Mass identified in superior portion.
+James Robinson,1942-02-01,Depression. Complains of nausea.,mri_scans/Tr-no_0695.jpg,Mass identified in anterior region.
+Daniel Jackson,1966-02-18,Asthma. Complains of bleeding.,mri_scans/Tr-no_0696.jpg,Normal morphology in anterior region.
+William Johnson,1948-05-08,Post-operative evaluation. Complains of weakness.,mri_scans/Tr-no_0697.jpg,Enhancement pattern typical in central area.
+Joshua Thompson,1979-10-08,Chronic obstructive pulmonary disease. Complains of shortness of breath.,mri_scans/Tr-no_0698.jpg,Small nodule found in posterior region.
+John Smith,1951-10-11,Thyroid disorder. Complains of headache.,mri_scans/Tr-no_0699.jpg,Tear suspected in anterior region.
+Michael Miller,1941-04-28,Cardiac arrhythmia. Complains of dizziness.,mri_scans/Tr-no_0700.jpg,Degenerative changes in lower left quadrant.
+Matthew Smith,1946-11-06,Liver cirrhosis. Complains of fatigue.,mri_scans/Tr-no_0701.jpg,Metastasis suspected in lateral aspect.
+Christopher Anderson,1948-02-22,Coronary artery disease. Complains of dizziness.,mri_scans/Tr-no_0702.jpg,Position normal in superior portion.
+Sarah Robinson,1996-10-18,Depression. Complains of bleeding.,mri_scans/Tr-no_0703.jpg,Tear suspected in anterior region.
+Emily Clark,1992-10-06,Chronic obstructive pulmonary disease. Complains of weakness.,mri_scans/Tr-no_0704.jpg,Small artifact observed in upper right quadrant.
+Robert Harris,1956-12-13,Hyperlipidemia. Complains of cough.,mri_scans/Tr-no_0705.jpg,Disc bulge detected in peripheral zone.
+Sarah Clark,1951-01-16,Pregnancy related. Complains of fatigue.,mri_scans/Tr-no_0706.jpg,Fluid collection in anterior region.
+Stephanie Miller,1961-10-31,Asthma. Complains of headache.,mri_scans/Tr-no_0707.jpg,Position normal in lower left quadrant.
+Ashley Davis,1993-09-01,Liver cirrhosis. Complains of infection.,mri_scans/Tr-no_0708.jpg,Tear suspected in superior portion.
+Ashley Martin,1961-12-29,Liver cirrhosis. Complains of weight loss.,mri_scans/Tr-no_0709.jpg,Normal morphology in posterior region.
+William Miller,1959-07-23,Asthma. Complains of fever.,mri_scans/Tr-no_0710.jpg,Metastasis suspected in central area.
+Jennifer Smith,1941-03-02,Thyroid disorder. Complains of swelling.,mri_scans/Tr-no_0711.jpg,Disc bulge detected in anterior region.
+David Jackson,1971-09-09,Coronary artery disease. Complains of joint pain.,mri_scans/Tr-no_0712.jpg,Small nodule found in posterior region.
+William Martinez,1957-11-16,Coronary artery disease. Complains of vision changes.,mri_scans/Tr-no_0713.jpg,Minor thickening in posterior region.
+Kimberly Chen,1979-08-01,Cardiac arrhythmia. Complains of numbness.,mri_scans/Tr-no_0714.jpg,Small nodule found in lower left quadrant.
+Robert Clark,1959-11-14,Coronary artery disease. Complains of weakness.,mri_scans/Tr-no_0715.jpg,No significant abnormalities in posterior region.
+David Martinez,1950-06-25,Asthma. Complains of shortness of breath.,mri_scans/Tr-no_0716.jpg,Enhancement pattern typical in lower left quadrant.
+Christopher White,1984-10-06,Chronic obstructive pulmonary disease. Complains of nausea.,mri_scans/Tr-no_0717.jpg,Metastasis suspected in posterior region.
+Joshua Wilson,1991-06-23,Rheumatoid arthritis. Complains of bleeding.,mri_scans/Tr-no_0718.jpg,Metastasis suspected in posterior region.
+Emily Thompson,1986-10-21,Coronary artery disease. Complains of rash.,mri_scans/Tr-no_0719.jpg,Mass identified in posterior region.
+Sarah White,1993-09-26,Osteoarthritis. Complains of nausea.,mri_scans/Tr-no_0720.jpg,Mild edema noted in peripheral zone.
+Daniel Wilson,1952-05-18,Cardiac arrhythmia. Complains of vision changes.,mri_scans/Tr-no_0721.jpg,Inflammation present in lateral aspect.
+Daniel Wilson,1977-10-22,Coronary artery disease. Complains of chest pain.,mri_scans/Tr-no_0722.jpg,Normal morphology in lower left quadrant.
+Robert Martin,1991-09-01,Hyperlipidemia. Complains of fatigue.,mri_scans/Tr-no_0723.jpg,Degenerative changes in central area.
+Sarah Davis,1995-07-18,Post-operative evaluation. Complains of vision changes.,mri_scans/Tr-no_0724.jpg,Enhancement pattern typical in superior portion.
+Matthew Thompson,1976-06-27,Chronic kidney disease. Complains of chest pain.,mri_scans/Tr-no_0725.jpg,Inflammation present in lower left quadrant.
+Sarah Harris,1983-06-19,Migraine headaches. Complains of fatigue.,mri_scans/Tr-no_0726.jpg,Tear suspected in peripheral zone.
+Sarah Clark,1981-08-18,Cardiac arrhythmia. Complains of chest pain.,mri_scans/Tr-no_0727.jpg,Small artifact observed in superior portion.
+Michelle Martinez,1985-07-08,Pregnancy related. Complains of chest pain.,mri_scans/Tr-no_0728.jpg,Enhancement pattern typical in lower left quadrant.
+David Martin,1975-12-04,Sports injury. Complains of nausea.,mri_scans/Tr-no_0729.jpg,Degenerative changes in lateral aspect.
+Jennifer Miller,1965-02-24,History of hypertension. Complains of cough.,mri_scans/Tr-no_0730.jpg,Fluid collection in superior portion.
+Jennifer Wilson,1960-05-30,Liver cirrhosis. Complains of numbness.,mri_scans/Tr-no_0731.jpg,Mild edema noted in central area.
+Christopher Martinez,1964-05-26,Diabetes mellitus type 2. Complains of vision changes.,mri_scans/Tr-no_0732.jpg,Small nodule found in inferior portion.
+Amanda Wilson,1950-01-05,Diabetes mellitus type 2. Complains of abdominal discomfort.,mri_scans/Tr-no_0733.jpg,Tear suspected in central area.
+Sarah Davis,1988-12-23,Rheumatoid arthritis. Complains of vision changes.,mri_scans/Tr-no_0734.jpg,Disc bulge detected in lateral aspect.
+Ashley Thompson,1994-04-11,Chronic obstructive pulmonary disease. Complains of rash.,mri_scans/Tr-no_0735.jpg,Disc bulge detected in lateral aspect.
+Matthew Harris,1945-09-26,History of hypertension. Complains of rash.,mri_scans/Tr-no_0736.jpg,Degenerative changes in central area.
+Amanda Johnson,1954-07-31,Pregnancy related. Complains of bleeding.,mri_scans/Tr-no_0737.jpg,Minor thickening in lower left quadrant.
+Michelle Martinez,1944-05-11,Depression. Complains of nausea.,mri_scans/Tr-no_0738.jpg,Degenerative changes in lateral aspect.
+Robert Harris,1955-05-23,Diabetes mellitus type 2. Complains of cough.,mri_scans/Tr-no_0739.jpg,Tear suspected in medial aspect.
+Emily Thompson,1997-05-21,Cardiac arrhythmia. Complains of nausea.,mri_scans/Tr-no_0740.jpg,Fluid collection in posterior region.
+Amanda Thompson,1947-08-16,Asthma. Complains of bleeding.,mri_scans/Tr-no_0741.jpg,Disc bulge detected in inferior portion.
+Robert Chen,1950-10-01,Chronic obstructive pulmonary disease. Complains of shortness of breath.,mri_scans/Tr-no_0742.jpg,Small nodule found in central area.
+Daniel Brown,1965-07-10,Rheumatoid arthritis. Complains of rash.,mri_scans/Tr-no_0743.jpg,Possible lesion detected in central area.
+Stephanie Anderson,1984-02-13,Sports injury. Complains of dizziness.,mri_scans/Tr-no_0744.jpg,Calcification noted in medial aspect.
+John Miller,1991-10-09,Asthma. Complains of dizziness.,mri_scans/Tr-no_0745.jpg,Position normal in inferior portion.
+Kimberly Miller,1948-02-26,History of hypertension. Complains of cough.,mri_scans/Tr-no_0746.jpg,Mild edema noted in lateral aspect.
+Jennifer Thompson,1952-06-07,Depression. Complains of nausea.,mri_scans/Tr-no_0747.jpg,Degenerative changes in posterior region.
+James Martinez,1973-05-12,Back pain with radiculopathy. Complains of bleeding.,mri_scans/Tr-no_0748.jpg,Mild edema noted in superior portion.
+Christopher Wilson,1948-04-18,Rheumatoid arthritis. Complains of palpitations.,mri_scans/Tr-no_0749.jpg,Mild edema noted in inferior portion.
+Daniel Garcia,1981-09-04,Migraine headaches. Complains of numbness.,mri_scans/Tr-no_0750.jpg,Normal morphology in superior portion.
+Robert Clark,1993-05-15,Migraine headaches. Complains of infection.,mri_scans/Tr-no_0751.jpg,Degenerative changes in lateral aspect.
+John Jackson,1946-05-29,Depression. Complains of cough.,mri_scans/Tr-no_0752.jpg,Position normal in lower left quadrant.
+David Garcia,1964-02-04,Asthma. Complains of rash.,mri_scans/Tr-no_0753.jpg,Possible lesion detected in superior portion.
+James Taylor,1975-04-16,Migraine headaches. Complains of palpitations.,mri_scans/Tr-no_0754.jpg,Small nodule found in peripheral zone.
+William Martinez,1956-06-17,Rheumatoid arthritis. Complains of swelling.,mri_scans/Tr-no_0755.jpg,Calcification noted in anterior region.
+Michael Miller,1973-05-31,Chronic obstructive pulmonary disease. Complains of numbness.,mri_scans/Tr-no_0756.jpg,Inflammation present in inferior portion.
+Lisa Thomas,1960-12-02,Post-operative evaluation. Complains of vision changes.,mri_scans/Tr-no_0757.jpg,Degenerative changes in upper right quadrant.
+Lisa Jackson,1947-03-23,Cardiac arrhythmia. Complains of palpitations.,mri_scans/Tr-no_0758.jpg,Small artifact observed in central area.
+Christopher Johnson,1981-05-09,Gastroesophageal reflux. Complains of joint pain.,mri_scans/Tr-no_0759.jpg,Fluid collection in inferior portion.
+Amanda Martinez,1975-09-04,Diabetes mellitus type 2. Complains of rash.,mri_scans/Tr-no_0760.jpg,Small nodule found in lower left quadrant.
+Michelle Johnson,1977-12-07,Liver cirrhosis. Complains of dizziness.,mri_scans/Tr-no_0761.jpg,Inflammation present in lateral aspect.
+Kimberly Miller,1944-02-12,History of hypertension. Complains of weakness.,mri_scans/Tr-no_0762.jpg,Normal morphology in lateral aspect.
+John Miller,1988-12-30,Cardiac arrhythmia. Complains of rash.,mri_scans/Tr-no_0763.jpg,Inflammation present in medial aspect.
+William Robinson,1944-08-18,Asthma. Complains of swelling.,mri_scans/Tr-no_0764.jpg,Mass identified in posterior region.
+Kimberly White,1949-04-10,Rheumatoid arthritis. Complains of infection.,mri_scans/Tr-no_0765.jpg,Small artifact observed in posterior region.
+Matthew Martinez,1954-10-16,Chronic kidney disease. Complains of headache.,mri_scans/Tr-no_0766.jpg,Small artifact observed in lateral aspect.
+Christopher Brown,1951-02-18,Chronic kidney disease. Complains of rash.,mri_scans/Tr-no_0767.jpg,Tear suspected in lateral aspect.
+Jessica Chen,1943-05-14,Back pain with radiculopathy. Complains of abdominal discomfort.,mri_scans/Tr-no_0768.jpg,Position normal in inferior portion.
+Ashley Martinez,1999-10-21,Anxiety disorder. Complains of cough.,mri_scans/Tr-no_0769.jpg,Calcification noted in lower left quadrant.
+William Harris,1977-03-21,Sports injury. Complains of vision changes.,mri_scans/Tr-no_0770.jpg,Fluid collection in peripheral zone.
+Stephanie Martinez,1975-11-20,Cardiac arrhythmia. Complains of numbness.,mri_scans/Tr-no_0771.jpg,Enhancement pattern typical in lateral aspect.
+Amanda Martinez,1960-09-20,Rheumatoid arthritis. Complains of weight loss.,mri_scans/Tr-no_0772.jpg,Enhancement pattern typical in superior portion.
+Joshua Chen,1999-07-24,Post-operative evaluation. Complains of vision changes.,mri_scans/Tr-no_0773.jpg,Mass identified in posterior region.
+Stephanie Clark,1960-07-26,Cardiac arrhythmia. Complains of nausea.,mri_scans/Tr-no_0774.jpg,Enhancement pattern typical in lower left quadrant.
+Kimberly Robinson,1941-03-23,Diabetes mellitus type 2. Complains of dizziness.,mri_scans/Tr-no_0775.jpg,Mass identified in posterior region.
+Robert Martinez,1991-03-04,Back pain with radiculopathy. Complains of joint pain.,mri_scans/Tr-no_0776.jpg,Minor thickening in lower left quadrant.
+Stephanie Davis,1996-10-30,Diabetes mellitus type 2. Complains of numbness.,mri_scans/Tr-no_0777.jpg,Minor thickening in central area.
+Lisa Wilson,1962-08-18,Migraine headaches. Complains of weight loss.,mri_scans/Tr-no_0778.jpg,Normal morphology in medial aspect.
+Sarah Robinson,1948-11-30,Thyroid disorder. Complains of swelling.,mri_scans/Tr-no_0779.jpg,Disc bulge detected in anterior region.
+Jennifer Martinez,1981-04-04,Back pain with radiculopathy. Complains of weight loss.,mri_scans/Tr-no_0780.jpg,Normal morphology in lateral aspect.
+Christopher Martinez,1997-11-16,Thyroid disorder. Complains of nausea.,mri_scans/Tr-no_0781.jpg,Disc bulge detected in posterior region.
+Michael Harris,2000-12-19,Chronic obstructive pulmonary disease. Complains of numbness.,mri_scans/Tr-no_0782.jpg,Fluid collection in anterior region.
+David Davis,1979-07-07,Diabetes mellitus type 2. Complains of numbness.,mri_scans/Tr-no_0783.jpg,Mass identified in central area.
+John Smith,1972-03-15,Coronary artery disease. Complains of infection.,mri_scans/Tr-no_0784.jpg,Minor thickening in medial aspect.
+Sarah Garcia,1945-04-27,Hyperlipidemia. Complains of weakness.,mri_scans/Tr-no_0785.jpg,Enhancement pattern typical in inferior portion.
+Ashley Thompson,1945-04-20,Migraine headaches. Complains of chest pain.,mri_scans/Tr-no_0786.jpg,Calcification noted in lower left quadrant.
+Joshua Martinez,1947-01-06,Back pain with radiculopathy. Complains of shortness of breath.,mri_scans/Tr-no_0787.jpg,Possible lesion detected in central area.
+Michelle Miller,1972-07-04,Rheumatoid arthritis. Complains of abdominal discomfort.,mri_scans/Tr-no_0788.jpg,Inflammation present in medial aspect.
+William Miller,1996-05-24,Sports injury. Complains of abdominal discomfort.,mri_scans/Tr-no_0789.jpg,Calcification noted in posterior region.
+Emily Davis,1941-09-16,Liver cirrhosis. Complains of chest pain.,mri_scans/Tr-no_0790.jpg,Small artifact observed in lateral aspect.
+Joshua Chen,1972-04-13,History of hypertension. Complains of rash.,mri_scans/Tr-no_0791.jpg,Degenerative changes in upper right quadrant.
+Sarah Thomas,1943-07-29,Hyperlipidemia. Complains of joint pain.,mri_scans/Tr-no_0792.jpg,Fluid collection in peripheral zone.
+Jessica Johnson,1995-10-14,Sports injury. Complains of chest pain.,mri_scans/Tr-no_0793.jpg,Disc bulge detected in inferior portion.
+Robert Smith,1960-08-22,Post-operative evaluation. Complains of vision changes.,mri_scans/Tr-no_0794.jpg,Fluid collection in upper right quadrant.
+Robert Johnson,1947-07-06,Migraine headaches. Complains of abdominal discomfort.,mri_scans/Tr-no_0795.jpg,Inflammation present in inferior portion.
+David Robinson,1948-03-11,History of hypertension. Complains of numbness.,mri_scans/Tr-no_0796.jpg,Normal morphology in anterior region.
+Christopher Smith,1968-06-08,Anxiety disorder. Complains of fever.,mri_scans/Tr-no_0797.jpg,Normal morphology in lower left quadrant.
+Amanda Chen,1961-11-29,Chronic obstructive pulmonary disease. Complains of nausea.,mri_scans/Tr-no_0798.jpg,Tear suspected in upper right quadrant.
+Jennifer Smith,1970-10-06,Migraine headaches. Complains of weight loss.,mri_scans/Tr-no_0799.jpg,Possible lesion detected in posterior region.
+Emily Thomas,1984-10-27,Chronic kidney disease. Complains of abdominal discomfort.,mri_scans/Tr-no_0800.jpg,Minor thickening in lateral aspect.
+William Clark,1977-01-16,Migraine headaches. Complains of bleeding.,mri_scans/Tr-no_0801.jpg,Tear suspected in lower left quadrant.
+David Thomas,1967-04-12,Hyperlipidemia. Complains of numbness.,mri_scans/Tr-no_0802.jpg,Fluid collection in central area.
+Matthew Thompson,1961-04-07,Back pain with radiculopathy. Complains of infection.,mri_scans/Tr-no_0803.jpg,Mild edema noted in upper right quadrant.
+Michael Thompson,1954-01-23,Post-operative evaluation. Complains of cough.,mri_scans/Tr-no_0804.jpg,Disc bulge detected in upper right quadrant.
+Sarah Harris,1953-07-22,Chronic obstructive pulmonary disease. Complains of vision changes.,mri_scans/Tr-no_0805.jpg,Fluid collection in lateral aspect.
+Stephanie Garcia,1989-01-15,Osteoarthritis. Complains of vision changes.,mri_scans/Tr-no_0806.jpg,Disc bulge detected in medial aspect.
+Ashley Clark,1989-09-03,Depression. Complains of fatigue.,mri_scans/Tr-no_0807.jpg,Calcification noted in inferior portion.
+James Smith,1954-02-08,Post-operative evaluation. Complains of rash.,mri_scans/Tr-no_0808.jpg,Minor thickening in peripheral zone.
+Matthew Smith,1983-07-01,Migraine headaches. Complains of bleeding.,mri_scans/Tr-no_0809.jpg,Small nodule found in upper right quadrant.
+Matthew Martin,1977-05-24,Liver cirrhosis. Complains of rash.,mri_scans/Tr-no_0810.jpg,Minor thickening in medial aspect.
+Lisa Wilson,1974-02-19,Post-operative evaluation. Complains of shortness of breath.,mri_scans/Tr-no_0811.jpg,Small artifact observed in superior portion.
+Emily White,1983-02-18,Asthma. Complains of weakness.,mri_scans/Tr-no_0812.jpg,Position normal in medial aspect.
+John Taylor,1949-01-30,Thyroid disorder. Complains of chest pain.,mri_scans/Tr-no_0813.jpg,Small artifact observed in medial aspect.
+Jessica Taylor,1991-01-08,History of hypertension. Complains of weight loss.,mri_scans/Tr-no_0814.jpg,Disc bulge detected in medial aspect.
+Stephanie Martinez,1999-08-27,Anxiety disorder. Complains of abdominal discomfort.,mri_scans/Tr-no_0815.jpg,Disc bulge detected in lateral aspect.
+Amanda Johnson,1984-05-06,Coronary artery disease. Complains of weight loss.,mri_scans/Tr-no_0816.jpg,Small artifact observed in medial aspect.
+Stephanie Taylor,1973-09-13,Asthma. Complains of fatigue.,mri_scans/Tr-no_0817.jpg,Metastasis suspected in central area.
+James Clark,1969-08-11,Osteoarthritis. Complains of weight loss.,mri_scans/Tr-no_0818.jpg,Inflammation present in posterior region.
+Robert Brown,1968-06-09,Post-operative evaluation. Complains of shortness of breath.,mri_scans/Tr-no_0819.jpg,Small nodule found in central area.
+David Martinez,1971-05-20,Migraine headaches. Complains of weight loss.,mri_scans/Tr-no_0820.jpg,Calcification noted in anterior region.
+Daniel White,1971-02-10,Thyroid disorder. Complains of rash.,mri_scans/Tr-no_0821.jpg,Metastasis suspected in peripheral zone.
+Kimberly Taylor,1965-05-25,Pregnancy related. Complains of chest pain.,mri_scans/Tr-no_0822.jpg,Calcification noted in peripheral zone.
+Lisa Jackson,1966-10-30,Asthma. Complains of headache.,mri_scans/Tr-no_0823.jpg,Position normal in posterior region.
+Ashley Garcia,1994-08-16,Anxiety disorder. Complains of numbness.,mri_scans/Tr-no_0824.jpg,Minor thickening in medial aspect.
+Michelle Clark,1942-09-08,Liver cirrhosis. Complains of weight loss.,mri_scans/Tr-no_0825.jpg,Mass identified in lower left quadrant.
+Stephanie Johnson,1989-04-22,Coronary artery disease. Complains of weakness.,mri_scans/Tr-no_0826.jpg,Normal morphology in anterior region.
+Joshua Garcia,1958-01-23,Migraine headaches. Complains of numbness.,mri_scans/Tr-no_0827.jpg,Minor thickening in medial aspect.
+Robert Smith,1989-04-15,Osteoarthritis. Complains of chest pain.,mri_scans/Tr-no_0828.jpg,Possible lesion detected in anterior region.
+Lisa Smith,1983-07-05,Chronic obstructive pulmonary disease. Complains of fever.,mri_scans/Tr-no_0829.jpg,Tear suspected in lower left quadrant.
+Robert Clark,1955-02-04,Asthma. Complains of dizziness.,mri_scans/Tr-no_0830.jpg,No significant abnormalities in upper right quadrant.
+David Martinez,1996-01-02,Osteoarthritis. Complains of joint pain.,mri_scans/Tr-no_0831.jpg,Minor thickening in anterior region.
+James Anderson,1989-09-10,Cardiac arrhythmia. Complains of weight loss.,mri_scans/Tr-no_0832.jpg,Position normal in lower left quadrant.
+Stephanie Robinson,1975-11-22,Gastroesophageal reflux. Complains of cough.,mri_scans/Tr-no_0833.jpg,Metastasis suspected in lateral aspect.
+Emily Miller,1986-10-20,Sports injury. Complains of abdominal discomfort.,mri_scans/Tr-no_0834.jpg,Calcification noted in peripheral zone.
+John Harris,1976-12-07,Chronic kidney disease. Complains of infection.,mri_scans/Tr-no_0835.jpg,Metastasis suspected in lateral aspect.
+William Chen,1987-04-10,Liver cirrhosis. Complains of joint pain.,mri_scans/Tr-no_0836.jpg,Enhancement pattern typical in lateral aspect.
+Jennifer Thompson,1993-09-03,Anxiety disorder. Complains of joint pain.,mri_scans/Tr-no_0837.jpg,No significant abnormalities in peripheral zone.
+Joshua Anderson,1970-11-20,Chronic kidney disease. Complains of swelling.,mri_scans/Tr-no_0838.jpg,Disc bulge detected in upper right quadrant.
+James Wilson,1955-02-08,Chronic obstructive pulmonary disease. Complains of weight loss.,mri_scans/Tr-no_0839.jpg,Mild edema noted in upper right quadrant.
+Sarah Robinson,1993-10-22,Asthma. Complains of vision changes.,mri_scans/Tr-no_0840.jpg,Degenerative changes in central area.
+Robert Miller,1955-07-26,Migraine headaches. Complains of dizziness.,mri_scans/Tr-no_0841.jpg,Position normal in medial aspect.
+Jessica Johnson,1954-11-27,Migraine headaches. Complains of nausea.,mri_scans/Tr-no_0842.jpg,Tear suspected in posterior region.
+John Martinez,1953-11-14,History of hypertension. Complains of rash.,mri_scans/Tr-no_0843.jpg,Disc bulge detected in superior portion.
+Stephanie Garcia,1994-08-01,Chronic obstructive pulmonary disease. Complains of infection.,mri_scans/Tr-no_0844.jpg,Fluid collection in superior portion.
+Michelle Anderson,1999-01-17,Rheumatoid arthritis. Complains of fatigue.,mri_scans/Tr-no_0845.jpg,Position normal in upper right quadrant.
+Emily Thompson,1986-11-08,Migraine headaches. Complains of shortness of breath.,mri_scans/Tr-no_0846.jpg,Calcification noted in superior portion.
+Stephanie Martin,1980-05-27,Chronic kidney disease. Complains of fever.,mri_scans/Tr-no_0847.jpg,Position normal in upper right quadrant.
+Joshua Smith,1969-02-25,Hyperlipidemia. Complains of rash.,mri_scans/Tr-no_0848.jpg,Normal morphology in superior portion.
+David Smith,1943-01-16,Migraine headaches. Complains of weight loss.,mri_scans/Tr-no_0849.jpg,Normal morphology in peripheral zone.
+Jennifer Harris,1957-03-28,Rheumatoid arthritis. Complains of numbness.,mri_scans/Tr-no_0850.jpg,Minor thickening in inferior portion.
+Kimberly White,1998-02-03,History of hypertension. Complains of rash.,mri_scans/Tr-no_0851.jpg,Tear suspected in anterior region.
+James Chen,1943-01-22,Diabetes mellitus type 2. Complains of vision changes.,mri_scans/Tr-no_0852.jpg,Position normal in anterior region.
+Jennifer Thompson,1988-08-20,Cardiac arrhythmia. Complains of fatigue.,mri_scans/Tr-no_0853.jpg,Small artifact observed in upper right quadrant.
+Jennifer White,1954-05-06,Gastroesophageal reflux. Complains of rash.,mri_scans/Tr-no_0854.jpg,Tear suspected in medial aspect.
+Joshua Harris,1962-02-22,Hyperlipidemia. Complains of shortness of breath.,mri_scans/Tr-no_0855.jpg,Position normal in medial aspect.
+Kimberly Smith,1950-02-15,Hyperlipidemia. Complains of numbness.,mri_scans/Tr-no_0856.jpg,Normal morphology in medial aspect.
+James Taylor,1972-04-18,Coronary artery disease. Complains of palpitations.,mri_scans/Tr-no_0857.jpg,Calcification noted in central area.
+Kimberly Martinez,1956-01-19,Back pain with radiculopathy. Complains of joint pain.,mri_scans/Tr-no_0858.jpg,Disc bulge detected in superior portion.
+Christopher Davis,1988-01-18,Chronic obstructive pulmonary disease. Complains of infection.,mri_scans/Tr-no_0859.jpg,Metastasis suspected in lower left quadrant.
+James Martinez,1982-10-04,Osteoarthritis. Complains of abdominal discomfort.,mri_scans/Tr-no_0860.jpg,Normal morphology in upper right quadrant.
+James Davis,1958-03-23,Back pain with radiculopathy. Complains of cough.,mri_scans/Tr-no_0861.jpg,Degenerative changes in lateral aspect.
+Daniel Harris,1994-09-10,Cardiac arrhythmia. Complains of rash.,mri_scans/Tr-no_0862.jpg,Tear suspected in lateral aspect.
+Jennifer Jackson,1972-06-01,Diabetes mellitus type 2. Complains of headache.,mri_scans/Tr-no_0863.jpg,Calcification noted in medial aspect.
+Amanda Wilson,1960-01-03,Gastroesophageal reflux. Complains of swelling.,mri_scans/Tr-no_0864.jpg,Mild edema noted in superior portion.
+Kimberly Harris,1971-11-11,Chronic obstructive pulmonary disease. Complains of chest pain.,mri_scans/Tr-no_0865.jpg,Small nodule found in peripheral zone.
+Christopher Davis,1954-03-05,Chronic obstructive pulmonary disease. Complains of joint pain.,mri_scans/Tr-no_0866.jpg,Mild edema noted in peripheral zone.
+Jessica Jackson,1958-10-28,Asthma. Complains of rash.,mri_scans/Tr-no_0867.jpg,Fluid collection in lower left quadrant.
+Sarah Smith,1992-12-16,History of hypertension. Complains of shortness of breath.,mri_scans/Tr-no_0868.jpg,Fluid collection in anterior region.
+Jennifer Garcia,1970-05-23,Osteoarthritis. Complains of dizziness.,mri_scans/Tr-no_0869.jpg,Fluid collection in anterior region.
+Christopher Martinez,1994-07-17,Thyroid disorder. Complains of dizziness.,mri_scans/Tr-no_0870.jpg,Degenerative changes in upper right quadrant.
+Lisa Thomas,1998-06-18,Back pain with radiculopathy. Complains of cough.,mri_scans/Tr-no_0871.jpg,Degenerative changes in superior portion.
+John Smith,1984-09-30,History of hypertension. Complains of fatigue.,mri_scans/Tr-no_0872.jpg,Tear suspected in posterior region.
+Amanda Taylor,1965-10-02,Thyroid disorder. Complains of rash.,mri_scans/Tr-no_0873.jpg,Inflammation present in medial aspect.
+Kimberly Anderson,1940-11-23,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0874.jpg,Small artifact observed in upper right quadrant.
+John Martinez,1993-06-27,Pregnancy related. Complains of shortness of breath.,mri_scans/Tr-no_0875.jpg,Minor thickening in superior portion.
+James Davis,1946-01-25,Rheumatoid arthritis. Complains of bleeding.,mri_scans/Tr-no_0876.jpg,Small artifact observed in lower left quadrant.
+Emily Wilson,1970-08-28,Rheumatoid arthritis. Complains of weight loss.,mri_scans/Tr-no_0877.jpg,Calcification noted in lower left quadrant.
+Emily Taylor,1955-10-15,Liver cirrhosis. Complains of cough.,mri_scans/Tr-no_0878.jpg,Position normal in posterior region.
+Jessica Thompson,1999-02-03,Osteoarthritis. Complains of joint pain.,mri_scans/Tr-no_0879.jpg,Inflammation present in posterior region.
+Daniel Thompson,2000-06-02,Sports injury. Complains of vision changes.,mri_scans/Tr-no_0880.jpg,Inflammation present in upper right quadrant.
+James Johnson,1978-01-31,Depression. Complains of cough.,mri_scans/Tr-no_0881.jpg,No significant abnormalities in inferior portion.
+Michael Wilson,1985-03-27,Back pain with radiculopathy. Complains of weakness.,mri_scans/Tr-no_0882.jpg,Mass identified in lateral aspect.
+Stephanie Thomas,1951-05-01,Thyroid disorder. Complains of fatigue.,mri_scans/Tr-no_0883.jpg,Tear suspected in superior portion.
+Michelle Martinez,1948-01-31,Pregnancy related. Complains of dizziness.,mri_scans/Tr-no_0884.jpg,Inflammation present in medial aspect.
+Jessica Smith,2000-07-24,History of hypertension. Complains of rash.,mri_scans/Tr-no_0885.jpg,Mass identified in medial aspect.
+Daniel Jackson,1974-04-22,Anxiety disorder. Complains of chest pain.,mri_scans/Tr-no_0886.jpg,Enhancement pattern typical in lower left quadrant.
+Sarah White,1943-06-24,Chronic obstructive pulmonary disease. Complains of shortness of breath.,mri_scans/Tr-no_0887.jpg,Metastasis suspected in lateral aspect.
+Kimberly Robinson,1961-07-16,Chronic kidney disease. Complains of bleeding.,mri_scans/Tr-no_0888.jpg,Inflammation present in lower left quadrant.
+Christopher Miller,1953-07-30,Back pain with radiculopathy. Complains of rash.,mri_scans/Tr-no_0889.jpg,Possible lesion detected in lateral aspect.
+Michelle Anderson,1990-06-23,Post-operative evaluation. Complains of dizziness.,mri_scans/Tr-no_0890.jpg,No significant abnormalities in inferior portion.
+Christopher Martinez,1977-11-07,Back pain with radiculopathy. Complains of shortness of breath.,mri_scans/Tr-no_0891.jpg,Mild edema noted in superior portion.
+David Brown,1993-11-16,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0892.jpg,Fluid collection in superior portion.
+Stephanie Smith,1987-09-10,Liver cirrhosis. Complains of bleeding.,mri_scans/Tr-no_0893.jpg,No significant abnormalities in central area.
+Joshua Anderson,1961-11-16,Osteoarthritis. Complains of fever.,mri_scans/Tr-no_0894.jpg,Fluid collection in lower left quadrant.
+John Jackson,1951-09-27,Coronary artery disease. Complains of shortness of breath.,mri_scans/Tr-no_0895.jpg,Tear suspected in superior portion.
+James Thomas,1959-12-01,Diabetes mellitus type 2. Complains of headache.,mri_scans/Tr-no_0896.jpg,Tear suspected in inferior portion.
+Daniel Miller,1976-10-01,Back pain with radiculopathy. Complains of infection.,mri_scans/Tr-no_0897.jpg,Metastasis suspected in medial aspect.
+James Clark,1964-06-25,Migraine headaches. Complains of shortness of breath.,mri_scans/Tr-no_0898.jpg,Enhancement pattern typical in lateral aspect.
+David Brown,1965-04-16,Diabetes mellitus type 2. Complains of vision changes.,mri_scans/Tr-no_0899.jpg,Minor thickening in anterior region.
+Kimberly Anderson,1994-09-23,Depression. Complains of palpitations.,mri_scans/Tr-no_0900.jpg,Calcification noted in anterior region.
+Robert Davis,1978-10-09,Rheumatoid arthritis. Complains of fatigue.,mri_scans/Tr-no_0901.jpg,Minor thickening in medial aspect.
+Michelle Robinson,1978-01-09,History of hypertension. Complains of shortness of breath.,mri_scans/Tr-no_0902.jpg,Fluid collection in medial aspect.
+Daniel Martinez,1982-04-07,Migraine headaches. Complains of joint pain.,mri_scans/Tr-no_0903.jpg,No significant abnormalities in medial aspect.
+Jessica Smith,1991-01-05,Osteoarthritis. Complains of vision changes.,mri_scans/Tr-no_0904.jpg,Inflammation present in lower left quadrant.
+Christopher Clark,1952-09-05,Anxiety disorder. Complains of dizziness.,mri_scans/Tr-no_0905.jpg,Degenerative changes in upper right quadrant.
+Lisa Clark,1966-03-18,Gastroesophageal reflux. Complains of numbness.,mri_scans/Tr-no_0906.jpg,Calcification noted in superior portion.
+Ashley Martin,1995-09-30,Rheumatoid arthritis. Complains of bleeding.,mri_scans/Tr-no_0907.jpg,Position normal in medial aspect.
+Jessica Anderson,1964-03-24,Post-operative evaluation. Complains of cough.,mri_scans/Tr-no_0908.jpg,Mass identified in peripheral zone.
+David Chen,1961-03-18,Asthma. Complains of fever.,mri_scans/Tr-no_0909.jpg,Calcification noted in lower left quadrant.
+Christopher Anderson,1985-12-10,Chronic kidney disease. Complains of weight loss.,mri_scans/Tr-no_0910.jpg,Small artifact observed in medial aspect.
+Christopher Clark,1995-07-10,Diabetes mellitus type 2. Complains of cough.,mri_scans/Tr-no_0911.jpg,Metastasis suspected in lateral aspect.
+Sarah Davis,1956-09-01,Coronary artery disease. Complains of joint pain.,mri_scans/Tr-no_0912.jpg,Calcification noted in upper right quadrant.
+Lisa Smith,1986-02-24,Hyperlipidemia. Complains of fever.,mri_scans/Tr-no_0913.jpg,Mild edema noted in peripheral zone.
+David Wilson,1952-10-05,Gastroesophageal reflux. Complains of chest pain.,mri_scans/Tr-no_0914.jpg,Small artifact observed in lateral aspect.
+Joshua Anderson,1972-06-07,Cardiac arrhythmia. Complains of vision changes.,mri_scans/Tr-no_0915.jpg,Small nodule found in medial aspect.
+Michelle Thomas,1982-05-07,Asthma. Complains of headache.,mri_scans/Tr-no_0916.jpg,Normal morphology in upper right quadrant.
+James Garcia,1988-05-08,Osteoarthritis. Complains of cough.,mri_scans/Tr-no_0917.jpg,Degenerative changes in upper right quadrant.
+Sarah White,1952-10-10,Back pain with radiculopathy. Complains of palpitations.,mri_scans/Tr-no_0918.jpg,Inflammation present in superior portion.
+Daniel Anderson,1969-01-26,Migraine headaches. Complains of shortness of breath.,mri_scans/Tr-no_0919.jpg,Tear suspected in posterior region.
+William Miller,1994-10-27,Coronary artery disease. Complains of rash.,mri_scans/Tr-no_0920.jpg,Fluid collection in medial aspect.
+Michael Robinson,1952-09-23,Diabetes mellitus type 2. Complains of nausea.,mri_scans/Tr-no_0921.jpg,Calcification noted in medial aspect.
+Sarah Anderson,1956-10-08,Diabetes mellitus type 2. Complains of swelling.,mri_scans/Tr-no_0922.jpg,Metastasis suspected in central area.
+Kimberly Smith,1986-01-03,Chronic obstructive pulmonary disease. Complains of rash.,mri_scans/Tr-no_0923.jpg,Fluid collection in posterior region.
+Stephanie White,1941-04-10,Sports injury. Complains of vision changes.,mri_scans/Tr-no_0924.jpg,Inflammation present in peripheral zone.
+Kimberly Smith,1970-06-09,Depression. Complains of nausea.,mri_scans/Tr-no_0925.jpg,Inflammation present in anterior region.
+Christopher Thomas,1988-09-23,Hyperlipidemia. Complains of dizziness.,mri_scans/Tr-no_0926.jpg,Mild edema noted in anterior region.
+Michael Anderson,1979-03-15,Chronic kidney disease. Complains of abdominal discomfort.,mri_scans/Tr-no_0927.jpg,Inflammation present in inferior portion.
+Emily White,1984-11-24,Chronic kidney disease. Complains of rash.,mri_scans/Tr-no_0928.jpg,Enhancement pattern typical in lower left quadrant.
+Michael Harris,1947-11-29,Post-operative evaluation. Complains of infection.,mri_scans/Tr-no_0929.jpg,Calcification noted in upper right quadrant.
+Jennifer Anderson,1994-04-14,Chronic obstructive pulmonary disease. Complains of chest pain.,mri_scans/Tr-no_0930.jpg,Degenerative changes in medial aspect.
+Jennifer Brown,1987-02-16,Diabetes mellitus type 2. Complains of chest pain.,mri_scans/Tr-no_0931.jpg,Possible lesion detected in posterior region.
+David Robinson,1951-07-06,Sports injury. Complains of numbness.,mri_scans/Tr-no_0932.jpg,Fluid collection in inferior portion.
+William White,1996-04-09,Cardiac arrhythmia. Complains of numbness.,mri_scans/Tr-no_0933.jpg,Fluid collection in peripheral zone.
+William White,1980-06-16,Chronic obstructive pulmonary disease. Complains of weakness.,mri_scans/Tr-no_0934.jpg,Calcification noted in peripheral zone.
+Joshua Davis,1949-08-26,Gastroesophageal reflux. Complains of palpitations.,mri_scans/Tr-no_0935.jpg,Fluid collection in medial aspect.
+David Martinez,1996-05-20,Asthma. Complains of joint pain.,mri_scans/Tr-no_0936.jpg,Calcification noted in upper right quadrant.
+Michael Harris,1955-02-03,Sports injury. Complains of rash.,mri_scans/Tr-no_0937.jpg,Position normal in anterior region.
+Stephanie Taylor,1947-02-07,Diabetes mellitus type 2. Complains of weakness.,mri_scans/Tr-no_0938.jpg,Tear suspected in upper right quadrant.
+Kimberly Jackson,1980-03-19,Depression. Complains of fever.,mri_scans/Tr-no_0939.jpg,Small artifact observed in peripheral zone.
+Daniel Garcia,1976-05-24,Chronic kidney disease. Complains of vision changes.,mri_scans/Tr-no_0940.jpg,Degenerative changes in peripheral zone.
+Michelle Martinez,1947-08-12,Chronic obstructive pulmonary disease. Complains of fatigue.,mri_scans/Tr-no_0941.jpg,Tear suspected in lateral aspect.
+William Anderson,1982-05-13,History of hypertension. Complains of cough.,mri_scans/Tr-no_0942.jpg,Metastasis suspected in lower left quadrant.
+William Martin,1990-12-25,Asthma. Complains of abdominal discomfort.,mri_scans/Tr-no_0943.jpg,Inflammation present in inferior portion.
+John Martinez,1982-03-05,Back pain with radiculopathy. Complains of cough.,mri_scans/Tr-no_0944.jpg,Calcification noted in lower left quadrant.
+Robert Martinez,1965-05-16,Depression. Complains of nausea.,mri_scans/Tr-no_0945.jpg,Normal morphology in superior portion.
+James Miller,1986-04-15,Anxiety disorder. Complains of weakness.,mri_scans/Tr-no_0946.jpg,Fluid collection in lateral aspect.
+David Thomas,2000-05-22,Liver cirrhosis. Complains of infection.,mri_scans/Tr-no_0947.jpg,No significant abnormalities in upper right quadrant.
+Daniel Brown,1974-03-30,Asthma. Complains of fever.,mri_scans/Tr-no_0948.jpg,Normal morphology in lateral aspect.
+Stephanie Chen,1985-09-10,Gastroesophageal reflux. Complains of nausea.,mri_scans/Tr-no_0949.jpg,Normal morphology in peripheral zone.
+Daniel Martinez,1992-06-22,Sports injury. Complains of cough.,mri_scans/Tr-no_0950.jpg,Fluid collection in lateral aspect.
+Emily Robinson,1955-04-14,Pregnancy related. Complains of abdominal discomfort.,mri_scans/Tr-no_0951.jpg,Calcification noted in lower left quadrant.
+Michael Taylor,1977-02-04,Hyperlipidemia. Complains of dizziness.,mri_scans/Tr-no_0952.jpg,No significant abnormalities in peripheral zone.
+Daniel Martin,1954-02-19,Rheumatoid arthritis. Complains of fever.,mri_scans/Tr-no_0953.jpg,No significant abnormalities in lower left quadrant.
+William Smith,1975-11-05,Anxiety disorder. Complains of fatigue.,mri_scans/Tr-no_0954.jpg,No significant abnormalities in inferior portion.
+Jennifer Clark,1978-11-19,Diabetes mellitus type 2. Complains of weakness.,mri_scans/Tr-no_0955.jpg,Small artifact observed in anterior region.
+John Chen,1996-02-14,Gastroesophageal reflux. Complains of rash.,mri_scans/Tr-no_0956.jpg,Degenerative changes in central area.
+Ashley Miller,1961-03-18,Hyperlipidemia. Complains of fatigue.,mri_scans/Tr-no_0957.jpg,Enhancement pattern typical in peripheral zone.
+Jessica Martin,1958-07-24,Diabetes mellitus type 2. Complains of bleeding.,mri_scans/Tr-no_0958.jpg,Possible lesion detected in peripheral zone.
+James Davis,1995-04-30,Migraine headaches. Complains of palpitations.,mri_scans/Tr-no_0959.jpg,Minor thickening in posterior region.
+Emily Harris,1978-02-03,Back pain with radiculopathy. Complains of infection.,mri_scans/Tr-no_0960.jpg,Possible lesion detected in upper right quadrant.
+James Brown,1957-01-12,Osteoarthritis. Complains of infection.,mri_scans/Tr-no_0961.jpg,Enhancement pattern typical in lateral aspect.
+William Jackson,1981-11-23,Diabetes mellitus type 2. Complains of weight loss.,mri_scans/Tr-no_0962.jpg,Enhancement pattern typical in inferior portion.
+Michelle Thomas,1942-10-20,Rheumatoid arthritis. Complains of headache.,mri_scans/Tr-no_0963.jpg,Calcification noted in lateral aspect.
+Sarah Anderson,1999-05-30,Migraine headaches. Complains of joint pain.,mri_scans/Tr-no_0964.jpg,Inflammation present in inferior portion.
+Amanda Clark,1976-05-20,Back pain with radiculopathy. Complains of headache.,mri_scans/Tr-no_0965.jpg,Normal morphology in central area.
+Sarah Martinez,1951-06-22,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0966.jpg,Position normal in central area.
+Christopher Martin,1973-03-15,Cardiac arrhythmia. Complains of dizziness.,mri_scans/Tr-no_0967.jpg,Small nodule found in upper right quadrant.
+Michael Robinson,1980-07-24,Liver cirrhosis. Complains of palpitations.,mri_scans/Tr-no_0968.jpg,Tear suspected in central area.
+Lisa Thomas,1993-05-25,Gastroesophageal reflux. Complains of joint pain.,mri_scans/Tr-no_0969.jpg,Small nodule found in posterior region.
+David Martin,1982-03-05,Asthma. Complains of bleeding.,mri_scans/Tr-no_0970.jpg,Degenerative changes in peripheral zone.
+David White,1981-03-17,Depression. Complains of palpitations.,mri_scans/Tr-no_0971.jpg,Position normal in posterior region.
+Kimberly Garcia,1978-10-28,Post-operative evaluation. Complains of chest pain.,mri_scans/Tr-no_0972.jpg,Mild edema noted in superior portion.
+David Wilson,1969-10-28,Chronic obstructive pulmonary disease. Complains of infection.,mri_scans/Tr-no_0973.jpg,Enhancement pattern typical in anterior region.
+David Davis,1991-12-07,Diabetes mellitus type 2. Complains of weakness.,mri_scans/Tr-no_0974.jpg,Position normal in lateral aspect.
+Michael Garcia,1945-10-31,Anxiety disorder. Complains of rash.,mri_scans/Tr-no_0975.jpg,Calcification noted in lower left quadrant.
+Joshua Davis,1963-12-19,Depression. Complains of rash.,mri_scans/Tr-no_0976.jpg,Mass identified in peripheral zone.
+Kimberly Jackson,1974-07-25,Post-operative evaluation. Complains of joint pain.,mri_scans/Tr-no_0977.jpg,Small artifact observed in central area.
+James Chen,1982-08-22,Pregnancy related. Complains of fever.,mri_scans/Tr-no_0978.jpg,Small artifact observed in peripheral zone.
+John Miller,1944-01-07,Thyroid disorder. Complains of nausea.,mri_scans/Tr-no_0979.jpg,Mild edema noted in medial aspect.
+Matthew Taylor,1961-10-16,Diabetes mellitus type 2. Complains of palpitations.,mri_scans/Tr-no_0980.jpg,Metastasis suspected in medial aspect.
+James Martin,1962-04-06,Liver cirrhosis. Complains of rash.,mri_scans/Tr-no_0981.jpg,Disc bulge detected in lower left quadrant.
+Michael Taylor,1976-05-26,Chronic kidney disease. Complains of weakness.,mri_scans/Tr-no_0982.jpg,Minor thickening in anterior region.
+William Johnson,1946-05-21,Anxiety disorder. Complains of weakness.,mri_scans/Tr-no_0983.jpg,Minor thickening in inferior portion.
+Jennifer Anderson,1940-01-03,Anxiety disorder. Complains of cough.,mri_scans/Tr-no_0984.jpg,Calcification noted in superior portion.
+Amanda Clark,1949-04-13,Thyroid disorder. Complains of vision changes.,mri_scans/Tr-no_0985.jpg,Small artifact observed in posterior region.
+Emily Thompson,1976-09-29,Post-operative evaluation. Complains of shortness of breath.,mri_scans/Tr-no_0986.jpg,Calcification noted in lateral aspect.
+Christopher Harris,1949-08-27,Depression. Complains of bleeding.,mri_scans/Tr-no_0987.jpg,Mild edema noted in lower left quadrant.
+William Johnson,1976-10-14,Liver cirrhosis. Complains of fever.,mri_scans/Tr-no_0988.jpg,Tear suspected in posterior region.
+Robert White,1979-01-26,Hyperlipidemia. Complains of bleeding.,mri_scans/Tr-no_0989.jpg,Fluid collection in posterior region.
+Ashley Martinez,1957-12-24,Sports injury. Complains of headache.,mri_scans/Tr-no_0990.jpg,Degenerative changes in lower left quadrant.
+Matthew Robinson,1941-08-31,Rheumatoid arthritis. Complains of palpitations.,mri_scans/Tr-no_0991.jpg,Enhancement pattern typical in anterior region.
+Matthew Wilson,1988-07-12,Gastroesophageal reflux. Complains of fatigue.,mri_scans/Tr-no_0992.jpg,Small artifact observed in inferior portion.
+Amanda Anderson,1976-07-16,Migraine headaches. Complains of weakness.,mri_scans/Tr-no_0993.jpg,Degenerative changes in peripheral zone.
+Lisa Robinson,1972-09-02,Liver cirrhosis. Complains of headache.,mri_scans/Tr-no_0994.jpg,Tear suspected in upper right quadrant.
+Christopher Clark,1947-05-03,Post-operative evaluation. Complains of rash.,mri_scans/Tr-no_0995.jpg,No significant abnormalities in lateral aspect.
+Sarah Miller,1979-02-08,Cardiac arrhythmia. Complains of numbness.,mri_scans/Tr-no_0996.jpg,Inflammation present in posterior region.
+Ashley Garcia,1959-05-03,Anxiety disorder. Complains of bleeding.,mri_scans/Tr-no_0997.jpg,Metastasis suspected in central area.
+James Robinson,1945-05-27,Osteoarthritis. Complains of weakness.,mri_scans/Tr-no_0998.jpg,Mild edema noted in posterior region.
+Stephanie Brown,1972-06-12,Asthma. Complains of palpitations.,mri_scans/Tr-no_0999.jpg,No significant abnormalities in posterior region.
+Christopher Taylor,1953-09-04,Gastroesophageal reflux. Complains of infection.,mri_scans/Tr-no_1000.jpg,Enhancement pattern typical in central area.
+Robert Robinson,1952-08-01,Coronary artery disease. Complains of weight loss.,mri_scans/Tr-no_1001.jpg,Enhancement pattern typical in posterior region.
+Daniel Robinson,1966-11-02,Coronary artery disease. Complains of bleeding.,mri_scans/Tr-no_1002.jpg,Inflammation present in medial aspect.
+Jennifer Chen,1990-12-26,Hyperlipidemia. Complains of dizziness.,mri_scans/Tr-no_1003.jpg,Inflammation present in upper right quadrant.
+Lisa Anderson,1961-02-12,Pregnancy related. Complains of weakness.,mri_scans/Tr-no_1004.jpg,Minor thickening in lateral aspect.
+Ashley Wilson,1969-02-23,Diabetes mellitus type 2. Complains of fever.,mri_scans/Tr-no_1005.jpg,Small nodule found in peripheral zone.
+Amanda Martin,2000-04-25,Anxiety disorder. Complains of joint pain.,mri_scans/Tr-no_1006.jpg,Degenerative changes in central area.
+John Johnson,1990-07-21,Hyperlipidemia. Complains of vision changes.,mri_scans/Tr-no_1007.jpg,Degenerative changes in peripheral zone.
+Christopher Clark,1961-10-10,Gastroesophageal reflux. Complains of swelling.,mri_scans/Tr-no_1008.jpg,Mass identified in lower left quadrant.
+Lisa Garcia,1992-04-07,Coronary artery disease. Complains of palpitations.,mri_scans/Tr-no_1009.jpg,Small nodule found in upper right quadrant.
