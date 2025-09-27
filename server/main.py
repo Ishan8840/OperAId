@@ -5,6 +5,12 @@ from transcribe import transcribe_audio
 
 app = FastAPI()
 
+import os
+from supabase import create_client, Client
+url: str = os.environ.get("SUPABASE_URL")
+key: str = os.environ.get("SUPABASE_KEY")
+supabase: Client = create_client(url, key)
+
 
 app.add_middleware(
     CORSMiddleware,
@@ -17,7 +23,12 @@ app.add_middleware(
 
 @app.get("/")
 def read_root():
-    return {"message": "hello"}
+    response = (
+    supabase.table("patients")
+    .select("*")
+    .execute()
+)
+    return response
 
 
 @app.post("/get_data")
