@@ -8,7 +8,7 @@ from supabase import create_client
 # CONFIGURATION
 # -----------------------------
 SUPABASE_URL = "https://avqekanfqbqeoetnncri.supabase.co"
-SUPABASE_KEY = "YOUR_SUPABASE_SERVICE_ROLE_KEY"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF2cWVrYW5mcWJxZW9ldG5uY3JpIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODk4NTQ5NCwiZXhwIjoyMDc0NTYxNDk0fQ.s_KbEeFizjHCfmS7YA7uoN4FIOhQkj9qAXP6S4QCBz0"
 BUCKET_NAME = "mri_scans"
 
 # Initialize Supabase client

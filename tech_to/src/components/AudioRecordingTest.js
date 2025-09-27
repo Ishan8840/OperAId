@@ -41,7 +41,6 @@ const AudioRecordingTest = () => {
           method: "POST",
           body: formData,
         });
-
         const data = await response.json();
         setTranscription(data.transcription);
       } catch (error) {
