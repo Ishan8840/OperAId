@@ -6,12 +6,12 @@ export default function Page() {
   const [recording, setRecording] = useState(false);
   const [audioURL, setAudioURL] = useState("");
   const [downloadURL, setDownloadURL] = useState("");
+  const [transcription, setTranscription] = useState("");
   const mediaRecorderRef = useRef(null);
   const audioChunksRef = useRef([]);
   const streamRef = useRef(null);
 
   const startRecording = async () => {
-    // Get microphone access
     const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
     streamRef.current = stream;
 
@@ -23,7 +23,6 @@ export default function Page() {
     };
 
     mediaRecorderRef.current.onstop = async () => {
-      // Convert recorded WebM to WAV
       const webmBlob = new Blob(audioChunksRef.current, { type: "audio/webm" });
       const wavBlob = await convertToWav(webmBlob);
 
@@ -31,8 +30,19 @@ export default function Page() {
       setAudioURL(url);
       setDownloadURL(url);
 
-      // Stop all microphone tracks
       streamRef.current.getTracks().forEach((track) => track.stop());
+
+      // send to FastAPI
+      const formData = new FormData();
+      formData.append("audio", wavBlob, "recording.wav");
+
+      const response = await fetch("http://127.0.0.1:8000/get_data", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await response.json();
+      setTranscription(data.transcription);
     };
 
     mediaRecorderRef.current.start();
@@ -44,7 +54,7 @@ export default function Page() {
     setRecording(false);
   };
 
-  // Convert WebM blob to WAV blob
+  // Include the convertToWav function here
   const convertToWav = async (blob) => {
     const arrayBuffer = await blob.arrayBuffer();
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -62,13 +72,11 @@ export default function Page() {
       }
     };
 
-    // RIFF header
     writeString("RIFF");
     view.setUint32(offset, length - 8, true);
     offset += 4;
     writeString("WAVE");
 
-    // fmt subchunk
     writeString("fmt ");
     view.setUint32(offset, 16, true);
     offset += 4;
@@ -85,12 +93,10 @@ export default function Page() {
     view.setUint16(offset, 16, true);
     offset += 2;
 
-    // data subchunk
     writeString("data");
     view.setUint32(offset, length - offset - 4, true);
     offset += 4;
 
-    // Interleave channels
     const interleave = (input) => {
       const output = new Float32Array(input[0].length * input.length);
       let index = 0;
@@ -131,6 +137,13 @@ export default function Page() {
           <a href={downloadURL} download="recording.wav">
             Download recording.wav
           </a>
+        </div>
+      )}
+
+      {transcription && (
+        <div className="mt-4">
+          <h2>Transcription:</h2>
+          <p>{transcription}</p>
         </div>
       )}
     </div>

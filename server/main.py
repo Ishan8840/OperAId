@@ -1,6 +1,6 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
-from supabase import create_client, Client
+from transcribe import transcribe_audio
 
 
 app = FastAPI()
@@ -15,7 +15,14 @@ app.add_middleware(
 )
 
 
-
 @app.get("/")
 def read_root():
     return {"message": "hello"}
+
+
+@app.post("/get_data")
+async def transcribe(audio: UploadFile = File(...)):
+    file_bytes = await audio.read()
+    text = transcribe_audio(file_bytes)
+    return {"transcription": text}
+
