@@ -1,0 +1,101 @@
+name,dob,record,scan_file,annotation
+John Smith,1975-04-23,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0010.jpg,Possible lesion detected in lower left quadrant.
+Jane Doe,1982-11-10,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0011.jpg,X-ray shows minor inflammation in left lung.
+Michael Johnson,1969-08-14,Chronic migraines. Recent MRI for brain scan.,mri_scans/Tr-no_0012.jpg,"No abnormalities detected, but slight inflammation noted."
+Emily Davis,1990-02-05,"Severe back pain,mri_scans/Tr-no_0013.jpg,mri_scans/Tr-no_0013.jpg,Disc herniation visible in lumbar spine.
+David Wilson,1985-12-22,Post-trauma MRI follow-up for knee injury.,mri_scans/Tr-no_0014.jpg,"Minor meniscus tear, no surgery required."
+Kaitlin Ho,1978-08-15,Post-trauma MRI follow-up for knee injury.,mri_scans/Tr-no_0015.jpg,Signs of mild degeneration in cervical spine.
+John Grimes MD,1994-07-04,Evaluation for persistent dizziness.,mri_scans/Tr-no_0016.jpg,X-ray shows minor inflammation in left lung.
+Steven Moss,2005-03-24,Post-trauma MRI follow-up for knee injury.,mri_scans/Tr-no_0017.jpg,X-ray shows minor inflammation in left lung.
+William Rodriguez,1978-01-23,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0018.jpg,"Small cyst detected, no immediate action needed."
+Allen Cole,1958-08-05,"Severe back pain,mri_scans/Tr-no_0019.jpg,mri_scans/Tr-no_0019.jpg,Clear MRI scan with no anomalies.
+Lori Chandler,1953-03-10,"Routine check-up,mri_scans/Tr-no_0020.jpg,mri_scans/Tr-no_0020.jpg,Signs of mild degeneration in cervical spine.
+Joel Hahn,1965-06-29,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0021.jpg,X-ray shows minor inflammation in left lung.
+Alyssa Gamble,1988-11-14,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0022.jpg,Possible lesion detected in lower left quadrant.
+Alexa Wilson,1988-04-11,Evaluation for persistent dizziness.,mri_scans/Tr-no_0023.jpg,Signs of mild degeneration in cervical spine.
+Sharon Payne,1984-08-22,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0024.jpg,X-ray shows minor inflammation in left lung.
+Stephen Mccarthy,1991-10-10,Post-trauma MRI follow-up for knee injury.,mri_scans/Tr-no_0025.jpg,X-ray shows minor inflammation in left lung.
+Diana Brown,1987-06-02,Chronic migraines. Recent MRI for brain scan.,mri_scans/Tr-no_0026.jpg,MRI indicates normal findings.
+Bryan Huynh,1969-08-17,Evaluation for persistent dizziness.,mri_scans/Tr-no_0027.jpg,"Minor meniscus tear, no surgery required."
+Edward Shaw,2000-01-17,"Severe back pain,mri_scans/Tr-no_0028.jpg,mri_scans/19.jpg,"Minor meniscus tear, no surgery required."
+Roy Rivera,1988-01-25,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0029.jpg,Disc herniation visible in lumbar spine.
+Brian Allen,2000-11-27,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0030.jpg,Possible lesion detected in lower left quadrant.
+Cynthia Reeves,1992-01-07,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0031.jpg,"Minor meniscus tear, no surgery required."
+Kathy Torres,1990-11-22,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0032.jpg,MRI indicates normal findings.
+Brenda Blair,2004-03-05,"Routine check-up,mri_scans/Tr-no_0033.jpg,mri_scans/24.jpg,Possible lesion detected in lower left quadrant.
+Shannon White,1953-01-09,"Routine check-up,mri_scans/Tr-no_0034.jpg,mri_scans/25.jpg,"Small cyst detected, no immediate action needed."
+Brittany Johnson,1962-06-10,"Routine check-up,mri_scans/Tr-no_0035.jpg,mri_scans/26.jpg,MRI indicates normal findings.
+George Bryan,2000-09-28,Post-trauma MRI follow-up for knee injury.,mri_scans/Tr-no_0036.jpg,MRI indicates normal findings.
+Parker Andrews,1996-08-16,"Severe back pain,mri_scans/Tr-no_0037.jpg,mri_scans/28.jpg,X-ray shows minor inflammation in left lung.
+John Peterson,1959-10-20,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0038.jpg,"No abnormalities detected, but slight inflammation noted."
+Kimberly Hansen,2001-08-12,Post-trauma MRI follow-up for knee injury.,mri_scans/Tr-no_0039.jpg,"Inflammation present, recommend follow-up."
+Mason Walters,1958-06-17,Chronic migraines. Recent MRI for brain scan.,mri_scans/Tr-no_0040.jpg,X-ray shows minor inflammation in left lung.
+Richard Schmidt,2005-03-12,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0041.jpg,MRI indicates normal findings.
+Cynthia Adams,2005-02-04,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0042.jpg,Disc herniation visible in lumbar spine.
+Heather Stephens,1968-03-01,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0043.jpg,Possible lesion detected in lower left quadrant.
+Isaac Chapman,1950-02-25,"Severe back pain,mri_scans/Tr-no_0044.jpg,mri_scans/35.jpg,"Small cyst detected, no immediate action needed."
+Tyler Fox,1981-10-01,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0045.jpg,"Inflammation present, recommend follow-up."
+Shelley Pham,2000-01-08,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0046.jpg,Clear MRI scan with no anomalies.
+Brian Norman,1950-07-15,Chronic migraines. Recent MRI for brain scan.,mri_scans/Tr-no_0047.jpg,"Small cyst detected, no immediate action needed."
+Michael Sanchez Jr.,2002-08-13,"History of asthma,mri_scans/Tr-no_0048.jpg,mri_scans/39.jpg,"No abnormalities detected, but slight inflammation noted."
+Mitchell Perkins,1989-06-26,Chronic migraines. Recent MRI for brain scan.,mri_scans/Tr-no_0049.jpg,Signs of mild degeneration in cervical spine.
+Carol Mendoza,1998-10-26,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0050.jpg,"Small cyst detected, no immediate action needed."
+Jessica Jones,1992-05-07,"Severe back pain,mri_scans/Tr-no_0051.jpg,mri_scans/42.jpg,"Minor meniscus tear, no surgery required."
+Jordan Schroeder,1987-08-06,Chronic migraines. Recent MRI for brain scan.,mri_scans/Tr-no_0052.jpg,X-ray shows minor inflammation in left lung.
+Mark Morgan,1978-11-18,"Routine check-up,mri_scans/Tr-no_0053.jpg,mri_scans/44.jpg,Signs of mild degeneration in cervical spine.
+Christine Young,2001-05-05,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0054.jpg,Disc herniation visible in lumbar spine.
+Jessica Coleman,1958-10-14,"Routine check-up,mri_scans/Tr-no_0055.jpg,mri_scans/46.jpg,"Inflammation present, recommend follow-up."
+William Ross,1979-10-02,"Routine check-up,mri_scans/Tr-no_0056.jpg,mri_scans/47.jpg,Signs of mild degeneration in cervical spine.
+Victoria Lucero,1980-05-31,"Routine check-up,mri_scans/Tr-no_0057.jpg,mri_scans/48.jpg,Signs of mild degeneration in cervical spine.
+Lawrence Moon,1971-08-13,"History of asthma,mri_scans/Tr-no_0058.jpg,mri_scans/49.jpg,"Small cyst detected, no immediate action needed."
+Donald Arroyo,1982-10-04,Evaluation for persistent dizziness.,mri_scans/Tr-no_0059.jpg,Possible lesion detected in lower left quadrant.
+Christian Phillips,1959-09-15,"History of asthma,mri_scans/Tr-no_0060.jpg,mri_scans/51.jpg,"Minor meniscus tear, no surgery required."
+Bonnie Cooper,1969-04-04,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0061.jpg,Signs of mild degeneration in cervical spine.
+Terrance Wade,1999-09-11,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0062.jpg,Signs of mild degeneration in cervical spine.
+Paul Alvarez,1975-07-26,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0063.jpg,Signs of mild degeneration in cervical spine.
+Kristi David,1945-05-16,Post-trauma MRI follow-up for knee injury.,mri_scans/Tr-no_0064.jpg,Disc herniation visible in lumbar spine.
+Michael Clark,1988-01-16,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0065.jpg,Clear MRI scan with no anomalies.
+David West,1979-12-20,"Routine check-up,mri_scans/Tr-no_0066.jpg,mri_scans/57.jpg,Clear MRI scan with no anomalies.
+Steven Brady,1971-02-22,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0067.jpg,MRI indicates normal findings.
+Hayley Wilson,1975-04-17,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0068.jpg,"Small cyst detected, no immediate action needed."
+Sarah Downs,1975-06-27,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0069.jpg,"Minor meniscus tear, no surgery required."
+Rachel Johnson,2005-02-25,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0070.jpg,X-ray shows minor inflammation in left lung.
+Tonya Espinoza,1963-12-11,Evaluation for persistent dizziness.,mri_scans/Tr-no_0071.jpg,Possible lesion detected in lower left quadrant.
+David Patterson,1957-01-02,"Severe back pain,mri_scans/Tr-no_0072.jpg,mri_scans/63.jpg,Possible lesion detected in lower left quadrant.
+Jeffrey Larson,1978-02-28,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0073.jpg,X-ray shows minor inflammation in left lung.
+Karen Bennett,1975-09-20,"Severe back pain,mri_scans/Tr-no_0074.jpg,mri_scans/65.jpg,"No abnormalities detected, but slight inflammation noted."
+Dana Brooks,1946-07-23,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0075.jpg,"Minor meniscus tear, no surgery required."
+Theresa Phillips,1972-12-30,Chronic migraines. Recent MRI for brain scan.,mri_scans/Tr-no_0076.jpg,X-ray shows minor inflammation in left lung.
+Deborah Jones,1982-07-08,"Routine check-up,mri_scans/Tr-no_0077.jpg,mri_scans/68.jpg,X-ray shows minor inflammation in left lung.
+Brian Gomez,1987-03-30,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0078.jpg,"No abnormalities detected, but slight inflammation noted."
+Michael Evans,1945-05-28,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0079.jpg,X-ray shows minor inflammation in left lung.
+Meghan Gibson,1957-12-27,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0080.jpg,X-ray shows minor inflammation in left lung.
+Jessica Ball,1967-10-16,"History of asthma,mri_scans/Tr-no_0081.jpg,mri_scans/72.jpg,Disc herniation visible in lumbar spine.
+Elizabeth Fuller,1974-09-14,"Severe back pain,mri_scans/Tr-no_0082.jpg,mri_scans/73.jpg,"No abnormalities detected, but slight inflammation noted."
+Bradley Reynolds,1994-04-28,"Routine check-up,mri_scans/Tr-no_0083.jpg,mri_scans/74.jpg,X-ray shows minor inflammation in left lung.
+Carrie Rodriguez,2000-02-08,Post-trauma MRI follow-up for knee injury.,mri_scans/Tr-no_0084.jpg,"Inflammation present, recommend follow-up."
+Tyler Gaines,1982-07-14,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0085.jpg,"Small cyst detected, no immediate action needed."
+Teresa Price,1989-07-17,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0086.jpg,X-ray shows minor inflammation in left lung.
+Michelle Davis,1969-04-17,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0087.jpg,Possible lesion detected in lower left quadrant.
+Sarah Johnson,2005-04-12,Monitoring of multiple sclerosis.,mri_scans/Tr-no_0088.jpg,Possible lesion detected in lower left quadrant.
+Melinda Chen,1996-04-26,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0089.jpg,"Small cyst detected, no immediate action needed."
+Natalie Goodwin,1944-10-04,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0090.jpg,X-ray shows minor inflammation in left lung.
+Frank Hood,1999-07-17,"History of asthma,mri_scans/Tr-no_0091.jpg,mri_scans/82.jpg,MRI indicates normal findings.
+Connie Davis,1978-11-14,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0092.jpg,Possible lesion detected in lower left quadrant.
+Amber Smith,1953-09-20,"History of asthma,mri_scans/Tr-no_0093.jpg,mri_scans/84.jpg,X-ray shows minor inflammation in left lung.
+Christine Osborn,1985-08-15,Type 2 diabetes. Follow-up on recent MRI scan.,mri_scans/Tr-no_0094.jpg,Signs of mild degeneration in cervical spine.
+Steven Clark,1957-07-27,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0095.jpg,"Inflammation present, recommend follow-up."
+William Jackson MD,1945-09-30,Chronic migraines. Recent MRI for brain scan.,mri_scans/Tr-no_0096.jpg,X-ray shows minor inflammation in left lung.
+Lisa Vance,1983-06-21,"Severe back pain,mri_scans/Tr-no_0097.jpg,mri_scans/88.jpg,"Inflammation present, recommend follow-up."
+Stephanie Kelly,1951-03-31,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0098.jpg,"Small cyst detected, no immediate action needed."
+Laura Mcbride,1992-05-04,"Routine check-up,mri_scans/Tr-no_0099.jpg,mri_scans/90.jpg,"Small cyst detected, no immediate action needed."
+Zachary Smith,1982-06-17,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0100.jpg,"Minor meniscus tear, no surgery required."
+Marc Cook,1978-12-11,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0101.jpg,Signs of mild degeneration in cervical spine.
+David Logan,1951-11-18,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0102.jpg,Disc herniation visible in lumbar spine.
+Jonathan Bond,1952-08-27,History of hypertension. Complains of chest pain.,mri_scans/Tr-no_0103.jpg,"Inflammation present, recommend follow-up."
+John Peck,1973-08-30,"Routine check-up,mri_scans/Tr-no_0104.jpg,mri_scans/95.jpg,"Small cyst detected, no immediate action needed."
+Jennifer Barron,1993-05-10,Evaluation for persistent dizziness.,mri_scans/Tr-no_0105.jpg,Signs of mild degeneration in cervical spine.
+Jody Wilson,1981-12-08,"Severe back pain,mri_scans/Tr-no_0106.jpg,mri_scans/97.jpg,Clear MRI scan with no anomalies.
+Daniel Brown,1972-03-13,"Routine check-up,mri_scans/Tr-no_0107.jpg,mri_scans/98.jpg,Clear MRI scan with no anomalies.
+Tiffany Adams,1974-12-30,Post-surgical follow-up for spinal fusion.,mri_scans/Tr-no_0108.jpg,"Small cyst detected, no immediate action needed."
+Alan Spence,1995-06-19,Evaluation for persistent dizziness.,mri_scans/Tr-no_0109.jpg,Possible lesion detected in lower left quadrant.
