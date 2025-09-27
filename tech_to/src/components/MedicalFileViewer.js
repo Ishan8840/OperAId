@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Download, RotateCw, ZoomIn, ZoomOut, User, Calendar, FileText } from 'lucide-react';
+import { Download, RotateCw, ZoomIn, ZoomOut, User, Calendar, FileText, Stethoscope, Activity } from 'lucide-react';
 import { usePatients } from '../hooks/usePatients';
 
-const MedicalFileViewer = ({ selectedFileId }) => {
+const MedicalFileViewer = ({ selectedFileId, queryResults = [] }) => {
   const [zoomLevel, setZoomLevel] = useState(100);
   const [rotation, setRotation] = useState(0);
   const { patients, loading } = usePatients();
@@ -46,6 +46,60 @@ const MedicalFileViewer = ({ selectedFileId }) => {
     }
   };
 
+  const formatFunctionName = (name) => {
+    if (!name) return "AI Response";
+    return name
+      .replace(/_/g, ' ')
+      .replace(/\b\w/g, (char) => char.toUpperCase());
+  };
+
+  // Show query results if no file is selected but we have query results
+  if (!selectedScan && queryResults.length > 0) {
+    return (
+      <div className="flex-1 flex flex-col bg-white overflow-y-auto">
+        <div className="border-b border-gray-200 p-4">
+          <div className="flex items-center gap-2">
+            <Activity className="w-6 h-6 text-blue-600" />
+            <h1 className="text-xl font-semibold text-gray-800">Query Results</h1>
+          </div>
+        </div>
+
+        <div className="p-6 space-y-4">
+          {queryResults.map((result, index) => (
+            <div key={index} className="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden">
+              {/* Function Header */}
+              <div className="bg-blue-50 px-4 py-3 border-b border-blue-100">
+                <div className="flex items-center justify-between">
+                  <h3 className="font-semibold text-gray-800">
+                    {formatFunctionName(result.function)}
+                  </h3>
+                  {result.arguments && (
+                    <div className="text-xs text-gray-600 bg-white px-3 py-1 rounded">
+                      {Object.entries(result.arguments).map(([key, val]) => 
+                        `${key}: ${val}`
+                      ).join(', ')}
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              {/* Result Content */}
+              <div className="p-4">
+                <div className="prose max-w-none">
+                  <pre className="text-sm text-gray-700 whitespace-pre-wrap break-words bg-gray-50 p-4 rounded">
+                    {typeof result.result === 'string' 
+                      ? result.result
+                      : JSON.stringify(result.result, null, 2)}
+                  </pre>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
   if (loading) {
     return (
       <div className="flex-1 flex items-center justify-center bg-gray-100">
@@ -61,9 +115,9 @@ const MedicalFileViewer = ({ selectedFileId }) => {
     return (
       <div className="flex-1 flex items-center justify-center bg-gray-100">
         <div className="text-center">
-          <FileText className="w-16 h-16 text-gray-400 mx-auto mb-4" />
-          <h3 className="text-lg font-medium text-gray-600 mb-2">No Scan Selected</h3>
-          <p className="text-gray-500">Select a scan from the sidebar to view details</p>
+          <Stethoscope className="w-16 h-16 text-gray-400 mx-auto mb-4" />
+          <h3 className="text-lg font-medium text-gray-600 mb-2">No Content Selected</h3>
+          <p className="text-gray-500">Select a scan from the sidebar or speak a query</p>
         </div>
       </div>
     );
@@ -197,6 +251,27 @@ const MedicalFileViewer = ({ selectedFileId }) => {
                 </p>
               )}
             </div>
+
+            {/* Query Results (if any) */}
+            {queryResults.length > 0 && (
+              <div>
+                <h4 className="font-medium text-gray-800 mb-2">Recent Query Results</h4>
+                <div className="space-y-2">
+                  {queryResults.slice(0, 3).map((result, index) => (
+                    <div key={index} className="bg-blue-50 p-3 rounded-lg border border-blue-200">
+                      <p className="text-xs font-medium text-blue-700 mb-1">
+                        {formatFunctionName(result.function)}
+                      </p>
+                      <p className="text-xs text-gray-700">
+                        {typeof result.result === 'string' 
+                          ? result.result.substring(0, 100) + (result.result.length > 100 ? '...' : '')
+                          : 'View in sidebar'}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>

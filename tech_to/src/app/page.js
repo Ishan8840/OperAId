@@ -1,17 +1,40 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import SurgicalAssistantSidebar from "../components/SurgicalAssistantSidebar.js";
 import MedicalFileViewer from "../components/MedicalFileViewer.js";
 import AudioRecordingTest from "../components/AudioRecordingTest.js";
 import LiveTranscription from "../components/LiveTranscription.js";
-
 
 const Index = () => {
   const [selectedFileId, setSelectedFileId] = useState(null);
   const [isAudioMuted, setIsAudioMuted] = useState(false);
   const [showAudioTest, setShowAudioTest] = useState(false);
   const [liveTranscription, setLiveTranscription] = useState("");
+  const [queryResults, setQueryResults] = useState([]);
+
+  // Listen for custom event from LiveTranscription
+  useEffect(() => {
+    const handleTranscriptionEvent = (event) => {
+      console.log("📥 Custom event received:", event.detail);
+      const { transcription, results } = event.detail;
+      
+      if (transcription) {
+        setLiveTranscription(transcription);
+      }
+      
+      if (results && results.length > 0) {
+        console.log("✅ Setting query results:", results);
+        setQueryResults(results);
+      }
+    };
+
+    window.addEventListener('transcriptionUpdate', handleTranscriptionEvent);
+    
+    return () => {
+      window.removeEventListener('transcriptionUpdate', handleTranscriptionEvent);
+    };
+  }, []);
 
   const handleFileSelect = (fileId) => {
     setSelectedFileId(fileId);
@@ -21,6 +44,7 @@ const Index = () => {
     setIsAudioMuted(prev => !prev);
     if (!isAudioMuted) {
       setLiveTranscription("");
+      setQueryResults([]);
     }
   };
 
@@ -37,7 +61,7 @@ const Index = () => {
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 h-12 flex items-center bg-white border-b border-gray-200 shadow-sm">
         <h1 className="ml-4 text-lg font-semibold text-gray-800">
-          Surgical AI Assistant
+          Operaid: Surgical AI Assistant
         </h1>
       </header>
 
@@ -56,6 +80,7 @@ const Index = () => {
           onToggleAudio={handleToggleAudio}
           onShowAudioTest={handleShowAudioTest}
           liveTranscription={!isAudioMuted ? liveTranscription : ""}
+          queryResults={queryResults}
         />
         
         {showAudioTest ? (
@@ -72,7 +97,10 @@ const Index = () => {
             <AudioRecordingTest />
           </div>
         ) : (
-          <MedicalFileViewer selectedFileId={selectedFileId} />
+          <MedicalFileViewer 
+            selectedFileId={selectedFileId}
+            queryResults={queryResults}
+          />
         )}
       </div>
     </div>

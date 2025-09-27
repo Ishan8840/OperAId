@@ -80,8 +80,22 @@ const LiveTranscription = ({ isActive, onTranscriptionUpdate }) => {
       });
 
       const data = await response.json();
+      console.log("Backend response:", data);
+      
+      // Update transcription
       if (data.transcription && data.transcription.trim()) {
         onTranscriptionUpdate(data.transcription);
+      }
+      
+      // Dispatch custom event with BOTH transcription and results
+      if (data.results && data.results.length > 0) {
+        console.log("Dispatching results:", data.results);
+        window.dispatchEvent(new CustomEvent('transcriptionUpdate', {
+          detail: {
+            transcription: data.transcription,
+            results: data.results
+          }
+        }));
       }
     } catch (error) {
       console.error("Error sending audio for transcription:", error);
@@ -174,7 +188,6 @@ const LiveTranscription = ({ isActive, onTranscriptionUpdate }) => {
     }
   };
 
-  // This component doesn't render anything visible
   return null;
 };
 

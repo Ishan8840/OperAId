@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { 
-  FileText, Image, Folder, Search, Settings, 
-  Mic, MicOff, Volume2, Database 
+  FileText, Image, Folder, Search, 
+  Mic, MicOff, Volume2, Database, ChevronDown, ChevronUp 
 } from "lucide-react";
 import { usePatients } from "../hooks/usePatients";
 
@@ -13,9 +13,11 @@ const SurgicalAssistantSidebar = ({
   isAudioMuted, 
   onToggleAudio,
   onShowAudioTest,
-  liveTranscription 
+  liveTranscription,
+  queryResults = []
 }) => {
   const [searchQuery, setSearchQuery] = useState("");
+  const [showResults, setShowResults] = useState(true);
   const { patients, loading, error } = usePatients();
 
   // Flatten patients -> scans into file objects
@@ -49,6 +51,13 @@ const SurgicalAssistantSidebar = ({
     }
   };
 
+  const formatFunctionName = (name) => {
+    if (!name) return "AI Response";
+    return name
+      .replace(/_/g, ' ')
+      .replace(/\b\w/g, (char) => char.toUpperCase());
+  };
+
   return (
     <div className="w-80 h-screen bg-gray-50 border-r border-gray-200 flex flex-col">
       {/* Header */}
@@ -71,12 +80,44 @@ const SurgicalAssistantSidebar = ({
         </div>
       </div>
 
+      {/* Query Results Section */}
+      {queryResults.length > 0 && (
+        <div className="border-b border-gray-200 flex-shrink-0">
+          <button
+            onClick={() => setShowResults(!showResults)}
+            className="w-full px-4 py-3 flex items-center justify-between hover:bg-gray-100 transition-colors"
+          >
+            <h3 className="text-sm font-medium text-gray-700">Query Results</h3>
+            {showResults ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+          </button>
+          
+          {showResults && (
+            <div className="px-4 pb-4 max-h-64 overflow-y-auto">
+              <div className="space-y-2">
+                {queryResults.map((result, index) => (
+                  <div key={index} className="bg-white border border-gray-200 rounded-lg p-3">
+                    <div className="text-xs font-medium text-blue-600 mb-1">
+                      {formatFunctionName(result.function)}
+                    </div>
+                    <div className="text-xs text-gray-700 whitespace-pre-wrap break-words">
+                      {typeof result.result === 'string' 
+                        ? result.result.substring(0, 200) + (result.result.length > 200 ? '...' : '')
+                        : JSON.stringify(result.result, null, 2).substring(0, 200) + '...'}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
       {/* File List */}
       <div className="px-4 pt-4 flex-shrink-0">
         <h3 className="text-sm font-medium text-gray-600 mb-2">Recent Files</h3>
       </div>
       
-      <div className="px-4 overflow-y-auto" style={{ maxHeight: "calc(100vh - 580px)" }}>
+      <div className="px-4 overflow-y-auto flex-1">
         <div className="space-y-2 pb-4">
           {filteredFiles.map((file) => (
             <div
