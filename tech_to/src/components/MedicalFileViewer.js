@@ -74,18 +74,26 @@ const MedicalFileViewer = ({ selectedFileId, queryResults = [] }) => {
                 )}
               </div>
               <div className="p-4 space-y-2">
-                {Array.isArray(result.result) && result.result.every((r) => r.image_url) ? (
-                  result.result.map((scan, i) => (
-                    <div key={i} className="bg-white rounded-lg shadow p-2">
-                      <h4 className="font-semibold text-gray-800">{scan.scan_type} Scan for {scan.patient_name}</h4>
-                      <p className="text-sm text-gray-600">Date: {new Date(scan.scan_date).toLocaleDateString()}</p>
-                      <img
-                        src={scan.image_url}
-                        alt={`${scan.scan_type} scan`}
-                        className="mt-2 max-w-full rounded-lg border border-gray-200"
-                      />
-                    </div>
-                  ))
+                {result.function === 'get_patient_scans' && result.result ? (
+                  <div className="bg-white rounded-lg shadow p-4">
+                    {result.result.split('\n').map((line, i) => {
+                      if (line.includes('Image URL:')) {
+                        const url = line.split('Image URL:')[1].trim();
+                        return (
+                          <div key={i} className="mt-4">
+                            <img
+                              src={url}
+                              alt="Patient scan"
+                              className="max-w-full rounded-lg border border-gray-200 shadow-sm"
+                            />
+                          </div>
+                        );
+                      }
+                      return (
+                        <p key={i} className="text-sm text-gray-700">{line}</p>
+                      );
+                    })}
+                  </div>
                 ) : (
                   <pre className="text-sm text-gray-700 whitespace-pre-wrap break-words bg-gray-50 p-4 rounded">
                     {typeof result.result === "string"

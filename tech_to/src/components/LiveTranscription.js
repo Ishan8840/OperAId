@@ -87,13 +87,27 @@ const LiveTranscription = ({ isActive, onTranscriptionUpdate }) => {
         onTranscriptionUpdate(data.transcription);
       }
       
-      // Dispatch custom event with BOTH transcription and results
+      // Check for scan results and extract image URL
+      let imageUrl = null;
+      if (data.results && data.results.length > 0) {
+        const scanResult = data.results[0];
+        if (scanResult.function === "get_patient_scans" && scanResult.result) {
+          // Extract image URL from the result string
+          const match = scanResult.result.match(/Image URL: (.*?)\n/);
+          if (match && match[1]) {
+            imageUrl = match[1].trim();
+          }
+        }
+      }
+      
+      // Dispatch custom event with transcription, results, and image URL
       if (data.results && data.results.length > 0) {
         console.log("Dispatching results:", data.results);
         window.dispatchEvent(new CustomEvent('transcriptionUpdate', {
           detail: {
             transcription: data.transcription,
-            results: data.results
+            results: data.results,
+            imageUrl: imageUrl
           }
         }));
       }
