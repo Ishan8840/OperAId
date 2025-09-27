@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import SurgicalAssistantSidebar from "@/components/SurgicalAssistantSidebar";
-import MedicalFileViewer from "@/components/MedicalFileViewer";
-import AudioRecordingTest from "@/components/AudioRecordingTest";
-import LiveTranscription from "@/components/LiveTranscription";
+import SurgicalAssistantSidebar from "../components/SurgicalAssistantSidebar.js";
+import MedicalFileViewer from "../components/MedicalFileViewer.js";
+import AudioRecordingTest from "../components/AudioRecordingTest.js";
+import LiveTranscription from "../components/LiveTranscription.js";
 
-export default function HomePage() {
+
+const Index = () => {
   const [selectedFileId, setSelectedFileId] = useState(null);
   const [isAudioMuted, setIsAudioMuted] = useState(false);
   const [showAudioTest, setShowAudioTest] = useState(false);
@@ -19,7 +20,6 @@ export default function HomePage() {
   const handleToggleAudio = () => {
     setIsAudioMuted(prev => !prev);
     if (!isAudioMuted) {
-      // Clear transcription when muting
       setLiveTranscription("");
     }
   };
@@ -37,7 +37,7 @@ export default function HomePage() {
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 h-12 flex items-center bg-white border-b border-gray-200 shadow-sm">
         <h1 className="ml-4 text-lg font-semibold text-gray-800">
-          Operaid: Surgical AI Assistant
+          Surgical AI Assistant
         </h1>
       </header>
 
@@ -77,4 +77,6 @@ export default function HomePage() {
       </div>
     </div>
   );
-}
+};
+
+export default Index;

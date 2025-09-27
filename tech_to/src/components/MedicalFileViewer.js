@@ -1,48 +1,35 @@
-"use client";
-
-import { useState } from "react";
-import { ZoomIn, ZoomOut, RotateCw, Download } from "lucide-react";
-
-// Mock file data - will be replaced with Supabase data
-const mockFileData = {
-  "1": {
-    name: "Patient_001_MRI_Brain.dcm",
-    type: "MRI",
-    date: "2024-01-15",
-    patient: "John Doe",
-    bodyPart: "Brain",
-    imageUrl: "/api/placeholder/600/400", // Placeholder - will be replaced with Supabase storage
-    metadata: {
-      studyDate: "2024-01-15",
-      modality: "MRI",
-      sliceThickness: "1.0mm",
-      fieldStrength: "3.0T"
-    }
-  },
-  "2": {
-    name: "Patient_002_CT_Spine.dcm",
-    type: "CT",
-    date: "2024-01-14",
-    patient: "Jane Smith",
-    bodyPart: "Spine",
-    imageUrl: "/api/placeholder/600/400",
-    metadata: {
-      studyDate: "2024-01-14",
-      modality: "CT",
-      sliceThickness: "0.5mm",
-      kvp: "120kV"
-    }
-  }
-};
+import React, { useState } from 'react';
+import { Download, RotateCw, ZoomIn, ZoomOut, User, Calendar, FileText } from 'lucide-react';
+import { usePatients } from '../hooks/usePatients';
 
 const MedicalFileViewer = ({ selectedFileId }) => {
   const [zoomLevel, setZoomLevel] = useState(100);
   const [rotation, setRotation] = useState(0);
-  
-  const fileData = selectedFileId ? mockFileData[selectedFileId] : null;
+  const { patients, loading } = usePatients();
+
+  // Find the selected scan from all patients
+  const selectedScan = React.useMemo(() => {
+    if (!selectedFileId || !patients.length) return null;
+    
+    for (const patient of patients) {
+      const scan = patient.scans?.find(s => s.id === selectedFileId);
+      if (scan) {
+        return {
+          ...scan,
+          patient: {
+            name: patient.name,
+            dob: patient.dob,
+            record: patient.record
+          },
+          annotations: patient.annotations?.filter(a => a.scan_id === scan.id) || []
+        };
+      }
+    }
+    return null;
+  }, [selectedFileId, patients]);
 
   const handleZoomIn = () => {
-    setZoomLevel(prev => Math.min(prev + 25, 500));
+    setZoomLevel(prev => Math.min(prev + 25, 300));
   };
 
   const handleZoomOut = () => {
@@ -54,23 +41,29 @@ const MedicalFileViewer = ({ selectedFileId }) => {
   };
 
   const handleDownload = () => {
-    if (fileData) {
-      // TODO: Implement download functionality with Supabase
-      console.log("Download file:", fileData.name);
+    if (selectedScan?.image_url) {
+      window.open(selectedScan.image_url, '_blank');
     }
   };
 
-  if (!selectedFileId || !fileData) {
+  if (loading) {
     return (
       <div className="flex-1 flex items-center justify-center bg-gray-100">
         <div className="text-center">
-          <div className="w-24 h-24 mx-auto mb-4 bg-gray-300 rounded-full flex items-center justify-center">
-            <svg className="w-12 h-12 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-          </div>
-          <h3 className="text-lg font-medium text-gray-700 mb-2">No File Selected</h3>
-          <p className="text-gray-500">Select a medical file from the sidebar to view it here</p>
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-4"></div>
+          <p className="text-gray-600">Loading...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (!selectedScan) {
+    return (
+      <div className="flex-1 flex items-center justify-center bg-gray-100">
+        <div className="text-center">
+          <FileText className="w-16 h-16 text-gray-400 mx-auto mb-4" />
+          <h3 className="text-lg font-medium text-gray-600 mb-2">No Scan Selected</h3>
+          <p className="text-gray-500">Select a scan from the sidebar to view details</p>
         </div>
       </div>
     );
@@ -79,16 +72,23 @@ const MedicalFileViewer = ({ selectedFileId }) => {
   return (
     <div className="flex-1 flex flex-col bg-white">
       {/* Header */}
-      <div className="bg-white border-b border-gray-200 p-4">
-        <div className="flex items-center justify-between">
-          <div>
-            <h1 className="text-xl font-semibold text-gray-800">{fileData.name}</h1>
-            <div className="flex items-center gap-4 mt-1 text-sm text-gray-600">
-              <span>Patient: {fileData.patient}</span>
-              <span>•</span>
-              <span>Date: {fileData.date}</span>
-              <span>•</span>
-              <span>Type: {fileData.type}</span>
+      <div className="border-b border-gray-200 p-4">
+        <div className="flex items-center justify-between mb-4">
+          <div className="flex items-center gap-4">
+            <div>
+              <h1 className="text-xl font-semibold text-gray-800">
+                {selectedScan.scan_type} Scan
+              </h1>
+              <div className="flex items-center gap-4 text-sm text-gray-600 mt-1">
+                <div className="flex items-center gap-1">
+                  <User className="w-4 h-4" />
+                  <span>{selectedScan.patient.name}</span>
+                </div>
+                <div className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  <span>{new Date(selectedScan.scan_date).toLocaleDateString()}</span>
+                </div>
+              </div>
             </div>
           </div>
           
@@ -96,35 +96,31 @@ const MedicalFileViewer = ({ selectedFileId }) => {
           <div className="flex items-center gap-2">
             <button
               onClick={handleZoomOut}
-              className="p-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors duration-200"
+              className="p-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
               title="Zoom Out"
             >
               <ZoomOut className="w-4 h-4" />
             </button>
-            
-            <span className="px-3 py-1 bg-gray-100 rounded text-sm font-medium min-w-[60px] text-center">
+            <span className="px-3 py-1 bg-gray-100 rounded text-sm font-medium">
               {zoomLevel}%
             </span>
-            
             <button
               onClick={handleZoomIn}
-              className="p-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors duration-200"
+              className="p-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
               title="Zoom In"
             >
               <ZoomIn className="w-4 h-4" />
             </button>
-            
             <button
               onClick={handleRotate}
-              className="p-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors duration-200"
+              className="p-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
               title="Rotate"
             >
               <RotateCw className="w-4 h-4" />
             </button>
-            
             <button
               onClick={handleDownload}
-              className="p-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition-colors duration-200"
+              className="p-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
               title="Download"
             >
               <Download className="w-4 h-4" />
@@ -133,38 +129,75 @@ const MedicalFileViewer = ({ selectedFileId }) => {
         </div>
       </div>
 
-      {/* Image Viewer */}
-      <div className="flex-1 overflow-auto bg-gray-50 p-4">
-        <div className="flex items-center justify-center min-h-full">
-          <div 
-            className="bg-white shadow-lg rounded-lg overflow-hidden"
-            style={{
-              transform: `scale(${zoomLevel / 100}) rotate(${rotation}deg)`,
-              transition: "transform 0.2s ease-in-out"
-            }}
-          >
-            {/* Placeholder for medical image - will be replaced with Supabase storage */}
-            <div className="w-96 h-64 bg-gray-800 flex items-center justify-center text-white">
-              <div className="text-center">
-                <div className="text-4xl mb-2">🏥</div>
-                <div className="text-lg font-medium">{fileData.type} Scan</div>
-                <div className="text-sm opacity-75">{fileData.bodyPart}</div>
+      {/* Content */}
+      <div className="flex-1 flex">
+        {/* Image Viewer */}
+        <div className="flex-1 flex items-center justify-center bg-gray-50 p-4">
+          <div className="bg-white rounded-lg shadow-lg p-4 max-w-full max-h-full overflow-auto">
+            {selectedScan.image_url ? (
+              <img
+                src={selectedScan.image_url}
+                alt={`${selectedScan.scan_type} scan`}
+                className="max-w-full max-h-full object-contain"
+                style={{
+                  transform: `scale(${zoomLevel / 100}) rotate(${rotation}deg)`,
+                  transition: 'transform 0.2s ease-in-out'
+                }}
+              />
+            ) : (
+              <div className="w-96 h-96 bg-gray-200 rounded-lg flex items-center justify-center">
+                <FileText className="w-16 h-16 text-gray-400" />
+                <span className="ml-2 text-gray-500">No image available</span>
               </div>
-            </div>
+            )}
           </div>
         </div>
-      </div>
 
-      {/* Metadata Panel */}
-      <div className="bg-gray-50 border-t border-gray-200 p-4">
-        <h3 className="text-sm font-medium text-gray-700 mb-2">File Metadata</h3>
-        <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
-          {Object.entries(fileData.metadata).map(([key, value]) => (
-            <div key={key} className="flex justify-between">
-              <span className="text-gray-600 capitalize">{key.replace(/([A-Z])/g, ' $1').trim()}:</span>
-              <span className="text-gray-800 font-medium">{value}</span>
+        {/* Details Panel */}
+        <div className="w-80 bg-gray-50 border-l border-gray-200 p-4 overflow-y-auto">
+          <h3 className="font-semibold text-gray-800 mb-4">Patient Information</h3>
+          
+          <div className="space-y-4">
+            <div className="bg-white p-3 rounded-lg border border-gray-200">
+              <div className="grid grid-cols-1 gap-2 text-sm">
+                <div>
+                  <span className="font-medium text-gray-600">Name:</span>
+                  <span className="ml-2 text-gray-800">{selectedScan.patient.name}</span>
+                </div>
+                <div>
+                  <span className="font-medium text-gray-600">DOB:</span>
+                  <span className="ml-2 text-gray-800">
+                    {new Date(selectedScan.patient.dob).toLocaleDateString()}
+                  </span>
+                </div>
+                <div>
+                  <span className="font-medium text-gray-600">Record:</span>
+                  <span className="ml-2 text-gray-800">{selectedScan.patient.record || 'N/A'}</span>
+                </div>
+              </div>
             </div>
-          ))}
+
+            {/* Annotations */}
+            <div>
+              <h4 className="font-medium text-gray-800 mb-2">Annotations</h4>
+              {selectedScan.annotations.length > 0 ? (
+                <div className="space-y-2">
+                  {selectedScan.annotations.map((annotation) => (
+                    <div key={annotation.id} className="bg-white p-3 rounded-lg border border-gray-200">
+                      <p className="text-sm text-gray-800">{annotation.note}</p>
+                      <p className="text-xs text-gray-500 mt-1">
+                        {new Date(annotation.created_at).toLocaleDateString()}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-500 bg-white p-3 rounded-lg border border-gray-200">
+                  No annotations available
+                </p>
+              )}
+            </div>
+          </div>
         </div>
       </div>
     </div>
