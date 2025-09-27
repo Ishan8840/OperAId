@@ -1,5 +1,6 @@
 import os
 import uuid
+import csv
 from datetime import datetime
 from supabase import create_client
 
@@ -7,13 +8,13 @@ from supabase import create_client
 # CONFIGURATION
 # -----------------------------
 SUPABASE_URL = "https://avqekanfqbqeoetnncri.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF2cWVrYW5mcWJxZW9ldG5uY3JpIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODk4NTQ5NCwiZXhwIjoyMDc0NTYxNDk0fQ.s_KbEeFizjHCfmS7YA7uoN4FIOhQkj9qAXP6S4QCBz0"
+SUPABASE_KEY = "YOUR_SUPABASE_SERVICE_ROLE_KEY"
 BUCKET_NAME = "mri_scans"
 
 # Initialize Supabase client
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-# -----------------------------
+# -----------------------------``
 # FUNCTION: Upload MRI Scan
 # -----------------------------
 def upload_scan(file_path, file_name):
@@ -82,44 +83,20 @@ def insert_patient_with_scan(name, dob, record, scan_file_path, annotation_note)
 # MAIN SCRIPT
 # -----------------------------
 def main():
-    # Example mock data for demonstration
-    patients_data = [
-        {
-            "name": "John Smith",
-            "dob": "1975-04-23",
-            "record": "History of hypertension. Complains of chest pain.",
-            "scan_file": "mri_scans/1.jpg",
-            "annotation": "Possible lesion detected in lower left quadrant."
-        },
-        {
-            "name": "Jane Doe",
-            "dob": "1982-11-10",
-            "record": "Type 2 diabetes. Follow-up on recent MRI scan.",
-            "scan_file": "mri_scans/2.jpg",
-            "annotation": "X-ray shows minor inflammation in left lung."
-        },
-        {
-            "name": "Michael Johnson",
-            "dob": "1969-08-14",
-            "record": "Chronic migraines. Recent MRI for brain scan.",
-            "scan_file": "mri_scans/3.jpg",
-            "annotation": "No abnormalities detected, but slight inflammation noted."
-        },
-        {
-            "name": "Emily Davis",
-            "dob": "1990-02-05",
-            "record": "Severe back pain, undergoing evaluation.",
-            "scan_file": "mri_scans/4.jpg",
-            "annotation": "Disc herniation visible in lumbar spine."
-        },
-        {
-            "name": "David Wilson",
-            "dob": "1985-12-22",
-            "record": "Post-trauma MRI follow-up for knee injury.",
-            "scan_file": "mri_scans/5.jpg",
-            "annotation": "Minor meniscus tear, no surgery required."
-        }
-    ]
+    # Read patient data from CSV file
+    import csv
+    
+    csv_file = "patients.csv"
+    if not os.path.exists(csv_file):
+        print(f"Error: {csv_file} not found")
+        return
+        
+    try:
+        with open(csv_file, 'r') as f:
+            patients_data = list(csv.DictReader(f))
+    except Exception as e:
+        print(f"Error reading {csv_file}: {e}")
+        return
 
     for patient in patients_data:
         if os.path.exists(patient["scan_file"]):
