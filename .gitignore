@@ -1,3 +1,5 @@
+myenv/
+
 # Node / React
 frontend/node_modules/
 frontend/.next/
