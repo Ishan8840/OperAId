@@ -44,7 +44,7 @@ Instant Patient Records. Just speak, and OperAid does the work.
 ## Images
 ## 📸 Screenshot  
 
-![OperAid Screenshot](./demo/Screenshot%20from%202025-09-28%2014-47-02.png)
+![OperAid Screenshot](./data/Screenshot%20from%202025-09-28%2014-47-02.png)
 
 
 
