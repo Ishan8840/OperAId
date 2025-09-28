@@ -1,9 +1,5 @@
 # OperAid
-A hands-free web app for doctors and nurses to access patient records and scans — built on voice commands and real-time transcription.
 
----
-
-## Overview
 OperAid is a voice-controlled platform that eliminates the need for manual record searching. Doctors and nurses can instantly access patient charts, lab results, and reports by speaking naturally. This streamlines workflows, reduces stress, and saves valuable time in clinical environments.  
 
 **Demo:** [Presentation](https://operaid.framer.website/) | [Live Demo](https://operaid.vercel.app/)
@@ -15,7 +11,7 @@ OperAid is a voice-controlled platform that eliminates the need for manual recor
 [ Frontend (Next.js) ] <--> [ FastAPI Backend ] <--> [ Voice Processing & Transcription ]
             |                           |                           |
             v                           v                           v
-   External Services: Supabase | OpenAI API | Eleven Labs API
+            External Services: Supabase | OpenAI API | Eleven Labs API
 ```
 
 **Frontend:** Next.js (React), Tailwind CSS  
@@ -36,10 +32,9 @@ OperAid is a voice-controlled platform that eliminates the need for manual recor
 
 ## Frontend
 
-- Bottom navigation: Dashboard, Transcripts, Live Search  
-- Voice command input: Speak naturally to trigger record searches  
-- Real-time display: Patient info, charts, lab results, and scanned images  
-- Clean, intuitive UI designed for medical professionals  
+- **Bottom navigation:** Dashboard, Transcripts, Live Search  
+- **Voice command input:** Speak naturally to trigger record searches  
+- **Real-time display:** Patient info, charts, lab results, and scanned images  
 
 ---
 
