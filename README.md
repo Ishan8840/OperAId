@@ -41,22 +41,10 @@ Instant Patient Records. Just speak, and OperAid does the work.
 
 ---
 
-## 💡 Benefits
+## Images
+## 📸 Screenshot  
 
-**Why doctors choose OperAid:**  
+![OperAid Screenshot](./demo/Screenshot%20from%202025-09-28%2014-47-02.png)
 
-- **Increased Productivity**  
-  - 90% less time spent looking up patient information  
-  - Save up to 1 hour per week per doctor  
 
-- **Better Organization**  
-  - Real-time updates and notifications  
-  - Cross-team collaboration made seamless  
 
-- **Improved Accuracy**  
-  - Lookups in seconds  
-  - No misclicks or wrong files  
-
----
-
-## 🔒 Images
