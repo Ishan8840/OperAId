@@ -11,15 +11,16 @@ OperAid is a voice-controlled platform that eliminates the need for manual recor
 ---
 
 ## Architecture
-Frontend (Next.js) <──> FastAPI Backend <──> Voice Processing & Transcription
-│ │ │
-▼ ▼ ▼
-External Services: Supabase, OpenAI API, Eleven Labs API
+```text
+[ Frontend (Next.js) ] <--> [ FastAPI Backend ] <--> [ Voice Processing & Transcription ]
+            |                           |                           |
+            v                           v                           v
+   External Services: Supabase | OpenAI API | Eleven Labs API
+```
 
-
-**Frontend:** Next.js (React), Tailwind CSS, Framer Motion  
+**Frontend:** Next.js (React), Tailwind CSS  
 **Backend:** FastAPI, Supabase, Async Workers  
-**External Services:** OpenAI API (voice & text understanding), Eleven Labs API (text-to-speech), Supabase (data storage & auth)
+**External Services:** OpenAI API (text understanding), Eleven Labs API (speech-to-text), Supabase (data storage)
 
 ---
 
@@ -48,21 +49,8 @@ External Services: Supabase, OpenAI API, Eleven Labs API
 - **API Layer:** FastAPI REST endpoints for patients, records, and transcription services  
 - **Database:** Supabase stores user data, patient records, and query logs  
 - **Integration:** LLM interprets voice commands to generate queries and actions  
+- **External Services:** Supabase, OpenAI API, Eleven Labs API  
 
----
-
-## Deployment
-
-Frontend (Next.js)
-│
-▼
-FastAPI Backend (APIs & DB)
-│
-▼
-Voice & Transcription Pipeline
-│
-▼
-External Services: Supabase, OpenAI API, Eleven Labs API
 ---
 
 ## 📸 Screenshot
