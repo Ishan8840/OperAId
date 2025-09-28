@@ -11,17 +11,11 @@ OperAid is a voice-controlled platform that eliminates the need for manual recor
 ---
 
 ## Architecture
-┌───────────────┐ ┌────────────────────┐ ┌────────────────────┐
-│ Frontend │ │ Web API Service │ │ Voice Processing │
-│ (Next.js) │◄──►│ (FastAPI) │◄──►│ & Transcription │
-└───────────────┘ └────────────────────┘ └────────────────────┘
-│
-▼
-┌────────────────────┐
-│ External Services │
-│ (Supabase, OpenAI,│
-│ Eleven Labs) │
-└────────────────────┘
+Frontend (Next.js) <──> FastAPI Backend <──> Voice Processing & Transcription
+│ │ │
+▼ ▼ ▼
+External Services: Supabase, OpenAI API, Eleven Labs API
+
 
 **Frontend:** Next.js (React), Tailwind CSS, Framer Motion  
 **Backend:** FastAPI, Supabase, Async Workers  
@@ -58,17 +52,17 @@ OperAid is a voice-controlled platform that eliminates the need for manual recor
 ---
 
 ## Deployment
-┌───────────────┐ ┌────────────────────┐ ┌────────────────────┐
-│ Frontend │ │ FastAPI Backend │ │ Voice & Transcription │
-│ (Next.js) │◄──►│ (APIs & DB) │◄──►│ Pipeline │
-└───────────────┘ └────────────────────┘ └────────────────────┘
+
+Frontend (Next.js)
 │
 ▼
-┌────────────────────┐
-│ External Services │
-│ (Supabase, OpenAI,│
-│ Eleven Labs) │
-└────────────────────┘
+FastAPI Backend (APIs & DB)
+│
+▼
+Voice & Transcription Pipeline
+│
+▼
+External Services: Supabase, OpenAI API, Eleven Labs API
 ---
 
 ## 📸 Screenshot
