@@ -5,8 +5,9 @@ OperAid is a web application designed to help doctors and nurses access patient 
 ---
 
 ## 🚀 Demo  
-🌐 [Presentation]([https://operaid.framer.website/])
-🌐 [Demo]([https://operaid.vercel.app/])
+⏵ [Presentation](https://operaid.framer.website/)  
+🌐 [Demo](https://operaid.vercel.app/)  
+
 
 ---
 
